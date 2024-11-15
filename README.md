@@ -1,7 +1,6 @@
 # Ingeniería de Software 1 - Grupo 1
 
-Este repositorio contiene los trabajos, tareas, talleres y el proyecto final desarrollados durante el curso de **Ingeniería de Software 1**, impartido por el profesor **Oscar Eduardo Álvarez Rodríguez** en la **Universidad Nacional de Colombia**. Todos los integrantes del grupo pertenecen al programa de **Ingeniería de Sistemas**.
-
+Este repositorio contiene los trabajos, tareas, talleres y el proyecto final desarrollados durante el curso de **Ingeniería de Software 1**, impartido por el profesor **Oscar Eduardo Álvarez Rodríguez** en la **Universidad Nacional de Colombia**. 
 ---
 
 
