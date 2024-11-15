@@ -12,10 +12,6 @@ Este repositorio contiene los trabajos, tareas, talleres y el proyecto final des
   - **Historias_de_Usuario**: Archivos PDF con las historias de usuario desarrolladas.
   - **Proyecto**: Diagramas, scripts y otros documentos técnicos relacionados al desarrollo del proyecto final.
 - **`Asignaciones`**: Contiene las tareas y talleres individuales o grupales.
-  - **Formato de nombres**:
-    - Individual: `Tarea_##_<nickname>.pdf` (Ejemplo: `Tarea_01_nquezada.pdf`).
-    - Grupal: `Tarea_##.pdf` (Ejemplo: `Tarea_02.pdf`).
-    - Talleres: `Taller_<tema>.pdf` (Ejemplo: `Taller_diseño.pdf`).
 - **`Proyecto`**: Carpeta destinada exclusivamente al desarrollo del proyecto final.
 
 ---
