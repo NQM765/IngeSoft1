@@ -1,4 +1,4 @@
-Repositorio grupal - Ingeniería de Software 1 - 2024-2- Grupo 1
+# Repositorio grupal - Ingeniería de Software 1 - 2024-2- Grupo 1
 
 Este repositorio contiene los trabajos, tareas, talleres y el proyecto final desarrollados durante el curso de **Ingeniería de Software 1**, impartido por el profesor **Oscar Eduardo Álvarez Rodríguez** en la **Universidad Nacional de Colombia**. 
 
