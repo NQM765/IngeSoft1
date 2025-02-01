@@ -1,4 +1,4 @@
-# Ingeniería de Software 1 - Grupo 1
+Repositorio grupal - Ingeniería de Software 1 - 2024-2- Grupo 1
 
 Este repositorio contiene los trabajos, tareas, talleres y el proyecto final desarrollados durante el curso de **Ingeniería de Software 1**, impartido por el profesor **Oscar Eduardo Álvarez Rodríguez** en la **Universidad Nacional de Colombia**. 
 
@@ -19,7 +19,7 @@ Este repositorio contiene los trabajos, tareas, talleres y el proyecto final des
 ## 📚 **Integrantes del Grupo**
 A continuación, se presenta la lista de integrantes y sus correos de contacto:
 
-| **Nombre Completo**           | **Correo Electrónico**         |  
+| **Nombre completo**           | **Correo electrónico**         |  
 |-------------------------------|--------------------------------|
 | Nicolás Quezada Mora          | nquezada@unal.edu.co          |  
 | Laura Sofía Vargas Rodríguez  | lavargasro@unal.edu.co        |  
@@ -28,7 +28,18 @@ A continuación, se presenta la lista de integrantes y sus correos de contacto:
 
 ---
 
-## 🛠️ **Proyecto Final**
+## 🎮 **Proyecto Final: SCRUM'S Castle**
+<img src="https://i.postimg.cc/wBC6VyKm/Logo-nombre.png" alt="Logo-nombre" width="400" />
+
+## 🛠️ **Objetivo del proyecto**
+Desarrollar SCRUM’S Castle, un videojuego de simulación y estrategia ambientado en la época medieval, que permita a los jugadores gestionar un reino aplicando la metodología Scrum. A través de la asignación de tareas a diferentes personajes (caballeros, herreros, campesinos, escribas), los jugadores experimentarán los principios y prácticas de Scrum en un entorno gamificado, completando proyectos como el cuidado de cultivos, el desarrollo de tecnologías o la defensa del reino. El juego buscará fomentar la comprensión y aplicación de Scrum de manera intuitiva y didáctica, combinando elementos lúdicos y educativos para mejorar la experiencia de aprendizaje.
+
+## 💻 **Tecnologías utilizadas**
+1. **Aseprite:** Editor de sprites animados y herramienta de pixel art.
+2. **Godot:** Motor de videojuegos 2D y 3D multiplataforma, libre y de código abierto.
+3. **SQLite:** Base de datos relacional embebida.
+4. **GDScript:** Lenguaje de programación propio de Godot, similar a Python, diseñado específicamente para el desarrollo de juegos.
+
 El proyecto final será desarrollado en equipo y abordará las siguientes actividades:  
 1. **Definición de Historias de Usuario**: Documentadas en la carpeta `Historias_de_Usuario`.
 2. **Diagramas y Documentación Técnica**: Disponibles en la carpeta `Proyecto`.
