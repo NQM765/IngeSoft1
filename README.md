@@ -39,15 +39,6 @@ Desarrollar SCRUM’S Castle, un videojuego de simulación y estrategia ambienta
 2. **Godot:** Motor de videojuegos 2D y 3D multiplataforma, libre y de código abierto.
 3. **SQLite:** Base de datos relacional embebida.
 4. **GDScript:** Lenguaje de programación propio de Godot, similar a Python, diseñado específicamente para el desarrollo de juegos.
-
-El proyecto final será desarrollado en equipo y abordará las siguientes actividades:  
-1. **Definición de Historias de Usuario**: Documentadas en la carpeta `Historias_de_Usuario`.
-2. **Diagramas y Documentación Técnica**: Disponibles en la carpeta `Proyecto`.
-3. **Desarrollo del Proyecto**: Estructurado dentro de la carpeta `Proyecto`, siguiendo las buenas prácticas de desarrollo y arquitectura limpia.
-
-### **Tecnologías**
-Se utilizarán herramientas y lenguajes de programación acordes con los requerimientos del curso y las tecnologías seleccionadas para el proyecto. La estructura y organización estarán alineadas con las recomendaciones del profesor.
-
 ---
 
 
