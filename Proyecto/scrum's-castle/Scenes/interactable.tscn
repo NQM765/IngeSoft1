@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://babqcai6k2jgx"]
+
+[ext_resource type="Script" path="res://Scenes/interactable.gd" id="1_2osdc"]
+[ext_resource type="Texture2D" uid="uid://cfpkdx0ocnhup" path="res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png" id="1_arson"]
+[ext_resource type="PackedScene" uid="uid://brd4rixscr08u" path="res://interactable.tscn" id="2_bqvsh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_owx2b"]
+size = Vector2(36, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wxgo"]
+atlas = ExtResource("1_arson")
+region = Rect2(0, 82, 73, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jugrt"]
+atlas = ExtResource("1_arson")
+region = Rect2(0, 164, 73, 82)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dtllv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wxgo")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jugrt")
+}],
+"loop": false,
+"name": &"open",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_maokx"]
+radius = 42.0476
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_2osdc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_owx2b")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-10.5, -5)
+sprite_frames = SubResource("SpriteFrames_dtllv")
+animation = &"close"
+
+[node name="Interactable" parent="." instance=ExtResource("2_bqvsh")]
+interact_name = "E to interact"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
+position = Vector2(3, 13)
+shape = SubResource("CircleShape2D_maokx")
