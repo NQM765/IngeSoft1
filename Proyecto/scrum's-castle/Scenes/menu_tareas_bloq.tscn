@@ -1,0 +1,235 @@
+[gd_scene load_steps=2 format=3 uid="uid://71pd5vrljhps"]
+
+[sub_resource type="GDScript" id="GDScript_1225j"]
+script/source = "extends CanvasLayer
+
+@onready var labels_personaje = [
+	$GridContainer/OptionButton,
+	$GridContainer/OptionButton2,
+	$GridContainer/OptionButton3,
+	$GridContainer/OptionButton4
+]
+
+@onready var labels_tiempo = [
+	$GridContainer/OptionButton5,
+	$GridContainer/OptionButton6,
+	$GridContainer/OptionButton7,
+	$GridContainer/OptionButton8
+]
+
+@onready var etiquetas_estado = [
+	$GridContainer/Label5,
+	$GridContainer/Label6,
+	$GridContainer/Label7,
+	$GridContainer/Label8
+]
+
+func _ready():
+	_cargar_datos()
+	_configurar_ui()
+
+func _cargar_datos():
+	for i in 4:
+		labels_personaje[i].text = TaskManager.tareas[i][\"personaje\"]
+		labels_tiempo[i].text = str(TaskManager.tareas[i][\"tiempo_inicial\"] / 60) + \" min\"
+		etiquetas_estado[i].text = TaskManager.tareas[i][\"estado\"]
+
+func _configurar_ui():
+	for i in 4:
+		labels_personaje[i].disabled = true
+		labels_tiempo[i].disabled = true
+"
+
+[node name="MenuTareasBloq" type="CanvasLayer"]
+script = SubResource("GDScript_1225j")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 848.0
+offset_top = 528.0
+offset_right = 1043.0
+offset_bottom = 587.0
+text = "Confirmar"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 581.0
+offset_top = 381.0
+offset_right = -592.0
+offset_bottom = -519.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 70
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="Label" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TAREAS A REALIZAR "
+
+[node name="Label2" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "PERSONAJE A ASIGNAR "
+
+[node name="Label3" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TIEMPO DESTINADO"
+
+[node name="Label4" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "ESTADO "
+
+[node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "LIMPIAR EL CASTILLO"
+
+[node name="OptionButton" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 3
+popup/item_0/text = "PERSONAJE 1"
+popup/item_0/id = 1
+popup/item_1/text = "PERSONAJE 2"
+popup/item_1/id = 1
+popup/item_2/text = "PERSONAJE 3"
+popup/item_2/id = 2
+
+[node name="OptionButton5" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label5" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[node name="Label(Tarea 2)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "FORJAR UNA ESPADA"
+
+[node name="OptionButton2" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 3
+popup/item_0/text = "PERSONAJE 1"
+popup/item_1/text = "PERSONAJE 2"
+popup/item_1/id = 1
+popup/item_2/text = "PERSONAJE 3"
+popup/item_2/id = 2
+
+[node name="OptionButton6" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label6" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[node name="Label(Tarea 3)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "RECOLECTAR RECURSOS"
+
+[node name="OptionButton3" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 3
+popup/item_0/text = "PERSONAJE 1"
+popup/item_1/text = "PERSONAJE 2"
+popup/item_1/id = 1
+popup/item_2/text = "PERSONAJE 3"
+popup/item_2/id = 2
+
+[node name="OptionButton7" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label7" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[node name="Label(Tarea 4)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "COMBATIR ENEMIGOS"
+
+[node name="OptionButton4" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 3
+popup/item_0/text = "PERSONAJE 1"
+popup/item_1/text = "PERSONAJE 2"
+popup/item_1/id = 1
+popup/item_2/text = "PERSONAJE 3"
+popup/item_2/id = 2
+
+[node name="OptionButton8" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label8" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1

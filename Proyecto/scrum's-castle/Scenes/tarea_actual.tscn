@@ -1,0 +1,73 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpo77aiub5hmr"]
+
+[ext_resource type="Script" path="res://Scenes/tarea_actual.gd" id="1_ldali"]
+
+[node name="Tarea_actual" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ldali")
+
+[node name="Button_volver" type="Button" parent="."]
+process_mode = 3
+layout_mode = 0
+offset_left = 814.0
+offset_top = 502.0
+offset_right = 1009.0
+offset_bottom = 561.0
+text = "Volver al juego"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 179.0
+offset_top = 186.0
+offset_right = 955.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 70
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="Tareas" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TAREAS A REALIZAR "
+
+[node name="personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "PERSONAJE A ASIGNAR "
+
+[node name="tiempo" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TIEMPO DESTINADO"
+
+[node name="estado" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "ESTADO "
+
+[node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "LIMPIAR EL CASTILLO"
+
+[node name="Label_personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Label_tiempo" type="Label" parent="GridContainer"]
+process_mode = 3
+layout_mode = 2
+
+[node name="Label5" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[connection signal="pressed" from="Button_volver" to="." method="_on_button_volver_pressed"]

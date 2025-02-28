@@ -1,0 +1,101 @@
+[gd_scene load_steps=2 format=3 uid="uid://drjxdje0m8b0"]
+
+[ext_resource type="Script" path="res://Scenes/control.gd" id="1_dvkm0"]
+
+[node name="Primer_menu" type="Control"]
+layout_mode = 3
+anchor_top = -0.003
+anchor_right = 1.007
+anchor_bottom = 1.0
+offset_left = -6.0
+offset_top = 8.944
+offset_right = 0.559814
+offset_bottom = 12.704
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dvkm0")
+
+[node name="Button_comenzar" type="Button" parent="."]
+layout_mode = 2
+offset_left = 848.0
+offset_top = 528.0
+offset_right = 1043.0
+offset_bottom = 587.0
+text = "Confirmar"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 581.0
+offset_top = 381.0
+offset_right = -592.0
+offset_bottom = -519.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 70
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="Tareas" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TAREAS A REALIZAR "
+
+[node name="personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "PERSONAJE A ASIGNAR "
+
+[node name="tiempo" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "TIEMPO DESTINADO"
+
+[node name="estado" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "ESTADO "
+
+[node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "LIMPIAR EL CASTILLO"
+
+[node name="OptionButton" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 3
+popup/item_0/text = "PERSONAJE 1"
+popup/item_0/id = 1
+popup/item_1/text = "PERSONAJE 2"
+popup/item_1/id = 1
+popup/item_2/text = "PERSONAJE 3"
+popup/item_2/id = 2
+
+[node name="OptionButton5" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label5" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_comenzar_pressed"]
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_pressed"]

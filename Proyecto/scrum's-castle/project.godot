@@ -11,24 +11,24 @@ config_version=5
 [application]
 
 config/name="Scrum's Castle"
-run/main_scene="res://Scenes/game.tscn"
+run/main_scene="res://Scenes/INICIO.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Datos="*res://Scripts/Datos.gd"
+TimerData="*res://Scripts/TimerData.gd"
+ObjetosRecogidos="*res://Scripts/Objetos_recogidos.gd"
+TareaLimpiar="*res://Scenes/Tarea_limpiar.tscn"
+
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
-window/stretch/scale=4.0
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdLinter/plugin.cfg", "res://addons/gut/plugin.cfg")
-
-[gui]
-
-fonts/dynamic_fonts/use_oversampling=false
+enabled=PackedStringArray("res://addons/gut/plugin.cfg")
 
 [input]
 

@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://bvee2lujk307"]
 
-[ext_resource type="FontFile" uid="uid://cmn7e43xcribx" path="res://Assets/Font/alagard/alagard.ttf" id="1_bmsw6"]
 [ext_resource type="Script" path="res://Scenes/interacting_component.gd" id="1_wj242"]
+[ext_resource type="FontFile" uid="uid://cmn7e43xcribx" path="res://Assets/Font/alagard/alagard.ttf" id="2_k1qum"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cm00j"]
-radius = 15.0333
+radius = 12.0416
 
 [sub_resource type="LabelSettings" id="LabelSettings_3mrjy"]
-font = ExtResource("1_bmsw6")
+font = ExtResource("2_k1qum")
 font_size = 150
 outline_size = 2
 outline_color = Color(0, 0, 0, 1)
