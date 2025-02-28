@@ -33,14 +33,14 @@ size = Vector2(23, 22)
 script = ExtResource("1_xefnk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(81, 58)
+position = Vector2(201, 211)
 scale = Vector2(1.375, 1.375)
 sprite_frames = SubResource("SpriteFrames_b8dkd")
 animation = &"Cofre"
 frame_progress = 0.599466
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(81.5, 60)
+position = Vector2(201.5, 213)
 shape = SubResource("RectangleShape2D_8owkl")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -99,13 +99,15 @@ offset_bottom = 76.0
 text = "DESEA INICIAR LA TAREA
           DE LIMPIEZA?"
 
-[node name="button_ir_a_tarea" type="Button" parent="."]
-offset_left = -264.0
-offset_top = 254.0
-offset_right = -207.0
-offset_bottom = 288.0
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="button_ir_a_tarea" type="Button" parent="CanvasLayer2"]
+offset_left = 11.0
+offset_top = 600.0
+offset_right = 68.0
+offset_bottom = 634.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="pressed" from="CanvasLayer/Panel/Button_si" to="." method="_on_button_si_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/Button_no" to="." method="_on_button_no_pressed"]
-[connection signal="pressed" from="button_ir_a_tarea" to="." method="_on_button_ir_a_tarea_pressed"]
+[connection signal="pressed" from="CanvasLayer2/button_ir_a_tarea" to="." method="_on_button_ir_a_tarea_pressed"]

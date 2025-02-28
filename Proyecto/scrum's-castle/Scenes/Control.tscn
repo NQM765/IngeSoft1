@@ -67,9 +67,9 @@ text = "LIMPIAR EL CASTILLO"
 [node name="OptionButton" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
 item_count = 3
-popup/item_0/text = "PERSONAJE 1"
+popup/item_0/text = "Cazadora"
 popup/item_0/id = 1
-popup/item_1/text = "PERSONAJE 2"
+popup/item_1/text = "Mago"
 popup/item_1/id = 1
 popup/item_2/text = "PERSONAJE 3"
 popup/item_2/id = 2

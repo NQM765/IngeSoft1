@@ -4,7 +4,6 @@ extends Control
 @onready var label_time: Label = $GridContainer/Label_tiempo
 @onready var etiquetas_estado = $GridContainer/Label5
 
-
 func _ready():
 	# Mostrar el personaje seleccionado
 	if Datos.personajes_seleccionados.size() > 0:
@@ -41,3 +40,4 @@ func _on_button_volver_pressed():
 	Datos.cofre_acepto = true
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://Scenes/game.tscn")
+	

@@ -50,3 +50,4 @@ func _on_button_comenzar_pressed():
 	Datos.estado_tarea = "En proceso"
 	
 	get_tree().change_scene_to_file("res://Scenes/game.tscn")
+	PersonajeSeleccionado.personaje = Datos.personajes_seleccionados[0]

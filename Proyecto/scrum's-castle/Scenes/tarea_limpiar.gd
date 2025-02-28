@@ -46,7 +46,7 @@ func _process(delta: float) -> void:
 		Datos.estado_tarea = "Fallido"
 		TimerData.detener_timer()
 		TareaLimpiar.hide() 
-		get_tree().change_scene_to_file("res://Scenes/tarea_actual.tscn")
+		#get_tree().change_scene_to_file("res://Scenes/tarea_actual.tscn")
 	
 func _on_item_collected():
 	# Si la tarea ya se marcó como Fallida, no se procesan más objetos.

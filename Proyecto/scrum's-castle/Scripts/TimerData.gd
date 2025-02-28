@@ -4,6 +4,8 @@ var tiempo_restante: int = 0
 var timer_iniciado: bool = false
 var acumulador: float = 0.0  # Acumula delta para descontar segundos
 
+signal timer_finalizado
+
 func iniciar_timer(minutos: int):
 	if not timer_iniciado:
 		tiempo_restante = minutos * 60
@@ -22,6 +24,7 @@ func _process(delta):
 	elif timer_iniciado and tiempo_restante <= 0:
 		timer_iniciado = false
 		set_process(false)
+		emit_signal("timer_finalizado")
 		print("Timer detenido")
 
 func detener_timer():

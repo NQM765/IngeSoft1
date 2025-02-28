@@ -21,6 +21,7 @@ Datos="*res://Scripts/Datos.gd"
 TimerData="*res://Scripts/TimerData.gd"
 ObjetosRecogidos="*res://Scripts/Objetos_recogidos.gd"
 TareaLimpiar="*res://Scenes/Tarea_limpiar.tscn"
+PersonajeSeleccionado="*res://Scripts/new_script.gd"
 
 [display]
 

@@ -1,7 +1,7 @@
 extends Area2D  # O Area3D para 3D
 
 @onready var menu = $CanvasLayer/Panel           # Menú original
-@onready var btn_ir_a_tarea = $button_ir_a_tarea   # Botón extra para ir a tareas
+@onready var btn_ir_a_tarea: Button = $CanvasLayer2/button_ir_a_tarea
 
 func _ready():
 	# Conectar la señal de colisión
@@ -35,6 +35,7 @@ func ocultar_menu():
 func _on_button_si_pressed():
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://Scenes/tarea_actual.tscn")
+	
 
 
 func _on_button_no_pressed():

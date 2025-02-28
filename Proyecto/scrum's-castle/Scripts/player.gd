@@ -6,10 +6,6 @@ extends CharacterBody2D
 @onready var animated_sprite = $AnimatedSprite2D
 
 func _physics_process(_delta):
-	if not animated_sprite:
-		animated_sprite = $AnimatedSprite2D
-		if not animated_sprite:
-			return
 
 	# Get the input direction and handle the movement.
 	var direction = Vector2(
@@ -24,12 +20,24 @@ func _physics_process(_delta):
 		animated_sprite.flip_h = true 
 
 	# Play animations
-	if direction.x == 0 and direction.y == 0:
-		animated_sprite.play("Idle")
-	elif Input.is_action_pressed("sprint"):
-		animated_sprite.play("Sprint")
-	else:
-		animated_sprite.play("Walk")
+	if PersonajeSeleccionado.personaje == "Cazadora":
+		if  Datos.estado_tarea == "Fallido":
+			animated_sprite.play("DeathC")
+		elif direction.x == 0 and direction.y == 0:
+			animated_sprite.play("IdleC")
+		elif Input.is_action_pressed("sprint"):
+			animated_sprite.play("SprintC")
+		else:
+			animated_sprite.play("WalkC")
+	elif PersonajeSeleccionado.personaje == "Mago":
+		if  Datos.estado_tarea == "Fallido":
+			animated_sprite.play("DeathM")
+		elif direction.x == 0 and direction.y == 0:
+			animated_sprite.play("IdleM")
+		elif Input.is_action_pressed("sprint"):
+			animated_sprite.play("SprintM")
+		else:
+			animated_sprite.play("WalkM")
 	
 	# Check for sprint input
 	if Input.is_action_pressed("sprint"):
