@@ -1,26 +1,29 @@
-[gd_scene load_steps=2 format=3 uid="uid://drjxdje0m8b0"]
+[gd_scene load_steps=4 format=3 uid="uid://drjxdje0m8b0"]
 
 [ext_resource type="Script" path="res://Scenes/control.gd" id="1_dvkm0"]
+[ext_resource type="FontFile" uid="uid://bl1k6piu7k6qt" path="res://Assets/Font/edit-undo/editundo.ttf" id="2_3hq1n"]
+[ext_resource type="Texture2D" uid="uid://cd6xh8j6h3cug" path="res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/0.png" id="3_r66h5"]
 
 [node name="Primer_menu" type="Control"]
 layout_mode = 3
 anchor_top = -0.003
 anchor_right = 1.007
 anchor_bottom = 1.0
-offset_left = -6.0
-offset_top = 8.944
-offset_right = 0.559814
-offset_bottom = 12.704
+offset_left = -1.0
+offset_top = 4.94
+offset_right = 5.55981
+offset_bottom = 8.69995
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_dvkm0")
 
 [node name="Button_comenzar" type="Button" parent="."]
 layout_mode = 2
-offset_left = 848.0
-offset_top = 528.0
-offset_right = 1043.0
-offset_bottom = 587.0
+offset_left = 827.0
+offset_top = 437.0
+offset_right = 1022.0
+offset_bottom = 496.0
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "Confirmar"
 
 [node name="GridContainer" type="GridContainer" parent="."]
@@ -42,30 +45,42 @@ columns = 4
 [node name="Tareas" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "TAREAS A REALIZAR "
 
 [node name="personaje" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "PERSONAJE A ASIGNAR "
 
 [node name="tiempo" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "TIEMPO DESTINADO"
 
 [node name="estado" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "ESTADO "
 
 [node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 text = "LIMPIAR EL CASTILLO"
 
 [node name="OptionButton" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 item_count = 3
 popup/item_0/text = "Cazadora"
 popup/item_0/id = 1
@@ -76,6 +91,8 @@ popup/item_2/id = 2
 
 [node name="OptionButton5" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 item_count = 8
 popup/item_0/text = "1"
 popup/item_1/text = "2"
@@ -96,6 +113,14 @@ popup/item_7/id = 7
 [node name="Label5" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3hq1n")
 
-[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_comenzar_pressed"]
+[node name="0" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(933.5, 498.5)
+scale = Vector2(7.28516, 19.0875)
+texture = ExtResource("3_r66h5")
+
 [connection signal="pressed" from="Button_comenzar" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_comenzar_pressed"]

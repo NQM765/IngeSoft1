@@ -25,6 +25,8 @@ PersonajeSeleccionado="*res://Scripts/new_script.gd"
 
 [display]
 
+window/size/viewport_width=1870
+window/size/viewport_height=980
 window/stretch/mode="canvas_items"
 
 [editor_plugins]

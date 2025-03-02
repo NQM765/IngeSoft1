@@ -1,9 +1,11 @@
-[gd_scene load_steps=26 format=3 uid="uid://bf7k6duv31sif"]
+[gd_scene load_steps=28 format=3 uid="uid://bf7k6duv31sif"]
 
 [ext_resource type="Script" path="res://Scenes/tarea_limpiar.gd" id="1_hmxqn"]
 [ext_resource type="Script" path="res://Scenes/item_1.gd" id="2_1qmn8"]
+[ext_resource type="FontFile" uid="uid://bl1k6piu7k6qt" path="res://Assets/Font/edit-undo/editundo.ttf" id="2_3x8jn"]
 [ext_resource type="Texture2D" uid="uid://bmwpnrcphpr2l" path="res://Assets/TileSet-Items/coin.png" id="2_nl16x"]
 [ext_resource type="Texture2D" uid="uid://bw2s2m1ybrp7e" path="res://Assets/TileSet-Items/Deep Cave - WIP/Assets/Tiles.png" id="3_7w5jd"]
+[ext_resource type="Texture2D" uid="uid://cd6xh8j6h3cug" path="res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/0.png" id="3_vki6n"]
 [ext_resource type="Script" path="res://Scenes/item_2.gd" id="4_2u6f5"]
 [ext_resource type="Texture2D" uid="uid://dnsjqxv36ds52" path="res://Assets/TileSet-Items/Green Woods/Assets/Props/Vegetation/Vegetation_01.png" id="4_6lbro"]
 [ext_resource type="Script" path="res://Scenes/item_3.gd" id="5_jck3u"]
@@ -127,21 +129,31 @@ script = ExtResource("1_hmxqn")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Panel_felicidades" type="Panel" parent="CanvasLayer"]
-offset_left = 70.0
-offset_top = 132.0
-offset_right = 368.0
-offset_bottom = 286.0
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 410.0
+offset_top = 264.0
+offset_right = 708.0
+offset_bottom = 418.0
 
 [node name="Label" type="Label" parent="CanvasLayer/Panel_felicidades"]
 layout_mode = 0
-offset_left = -58.0
-offset_top = 40.0
-offset_right = 356.0
-offset_bottom = 115.0
+offset_left = -77.0
+offset_top = 28.0
+offset_right = 337.0
+offset_bottom = 103.0
+scale = Vector2(1.05567, 1.79083)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3x8jn")
 text = "FELICIDADES 
-HAS COMPLETADO L
-A TAREA ASIGNADA "
+HAS COMPLETADO LA
+ TAREA ASIGNADA "
 horizontal_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Panel_felicidades"]
+z_index = -1
+position = Vector2(140, 84)
+scale = Vector2(1.36039, 3.23012)
+texture = ExtResource("3_vki6n")
 
 [node name="Timer_cambio" type="Timer" parent="."]
 process_mode = 3
@@ -150,18 +162,18 @@ wait_time = 5.0
 [node name="Item_1" type="Area2D" parent="."]
 process_mode = 3
 top_level = true
-position = Vector2(202, 334)
+position = Vector2(255, 367)
 script = ExtResource("2_1qmn8")
 object_id = "Objeto_1"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Item_1"]
-position = Vector2(2, 3)
+position = Vector2(28, 7)
 scale = Vector2(2.0625, 1.6875)
 sprite_frames = SubResource("SpriteFrames_gyi0m")
 frame_progress = 0.0385056
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Item_1"]
-position = Vector2(0, 1)
+position = Vector2(26, 4)
 shape = SubResource("CircleShape2D_3jdpt")
 
 [node name="Item_2" type="Area2D" parent="."]

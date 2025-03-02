@@ -1,4 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://71pd5vrljhps"]
+[gd_scene load_steps=4 format=3 uid="uid://71pd5vrljhps"]
+
+[ext_resource type="FontFile" uid="uid://bl1k6piu7k6qt" path="res://Assets/Font/edit-undo/editundo.ttf" id="1_y88fm"]
+[ext_resource type="Texture2D" uid="uid://bhca43pf72xmd" path="res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/open/4.png" id="2_u1wef"]
 
 [sub_resource type="GDScript" id="GDScript_1225j"]
 script/source = "extends CanvasLayer
@@ -44,10 +47,11 @@ func _configurar_ui():
 script = SubResource("GDScript_1225j")
 
 [node name="Button" type="Button" parent="."]
-offset_left = 848.0
-offset_top = 528.0
-offset_right = 1043.0
-offset_bottom = 587.0
+offset_left = 846.0
+offset_top = 435.0
+offset_right = 1041.0
+offset_bottom = 494.0
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "Confirmar"
 
 [node name="GridContainer" type="GridContainer" parent="."]
@@ -68,30 +72,42 @@ columns = 4
 [node name="Label" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "TAREAS A REALIZAR "
 
 [node name="Label2" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "PERSONAJE A ASIGNAR "
 
 [node name="Label3" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "TIEMPO DESTINADO"
 
 [node name="Label4" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "ESTADO "
 
 [node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "LIMPIAR EL CASTILLO"
 
 [node name="OptionButton" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 3
 popup/item_0/text = "PERSONAJE 1"
 popup/item_0/id = 1
@@ -102,6 +118,8 @@ popup/item_2/id = 2
 
 [node name="OptionButton5" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 8
 popup/item_0/text = "1"
 popup/item_1/text = "2"
@@ -122,14 +140,20 @@ popup/item_7/id = 7
 [node name="Label5" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 
 [node name="Label(Tarea 2)" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "FORJAR UNA ESPADA"
 
 [node name="OptionButton2" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 3
 popup/item_0/text = "PERSONAJE 1"
 popup/item_1/text = "PERSONAJE 2"
@@ -139,6 +163,8 @@ popup/item_2/id = 2
 
 [node name="OptionButton6" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 8
 popup/item_0/text = "1"
 popup/item_1/text = "2"
@@ -159,14 +185,20 @@ popup/item_7/id = 7
 [node name="Label6" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 
 [node name="Label(Tarea 3)" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "RECOLECTAR RECURSOS"
 
 [node name="OptionButton3" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 3
 popup/item_0/text = "PERSONAJE 1"
 popup/item_1/text = "PERSONAJE 2"
@@ -176,6 +208,8 @@ popup/item_2/id = 2
 
 [node name="OptionButton7" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 8
 popup/item_0/text = "1"
 popup/item_1/text = "2"
@@ -196,14 +230,20 @@ popup/item_7/id = 7
 [node name="Label7" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 
 [node name="Label(Tarea 4)" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 text = "COMBATIR ENEMIGOS"
 
 [node name="OptionButton4" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 3
 popup/item_0/text = "PERSONAJE 1"
 popup/item_1/text = "PERSONAJE 2"
@@ -213,6 +253,8 @@ popup/item_2/id = 2
 
 [node name="OptionButton8" type="OptionButton" parent="GridContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
 item_count = 8
 popup/item_0/text = "1"
 popup/item_1/text = "2"
@@ -233,3 +275,12 @@ popup/item_7/id = 7
 [node name="Label8" type="Label" parent="GridContainer"]
 layout_mode = 2
 size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_y88fm")
+
+[node name="Sprite2D" type="Sprite2D" parent="GridContainer"]
+visibility_layer = 4
+z_index = -1
+position = Vector2(360, 145.5)
+scale = Vector2(5.18359, 13.7375)
+texture = ExtResource("2_u1wef")
