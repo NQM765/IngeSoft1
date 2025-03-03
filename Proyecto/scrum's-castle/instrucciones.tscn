@@ -1,0 +1,107 @@
+[gd_scene load_steps=10 format=3 uid="uid://d3r1olq522t5d"]
+
+[ext_resource type="Script" path="res://instrucciones.gd" id="1_mg48e"]
+[ext_resource type="Texture2D" uid="uid://bt6ygr0xcdf5c" path="res://Assets/UI/PixelMap.png" id="2_cd0iy"]
+[ext_resource type="FontFile" uid="uid://b76hg67ejv58s" path="res://Assets/Font/enchanted_land/Enchanted Land.otf" id="2_y16po"]
+[ext_resource type="Texture2D" uid="uid://cq40iis3cy62g" path="res://Assets/UI/10.png" id="4_4qp6v"]
+[ext_resource type="Texture2D" uid="uid://dxnnw3igiqku4" path="res://Assets/UI/circleUI.png" id="5_e5mij"]
+[ext_resource type="Texture2D" uid="uid://i3ii6l63gikw" path="res://Assets/UI/header1.png" id="6_7qgd8"]
+[ext_resource type="Texture2D" uid="uid://dynpn4ucrxhbn" path="res://Assets/UI/muñequitoUI.png" id="6_nu45f"]
+[ext_resource type="Texture2D" uid="uid://drfekkxqpewy" path="res://Assets/UI/header2UI.png" id="7_2ge1k"]
+[ext_resource type="Texture2D" uid="uid://cfblo0tpht5c2" path="res://Assets/UI/libroUI.png" id="7_xx514"]
+
+[node name="Instrucciones" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mg48e")
+
+[node name="PixelMap" type="Sprite2D" parent="."]
+position = Vector2(939.5, 486)
+scale = Vector2(3.06743, 2.66016)
+texture = ExtResource("2_cd0iy")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -212.0
+offset_top = -89.0
+offset_right = 496.0
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/table_even_row_bg = Color(0, 0, 0, 1)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_y16po")
+theme_override_font_sizes/normal_font_size = 35
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(0.901961, 0.807843, 0.529412, 0.423529)
+layout_mode = 0
+offset_left = 984.0
+offset_top = 650.0
+offset_right = 1190.0
+offset_bottom = 782.0
+texture = ExtResource("4_4qp6v")
+
+[node name="CircleUi" type="Sprite2D" parent="."]
+position = Vector2(828, 282.75)
+scale = Vector2(1.87671, 1.81788)
+texture = ExtResource("5_e5mij")
+
+[node name="Header1" type="Sprite2D" parent="."]
+position = Vector2(1106.25, 286)
+scale = Vector2(2.53125, 1.90123)
+texture = ExtResource("6_7qgd8")
+
+[node name="Header2ui" type="Sprite2D" parent="."]
+position = Vector2(1316, 291)
+scale = Vector2(2.47321, 1.9875)
+texture = ExtResource("7_2ge1k")
+
+[node name="LibroUi" type="Sprite2D" parent="."]
+position = Vector2(831, 293)
+scale = Vector2(1.43253, 1.24554)
+texture = ExtResource("7_xx514")
+
+[node name="MuñequitoUi" type="Sprite2D" parent="."]
+position = Vector2(939, 288)
+scale = Vector2(2.55556, 2.58621)
+texture = ExtResource("6_nu45f")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1049.0
+offset_top = 246.0
+offset_right = 1359.0
+offset_bottom = 386.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_y16po")
+theme_override_font_sizes/font_size = 60
+text = "¡Bienvenido!"
+
+[node name="ButtonVolver" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1298.0
+offset_top = 735.0
+offset_right = 1443.0
+offset_bottom = 813.0
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_y16po")
+theme_override_font_sizes/font_size = 25
+text = "Regresar"
+flat = true
+
+[connection signal="pressed" from="ButtonVolver" to="." method="_on_button_volver_pressed"]

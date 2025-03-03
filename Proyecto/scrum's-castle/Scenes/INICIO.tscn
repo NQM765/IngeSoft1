@@ -1,4 +1,4 @@
-[gd_scene load_steps=85 format=3 uid="uid://b33k145esxugx"]
+[gd_scene load_steps=84 format=3 uid="uid://b33k145esxugx"]
 
 [ext_resource type="Script" path="res://Scenes/inicio.gd" id="1_pbw85"]
 [ext_resource type="FontFile" uid="uid://cmn7e43xcribx" path="res://Assets/Font/alagard/alagard.ttf" id="2_8my72"]
@@ -42,7 +42,6 @@
 [ext_resource type="Texture2D" uid="uid://dbj3mij8ffjpi" path="res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/8.png" id="40_fn14v"]
 [ext_resource type="Texture2D" uid="uid://43t5y0p4ntd5" path="res://Assets/UI/spritesheet1menu.png" id="44_7fcy2"]
 [ext_resource type="Texture2D" uid="uid://q76bpti7dmwo" path="res://Assets/UI/Logo_nombre.png" id="44_oddg5"]
-[ext_resource type="Texture2D" uid="uid://cq40iis3cy62g" path="res://Assets/UI/10.png" id="45_hecm6"]
 [ext_resource type="Texture2D" uid="uid://dr28eh7hcv2a6" path="res://Assets/UI/0.png" id="46_cg0rb"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_p6qwa"]
@@ -613,10 +612,12 @@ clip_contents = true
 layout_direction = 2
 layout_mode = 2
 size_flags_vertical = 0
+theme_override_colors/font_hover_pressed_color = Color(0.592157, 0, 0.0627451, 1)
 theme_override_colors/font_hover_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_pressed_color = Color(0.592157, 0, 0.0627451, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_8my72")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 21
 text = "Jugar
 "
 icon = SubResource("ViewportTexture_p6qwa")
@@ -627,9 +628,11 @@ layout_direction = 2
 layout_mode = 2
 size_flags_vertical = 0
 theme_override_colors/font_hover_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_focus_color = Color(0.592157, 0, 0.0627451, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_8my72")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 21
 text = "Características
 "
 flat = true
@@ -639,11 +642,12 @@ layout_direction = 2
 layout_mode = 2
 size_flags_vertical = 0
 theme_override_colors/font_hover_color = Color(0.590727, 0, 0.0639934, 1)
+theme_override_colors/font_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_focus_color = Color(0.592157, 0, 0.0627451, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_8my72")
-theme_override_font_sizes/font_size = 20
-text = "Indicaciones
-"
+theme_override_font_sizes/font_size = 21
+text = "Instrucciones"
 icon = SubResource("ViewportTexture_p6qwa")
 flat = true
 
@@ -663,15 +667,11 @@ position = Vector2(74.3876, -114.529)
 scale = Vector2(0.713568, 0.501563)
 texture = ExtResource("44_oddg5")
 
-[node name="0" type="Sprite2D" parent="VBoxContainer"]
+[node name="0" type="Sprite2D" parent="."]
 z_index = -5
-position = Vector2(-24.8974, -42.9145)
-scale = Vector2(2.20873, 0.995683)
+position = Vector2(-135.5, -177)
+scale = Vector2(3.06735, 1.90991)
 texture = ExtResource("46_cg0rb")
 
-[node name="10" type="Sprite2D" parent="."]
-position = Vector2(266, 120)
-scale = Vector2(2.16406, 2.0625)
-texture = ExtResource("45_hecm6")
-
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]

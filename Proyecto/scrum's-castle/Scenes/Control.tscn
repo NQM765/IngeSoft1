@@ -122,5 +122,5 @@ position = Vector2(933.5, 498.5)
 scale = Vector2(7.28516, 19.0875)
 texture = ExtResource("3_r66h5")
 
-[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button_comenzar" to="." method="_on_button_comenzar_pressed"]
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_pressed"]
