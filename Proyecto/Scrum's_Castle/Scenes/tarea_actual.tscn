@@ -1,0 +1,204 @@
+[gd_scene load_steps=6 format=3 uid="uid://cpo77aiub5hmr"]
+
+[ext_resource type="Script" path="res://Scenes/tarea_actual.gd" id="1_ldali"]
+[ext_resource type="FontFile" uid="uid://b76hg67ejv58s" path="res://Assets/Font/enchanted_land/Enchanted Land.otf" id="2_q574p"]
+[ext_resource type="Texture2D" uid="uid://43t5y0p4ntd5" path="res://Assets/UI/spritesheet1menu.png" id="3_5nbb3"]
+[ext_resource type="Texture2D" uid="uid://hv6kdakie2e8" path="res://Assets/UI/SpriteSheet2menu.png" id="4_kfuwx"]
+[ext_resource type="Texture2D" uid="uid://dxnnw3igiqku4" path="res://Assets/UI/circleUI.png" id="5_jwlre"]
+
+[node name="Tarea_actual" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ldali")
+
+[node name="Button_volver" type="Button" parent="."]
+process_mode = 3
+layout_mode = 0
+offset_left = 933.0
+offset_top = 676.0
+offset_right = 1128.0
+offset_bottom = 735.0
+theme_override_colors/font_hover_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_hover_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 30
+text = "Regresar
+"
+flat = true
+
+[node name="GridContainer" type="GridContainer" parent="."]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 702.0
+offset_top = 483.0
+offset_right = 1478.0
+offset_bottom = 597.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 70
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="Tareas" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 32
+text = "Tareas
+"
+
+[node name="personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 32
+text = "Personaje
+"
+
+[node name="tiempo" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 32
+text = "Tiempo destinado"
+
+[node name="estado" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 32
+text = "Estado
+"
+
+[node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+text = "Recoger objetos mágicos"
+
+[node name="Label_personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label_tiempo" type="Label" parent="GridContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label1" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label(Tarea 2)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+text = "Recolección de cultivos"
+
+[node name="Label_personaje2" type="Label" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label_tiempo2" type="Label" parent="GridContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label2" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label(Tarea 3)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+text = "Práctica de arquería"
+
+[node name="Label_personaje3" type="Label" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label_tiempo3" type="Label" parent="GridContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label3" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 25
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visibility_layer = 4
+z_index = -1
+position = Vector2(940, 486)
+scale = Vector2(3.06392, 2.63488)
+texture = ExtResource("3_5nbb3")
+
+[node name="SpriteSheet2Menu" type="Sprite2D" parent="."]
+z_index = -5
+position = Vector2(937, 477)
+scale = Vector2(3.06597, 1.902)
+texture = ExtResource("4_kfuwx")
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 975.0
+offset_top = 212.0
+offset_right = 1170.0
+offset_bottom = 352.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_q574p")
+theme_override_font_sizes/font_size = 95
+text = "Tareas
+"
+
+[node name="CircleUi" type="Sprite2D" parent="."]
+position = Vector2(1062, 264.5)
+scale = Vector2(2.26027, 2.0596)
+texture = ExtResource("5_jwlre")
+
+[connection signal="pressed" from="Button_volver" to="." method="_on_button_volver_pressed"]

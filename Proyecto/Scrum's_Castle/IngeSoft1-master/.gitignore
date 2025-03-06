@@ -1,0 +1,13 @@
+# Ignorar archivos temporales de compilación
+*.class
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos temporales del sistema
+*.log
+*.tmp
+
+# Ignorar dependencias instaladas localmente
+node_modules/

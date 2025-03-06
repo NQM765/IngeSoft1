@@ -1,0 +1,124 @@
+[gd_scene load_steps=9 format=3 uid="uid://cvs6gbrhd34v5"]
+
+[ext_resource type="Script" path="res://Scenes/cofre_tarea_3.gd" id="1_72r6j"]
+[ext_resource type="Texture2D" uid="uid://cedu105xkjhyh" path="res://Assets/Characters/cofre/chestsAll.png" id="2_3fjga"]
+[ext_resource type="PackedScene" uid="uid://uitfdq8e2v3t" path="res://Scenes/Tarea_3.tscn" id="2_ybbdf"]
+[ext_resource type="Script" path="res://Scenes/canvas_layer.gd" id="3_ah1mr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h1t0"]
+atlas = ExtResource("2_3fjga")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35luv"]
+atlas = ExtResource("2_3fjga")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b8dkd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h1t0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35luv")
+}],
+"loop": true,
+"name": &"Cofre",
+"speed": 1.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8owkl"]
+size = Vector2(23, 22)
+
+[node name="Cofre_tarea_3" type="Area2D"]
+position = Vector2(129, 149)
+script = ExtResource("1_72r6j")
+
+[node name="Tarea3" parent="." instance=ExtResource("2_ybbdf")]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3.99998, 4.00002)
+scale = Vector2(1.375, 1.375)
+sprite_frames = SubResource("SpriteFrames_b8dkd")
+animation = &"Cofre"
+frame_progress = 0.599466
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3.5, 6)
+shape = SubResource("RectangleShape2D_8owkl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+process_mode = 3
+script = ExtResource("3_ah1mr")
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.289
+anchor_top = 0.448
+anchor_right = 0.289
+anchor_bottom = 0.448
+offset_left = -275.928
+offset_top = -129.304
+offset_right = 11.072
+offset_bottom = 20.696
+metadata/_edit_use_anchors_ = true
+
+[node name="Button_si" type="Button" parent="CanvasLayer/Panel"]
+process_mode = 3
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.22
+anchor_top = 0.6
+anchor_right = 0.22
+anchor_bottom = 0.6
+offset_left = -4.14
+offset_top = 13.0
+offset_right = 58.86
+offset_bottom = 44.0
+text = "SI"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button_no" type="Button" parent="CanvasLayer/Panel"]
+process_mode = 3
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.22
+anchor_top = 0.6
+anchor_right = 0.22
+anchor_bottom = 0.6
+offset_left = 118.86
+offset_top = 13.0
+offset_right = 181.86
+offset_bottom = 44.0
+text = "NO"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 22.0
+offset_right = 243.0
+offset_bottom = 76.0
+text = "DESEA INICIAR LA TAREA
+          DE LIMPIEZA?"
+metadata/_edit_use_anchors_ = true
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="button_ir_a_tarea" type="Button" parent="CanvasLayer2"]
+offset_left = 11.0
+offset_top = 600.0
+offset_right = 68.0
+offset_bottom = 634.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer_cambio" type="Timer" parent="."]
+process_mode = 3
+wait_time = 2.086
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="pressed" from="CanvasLayer/Panel/Button_si" to="." method="_on_button_si_pressed"]
+[connection signal="pressed" from="CanvasLayer/Panel/Button_no" to="." method="_on_button_no_pressed"]
+[connection signal="pressed" from="CanvasLayer2/button_ir_a_tarea" to="." method="_on_button_ir_a_tarea_pressed"]
+[connection signal="timeout" from="Timer_cambio" to="." method="_on_timer_cambio_timeout"]

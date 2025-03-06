@@ -1,0 +1,329 @@
+[gd_scene load_steps=10 format=3 uid="uid://drjxdje0m8b0"]
+
+[ext_resource type="Script" path="res://Scenes/control.gd" id="1_dvkm0"]
+[ext_resource type="FontFile" uid="uid://b76hg67ejv58s" path="res://Assets/Font/enchanted_land/Enchanted Land.otf" id="2_splhj"]
+[ext_resource type="Texture2D" uid="uid://43t5y0p4ntd5" path="res://Assets/UI/spritesheet1menu.png" id="3_w3df5"]
+[ext_resource type="Texture2D" uid="uid://hv6kdakie2e8" path="res://Assets/UI/SpriteSheet2menu.png" id="4_3pl4c"]
+[ext_resource type="Texture2D" uid="uid://dxnnw3igiqku4" path="res://Assets/UI/circleUI.png" id="5_iwnt0"]
+[ext_resource type="Texture2D" uid="uid://8to70xhd4p27" path="res://Assets/UI/controlUI.png" id="6_afl0e"]
+[ext_resource type="Texture2D" uid="uid://i3ii6l63gikw" path="res://Assets/UI/header1.png" id="7_6pv37"]
+[ext_resource type="Texture2D" uid="uid://drfekkxqpewy" path="res://Assets/UI/header2UI.png" id="8_j6i6o"]
+[ext_resource type="Texture2D" uid="uid://dynpn4ucrxhbn" path="res://Assets/UI/muñequitoUI.png" id="9_8nfn7"]
+
+[node name="Primer_menu" type="Control"]
+layout_mode = 3
+anchor_top = -0.003
+anchor_right = 1.007
+anchor_bottom = 1.0
+offset_left = 281.0
+offset_top = 234.94
+offset_right = 287.56
+offset_bottom = 238.7
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dvkm0")
+
+[node name="Button_comenzar" type="Button" parent="."]
+layout_mode = 2
+offset_left = 703.0
+offset_top = 488.0
+offset_right = 903.0
+offset_bottom = 539.0
+theme_override_colors/font_hover_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_hover_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_pressed_color = Color(0.592157, 0, 0.0627451, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 30
+text = "Confirmar"
+flat = true
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 423.325
+offset_top = 254.0
+offset_right = -734.325
+offset_bottom = -550.7
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 70
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="Tareas" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 32
+text = "Tareas
+"
+
+[node name="personaje" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 32
+text = "Personaje"
+
+[node name="tiempo" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 32
+text = "Tempo destinado
+"
+
+[node name="estado" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 32
+text = "Estado"
+
+[node name="Label(Tarea 1)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+text = "Recoger objetos mágicos 
+"
+
+[node name="OptionButton" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 4
+popup/item_0/text = "Cazadora"
+popup/item_0/id = 1
+popup/item_1/text = "Mago"
+popup/item_1/id = 1
+popup/item_2/text = "Caballero"
+popup/item_2/id = 2
+popup/item_3/text = "Granjero"
+popup/item_3/id = 3
+
+[node name="OptionButton5" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label5" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label(Tarea 2)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+text = "Recolección de cultivos "
+
+[node name="OptionButton2" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 4
+popup/item_0/text = "Cazadora"
+popup/item_0/id = 1
+popup/item_1/text = "Mago"
+popup/item_1/id = 1
+popup/item_2/text = "Caballero"
+popup/item_2/id = 2
+popup/item_3/text = "Granjero"
+popup/item_3/id = 3
+
+[node name="OptionButton6" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label6" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+
+[node name="Label(Tarea 3)" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+text = "Práctica de arquería"
+
+[node name="OptionButton3" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 4
+popup/item_0/text = "Cazadora"
+popup/item_0/id = 1
+popup/item_1/text = "Mago"
+popup/item_1/id = 1
+popup/item_2/text = "Caballero"
+popup/item_2/id = 2
+popup/item_3/text = "Granjero"
+popup/item_3/id = 3
+
+[node name="OptionButton7" type="OptionButton" parent="GridContainer"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+item_count = 8
+popup/item_0/text = "1"
+popup/item_1/text = "2"
+popup/item_1/id = 1
+popup/item_2/text = "3"
+popup/item_2/id = 2
+popup/item_3/text = "5"
+popup/item_3/id = 3
+popup/item_4/text = "8"
+popup/item_4/id = 4
+popup/item_5/text = "13"
+popup/item_5/id = 5
+popup/item_6/text = "21"
+popup/item_6/id = 6
+popup/item_7/text = "34"
+popup/item_7/id = 7
+
+[node name="Label7" type="Label" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 25
+
+[node name="0" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(664.5, 264)
+scale = Vector2(3.02887, 2.62398)
+texture = ExtResource("3_w3df5")
+
+[node name="SpriteSheet2Menu" type="Sprite2D" parent="."]
+z_index = -5
+position = Vector2(663, 256)
+scale = Vector2(3.07796, 1.902)
+texture = ExtResource("4_3pl4c")
+
+[node name="CircleUi" type="Sprite2D" parent="."]
+position = Vector2(522.5, 58.25)
+scale = Vector2(1.59589, 1.5596)
+texture = ExtResource("5_iwnt0")
+
+[node name="ControlUi" type="Sprite2D" parent="."]
+position = Vector2(527, 63.375)
+scale = Vector2(6.5, 6.46053)
+texture = ExtResource("6_afl0e")
+
+[node name="Header1" type="Sprite2D" parent="."]
+position = Vector2(819, 66.5)
+scale = Vector2(3.5, 2.4321)
+texture = ExtResource("7_6pv37")
+
+[node name="Header2ui" type="Sprite2D" parent="."]
+position = Vector2(1023, 73)
+scale = Vector2(2, 2.55)
+texture = ExtResource("8_j6i6o")
+
+[node name="MuñequitoUi" type="Sprite2D" parent="."]
+position = Vector2(630.25, 61)
+scale = Vector2(2.39815, 2.56897)
+texture = ExtResource("9_8nfn7")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 686.0
+offset_top = 19.0
+offset_right = 1030.0
+offset_bottom = 109.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_splhj")
+theme_override_font_sizes/font_size = 23
+text = "A continuación tendrás una lista de tareas, elige el
+personaje de tu equipo que la ejecutará de mejor manera
+teniendo en cuenta sus habilidades."
+
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button_comenzar" to="." method="_on_button_comenzar_pressed"]

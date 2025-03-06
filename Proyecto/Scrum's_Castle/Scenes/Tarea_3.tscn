@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://uitfdq8e2v3t"]
+
+[ext_resource type="Script" path="res://Scenes/tarea_3.gd" id="1_6ag0e"]
+[ext_resource type="PackedScene" uid="uid://bpnahbjkkhyxi" path="res://Scenes/player2.tscn" id="2_my1dd"]
+[ext_resource type="PackedScene" uid="uid://q8pqgmvwpfhf" path="res://Scenes/Flecha.tscn" id="3_j5ke2"]
+[ext_resource type="PackedScene" uid="uid://b3xyu1mjphmnp" path="res://Scenes/Blancos.tscn" id="4_wdm2o"]
+
+[node name="Tarea3" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_6ag0e")
+
+[node name="Player" parent="." instance=ExtResource("2_my1dd")]
+position = Vector2(111, 367)
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(123, 348)
+
+[node name="FLECHAS" parent="." instance=ExtResource("3_j5ke2")]
+position = Vector2(124, 339)
+disable_mode = 1
+
+[node name="Contenedor" type="Node2D" parent="."]
+process_mode = 3
+position = Vector2(-30, -12)
+
+[node name="Blancos" parent="." instance=ExtResource("4_wdm2o")]
+position = Vector2(1032, -73)
+
+[node name="Blancos2" parent="." instance=ExtResource("4_wdm2o")]
+position = Vector2(833, -31)
+
+[node name="Blancos3" parent="." instance=ExtResource("4_wdm2o")]
+position = Vector2(661, 27)
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="button_ir_a_tarea" type="Button" parent="CanvasLayer2"]
+offset_left = 11.0
+offset_top = 600.0
+offset_right = 68.0
+offset_bottom = 634.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="CanvasLayer2/button_ir_a_tarea" to="." method="_on_button_ir_a_tarea_pressed"]

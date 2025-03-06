@@ -1,0 +1,265 @@
+[gd_scene load_steps=25 format=3 uid="uid://dp3e5t7ldbpji"]
+
+[ext_resource type="Script" path="res://Scenes/tarea_limpiar_2.gd" id="1_6igl1"]
+[ext_resource type="Script" path="res://Scenes/item_1t_2.gd" id="2_qhl8t"]
+[ext_resource type="Texture2D" uid="uid://bmwpnrcphpr2l" path="res://Assets/TileSet-Items/coin.png" id="3_kjdsj"]
+[ext_resource type="Script" path="res://Scenes/item_2t_2.gd" id="4_lcrk3"]
+[ext_resource type="Script" path="res://Scenes/item_3t_2.gd" id="5_4qxg6"]
+[ext_resource type="Texture2D" uid="uid://bw2s2m1ybrp7e" path="res://Assets/TileSet-Items/Deep Cave - WIP/Assets/Tiles.png" id="6_5s4aa"]
+[ext_resource type="Script" path="res://Scenes/item_4t_2.gd" id="7_r6mc5"]
+[ext_resource type="Texture2D" uid="uid://dnsjqxv36ds52" path="res://Assets/TileSet-Items/Green Woods/Assets/Props/Vegetation/Vegetation_01.png" id="8_h6fy1"]
+[ext_resource type="Script" path="res://Scenes/item_5t_2.gd" id="9_6tvg7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_and6d"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wm1qn"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idwdm"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00wbm"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vop4t"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lh168"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5xqec"]
+atlas = ExtResource("3_kjdsj")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gyi0m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_and6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wm1qn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idwdm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00wbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vop4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lh168")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5xqec")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3jdpt"]
+radius = 11.1803
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8bre"]
+atlas = ExtResource("6_5s4aa")
+region = Rect2(68, 240, 34, 30)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c7dd0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8bre")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyp50"]
+atlas = ExtResource("8_h6fy1")
+region = Rect2(174, 215, 29, 43)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_y6xwp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyp50")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdukb"]
+atlas = ExtResource("6_5s4aa")
+region = Rect2(0, 240, 34, 30)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iphhj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdukb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="TareaLimpiar_2" type="Node2D"]
+process_mode = 3
+process_priority = 1
+light_mask = 0
+z_index = 2
+position = Vector2(1, 1)
+script = ExtResource("1_6igl1")
+
+[node name="ContainerT2" type="Node2D" parent="."]
+process_mode = 3
+light_mask = 0
+visibility_layer = 4
+position = Vector2(3, 100)
+
+[node name="Item_1T2" type="Area2D" parent="ContainerT2" groups=["tarea2_items"]]
+process_mode = 3
+top_level = true
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-204, 319)
+collision_layer = 128
+collision_mask = 17
+monitorable = false
+script = ExtResource("2_qhl8t")
+object_id = "Item_1"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ContainerT2/Item_1T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(2, 3)
+scale = Vector2(2.0625, 1.6875)
+sprite_frames = SubResource("SpriteFrames_gyi0m")
+frame_progress = 0.0385056
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ContainerT2/Item_1T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_3jdpt")
+
+[node name="Item_2T2" type="Area2D" parent="ContainerT2" groups=["tarea2_items"]]
+process_mode = 3
+top_level = true
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-289, 193)
+collision_layer = 128
+collision_mask = 17
+monitorable = false
+script = ExtResource("4_lcrk3")
+object_id = "Item_2"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="ContainerT2/Item_2T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(1, 1)
+scale = Vector2(2.0625, 1.6875)
+sprite_frames = SubResource("SpriteFrames_gyi0m")
+frame_progress = 0.701329
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="ContainerT2/Item_2T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(1, 2)
+shape = SubResource("CircleShape2D_3jdpt")
+
+[node name="Item_3T2" type="Area2D" parent="ContainerT2" groups=["tarea2_items"]]
+process_mode = 3
+top_level = true
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-357, 350)
+scale = Vector2(2.0625, 1.6875)
+collision_layer = 128
+collision_mask = 17
+monitorable = false
+script = ExtResource("5_4qxg6")
+object_id = "Item_3"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="ContainerT2/Item_3T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-0.727273, 5.62963)
+scale = Vector2(0.413547, 0.533333)
+sprite_frames = SubResource("SpriteFrames_c7dd0")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="ContainerT2/Item_3T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(0.969696, 2.37038)
+scale = Vector2(0.484848, 0.592593)
+shape = SubResource("CircleShape2D_3jdpt")
+
+[node name="Item_4T2" type="Area2D" parent="ContainerT2" groups=["tarea2_items"]]
+process_mode = 3
+top_level = true
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-349, 95)
+collision_layer = 128
+collision_mask = 17
+monitorable = false
+script = ExtResource("7_r6mc5")
+object_id = "Item_4"
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="ContainerT2/Item_4T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-1.5, 5.5)
+scale = Vector2(1.06897, 0.953488)
+sprite_frames = SubResource("SpriteFrames_y6xwp")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ContainerT2/Item_4T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-5, 1)
+shape = SubResource("CircleShape2D_3jdpt")
+
+[node name="Item_5T2" type="Area2D" parent="ContainerT2" groups=["tarea2_items"]]
+process_mode = 3
+top_level = true
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-153, 164)
+collision_layer = 128
+collision_mask = 17
+monitorable = false
+script = ExtResource("9_6tvg7")
+object_id = "Item_5"
+
+[node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="ContainerT2/Item_5T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-1, -2)
+sprite_frames = SubResource("SpriteFrames_iphhj")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="ContainerT2/Item_5T2"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-1, -3)
+scale = Vector2(2.0625, 1.6875)
+shape = SubResource("CircleShape2D_3jdpt")
+
+[connection signal="body_entered" from="ContainerT2/Item_1T2" to="." method="_on_item_1_body_entered"]
+[connection signal="body_entered" from="ContainerT2/Item_2T2" to="ContainerT2/Item_2T2" method="_on_body_entered"]
+[connection signal="body_entered" from="ContainerT2/Item_3T2" to="ContainerT2/Item_3T2" method="_on_body_entered"]
+[connection signal="body_entered" from="ContainerT2/Item_4T2" to="ContainerT2/Item_4T2" method="_on_body_entered"]
+[connection signal="body_entered" from="ContainerT2/Item_5T2" to="ContainerT2/Item_5T2" method="_on_body_entered"]

@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://q8pqgmvwpfhf"]
+
+[ext_resource type="Script" path="res://Scripts/laser.gd" id="1_mq5ge"]
+[ext_resource type="Texture2D" uid="uid://8jyb15vwkrur" path="res://Assets/TileSet-Items/Arrow_impact_pack.png" id="2_fwq8n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bmfgm"]
+size = Vector2(33, 7)
+
+[node name="Flecha" type="Area2D"]
+process_mode = 3
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_mq5ge")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(34, 12)
+scale = Vector2(0.057445, 0.0376795)
+texture = ExtResource("2_fwq8n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(28.5, 10.5)
+shape = SubResource("RectangleShape2D_bmfgm")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(8, 11)
+scale = Vector2(0.4, 0.3)
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
