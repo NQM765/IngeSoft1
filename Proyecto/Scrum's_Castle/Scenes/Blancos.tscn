@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://copio3vh3tcnq" path="res://Assets/TileSet-Items/crosshair.png" id="2_lcm17"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ekll5"]
-radius = 15.1327
+radius = 28.1603
 
 [node name="Blancos" type="Area2D"]
 position = Vector2(41, 40)
@@ -13,13 +13,14 @@ collision_mask = 5
 script = ExtResource("1_g4din")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(12, 14)
-scale = Vector2(2.33333, 2.33333)
+position = Vector2(12.5, 10)
+scale = Vector2(4.27778, 4.57143)
 texture = ExtResource("2_lcm17")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(13, 13)
+position = Vector2(13, 10)
 shape = SubResource("CircleShape2D_ekll5")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
-position = Vector2(38, 13)
+position = Vector2(54, 10)
+scale = Vector2(1.1, 1.2)

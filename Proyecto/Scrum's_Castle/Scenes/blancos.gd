@@ -2,7 +2,7 @@ class_name Blancos extends Area2D
 
 signal muerto
 
-@export var speed = 70
+@export var speed = 60
 
 func _physics_process(delta):
 	global_position.y += speed * delta

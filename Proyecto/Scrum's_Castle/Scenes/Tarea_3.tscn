@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://uitfdq8e2v3t"]
+[gd_scene load_steps=6 format=3 uid="uid://uitfdq8e2v3t"]
 
 [ext_resource type="Script" path="res://Scenes/tarea_3.gd" id="1_6ag0e"]
 [ext_resource type="PackedScene" uid="uid://bpnahbjkkhyxi" path="res://Scenes/player2.tscn" id="2_my1dd"]
 [ext_resource type="PackedScene" uid="uid://q8pqgmvwpfhf" path="res://Scenes/Flecha.tscn" id="3_j5ke2"]
 [ext_resource type="PackedScene" uid="uid://b3xyu1mjphmnp" path="res://Scenes/Blancos.tscn" id="4_wdm2o"]
+[ext_resource type="FontFile" uid="uid://b76hg67ejv58s" path="res://Assets/Font/enchanted_land/Enchanted Land.otf" id="5_mcjv1"]
 
 [node name="Tarea3" type="Node2D"]
 process_mode = 3
@@ -24,21 +25,24 @@ process_mode = 3
 position = Vector2(-30, -12)
 
 [node name="Blancos" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(1032, -73)
+position = Vector2(1437, -60)
 
 [node name="Blancos2" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(833, -31)
+position = Vector2(1238, -18)
 
 [node name="Blancos3" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(661, 27)
+position = Vector2(1043, 40)
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
 
 [node name="button_ir_a_tarea" type="Button" parent="CanvasLayer2"]
 offset_left = 11.0
-offset_top = 600.0
+offset_top = 875.0
 offset_right = 68.0
-offset_bottom = 634.0
+offset_bottom = 909.0
+theme_override_fonts/font = ExtResource("5_mcjv1")
+theme_override_font_sizes/font_size = 32
+text = "   Tareas   "
 metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="CanvasLayer2/button_ir_a_tarea" to="." method="_on_button_ir_a_tarea_pressed"]

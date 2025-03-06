@@ -1,0 +1,1691 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1740989843
+export_presets.cfg::TextFile::-1::1740757240::0::1::::<><>::
+icon.svg::CompressedTexture2D::4268784059054746322::1740339716::1740885546::1::::<><>::
+instrucciones.gd::GDScript::-1::1740989253::0::1::::<>Control<>::
+instrucciones.tscn::PackedScene::9161248341563772947::1740989726::0::1::::<><>::res://instrucciones.gd<>uid://bt6ygr0xcdf5c::::res://Assets/UI/PixelMap.png<>uid://b76hg67ejv58s::::res://Assets/Font/enchanted_land/Enchanted Land.otf<>uid://cq40iis3cy62g::::res://Assets/UI/10.png<>uid://dxnnw3igiqku4::::res://Assets/UI/circleUI.png<>uid://i3ii6l63gikw::::res://Assets/UI/header1.png<>uid://dynpn4ucrxhbn::::res://Assets/UI/muñequitoUI.png<>uid://drfekkxqpewy::::res://Assets/UI/header2UI.png<>uid://cfblo0tpht5c2::::res://Assets/UI/libroUI.png
+interactable.gd::GDScript::-1::1740610510::0::1::::<>Area2D<>::
+interactable.tscn::PackedScene::3587615766626952834::1740665490::0::1::::<><>::res://interactable.gd
+::res://addons/::1740884683
+::res://addons/gdLinter/::1740884682
+error_descriptions.gd::GDScript::-1::1740884682::0::1::::<>Resource<>::
+gdLinter.gd::GDScript::-1::1740884682::0::1::::GDLinter<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1740884682::0::1::::<><>::
+::res://addons/gdLinter/Settings/::1740884682
+ignore.gd::GDScript::-1::1740884682::0::1::::GDLinterIgnore<>Resource<>::
+ignore.tres::Resource/GDLinterIgnore::2193339083654145278::1740884682::0::1::::<><>::res://addons/gdLinter/Settings/ignore.gd
+::res://addons/gdLinter/UI/::1740884683
+Basic.gd::GDScript::-1::1740884682::0::1::::<>MarginContainer<>::
+Class.gd::GDScript::-1::1740884682::0::1::::<>MarginContainer<>::
+Design.gd::GDScript::-1::1740884683::0::1::::<>MarginContainer<>::
+Dock.gd::GDScript::-1::1740884683::0::1::::GDLinterDock<>Control<>::
+Dock.tscn::PackedScene::8993421485777917210::1740884683::0::1::::<><>::res://addons/gdLinter/UI/Dock.gd<>uid://cgk7hjif0ujw1::::res://addons/gdLinter/UI/GDLinterIgnoreWindow.tscn
+Format.gd::GDScript::-1::1740884683::0::1::::<>MarginContainer<>::
+GDLinterIgnoreWindow.gd::GDScript::-1::1740884683::0::1::::GDLinterIgnoreWindow<>AcceptDialog<>::
+GDLinterIgnoreWindow.tscn::PackedScene::5216574136410824698::1740884683::0::1::::<><>::res://addons/gdLinter/UI/GDLinterIgnoreWindow.gd<>res://addons/gdLinter/UI/Name.gd<>res://addons/gdLinter/UI/Basic.gd<>res://addons/gdLinter/UI/Class.gd<>res://addons/gdLinter/UI/Design.gd<>res://addons/gdLinter/UI/Format.gd<>res://addons/gdLinter/UI/Misc.gd
+Misc.gd::GDScript::-1::1740884683::0::1::::<>MarginContainer<>::
+Name.gd::GDScript::-1::1740884683::0::1::::<>MarginContainer<>::
+::res://addons/gut/::1740885550
+autofree.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+awaiter.gd::GDScript::-1::1740884683::0::1::::<>Node<>::
+collected_script.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+collected_test.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+comparator.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+compare_result.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+diff_formatter.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+diff_tool.gd::GDScript::-1::1740884683::0::1::::<>RefCounted<>::
+doubler.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+double_tools.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+dynamic_gdscript.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+gut.gd::GDScript::-1::1740884684::0::1::::GutMain<>Node<>::
+GutScene.gd::GDScript::-1::1740884684::0::1::::<>Node2D<>::
+GutScene.tscn::PackedScene::900020720033095020::1740884684::0::1::::<><>::res://addons/gut/GutScene.gd<>uid://duxblir3vu8x7::::res://addons/gut/gui/NormalGui.tscn<>uid://cnqqdfsn80ise::::res://addons/gut/gui/MinGui.tscn
+gut_cmdln.gd::GDScript::-1::1740884684::0::1::::<>SceneTree<>::
+gut_config.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+gut_loader.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+gut_loader_the_scene.tscn::PackedScene::672845236156175277::1740884684::0::1::::<><>::res://addons/gut/gut_loader_the_scene.gd
+gut_plugin.gd::GDScript::-1::1740884684::0::1::::<>EditorPlugin<>::
+gut_to_move.gd::GDScript::-1::1740884684::0::1::::<>Node<>::
+gut_vscode_debugger.gd::GDScript::-1::1740884684::0::1::::<>SceneTree<>::
+hook_script.gd::GDScript::-1::1740884684::0::1::::GutHookScript<>RefCounted<>::
+icon.png::CompressedTexture2D::3890841352431263106::1740884684::1740885550::1::::<><>::
+inner_class_registry.gd::GDScript::-1::1740884684::0::1::::<>RefCounted<>::
+input_factory.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+input_sender.gd::GDScript::-1::1740884685::0::1::::GutInputSender<>RefCounted<>::
+junit_xml_export.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+lazy_loader.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+LICENSE.md::TextFile::-1::1740884685::0::1::::<><>::
+logger.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+method_maker.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+one_to_many.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+orphan_counter.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+parameter_factory.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+parameter_handler.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+plugin.cfg::TextFile::-1::1740884685::0::1::::<><>::
+printers.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+result_exporter.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+script_parser.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+signal_watcher.gd::GDScript::-1::1740884685::0::1::::<>RefCounted<>::
+source_code_pro.fnt::FontFile::5125156706837925311::1740884686::1740885541::1::::<><>::
+spy.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+strutils.gd::GDScript::-1::1740884686::0::1::::GutStringUtils<>RefCounted<>::
+stubber.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+stub_params.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+summary.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+test.gd::GDScript::-1::1740884686::0::1::::GutTest<>Node<>::
+test_collector.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+thing_counter.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+UserFileViewer.gd::GDScript::-1::1740884686::0::1::::<>Window<>::
+UserFileViewer.tscn::PackedScene::3676575661945431583::1740884686::0::1::::<><>::res://addons/gut/UserFileViewer.gd
+utils.gd::GDScript::-1::1740884686::0::1::::GutUtils<>Object<>::
+version_conversion.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+version_numbers.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+warnings_manager.gd::GDScript::-1::1740884686::0::1::::<>RefCounted<>::
+::res://addons/gut/cli/::1740884687
+change_project_warnings.gd::GDScript::-1::1740884686::0::1::::<>SceneTree<>::
+gut_cli.gd::GDScript::-1::1740884687::0::1::::<>Node<>::
+optparse.gd::GDScript::-1::1740884687::0::1::::<>RefCounted<>::
+::res://addons/gut/double_templates/::1740884687
+function_template.txt::TextFile::-1::1740884687::0::1::::<><>::
+init_template.txt::TextFile::-1::1740884687::0::1::::<><>::
+script_template.txt::TextFile::-1::1740884687::0::1::::<><>::
+::res://addons/gut/fonts/::1740885541
+AnonymousPro-Bold.ttf::FontFile::7090493737101227053::1740884687::1740885541::1::::<><>::
+AnonymousPro-BoldItalic.ttf::FontFile::761724172175864::1740884687::1740885541::1::::<><>::
+AnonymousPro-Italic.ttf::FontFile::503495830806397342::1740884687::1740885541::1::::<><>::
+AnonymousPro-Regular.ttf::FontFile::6954778653853521719::1740884687::1740885541::1::::<><>::
+CourierPrime-Bold.ttf::FontFile::2896714378692211288::1740884687::1740885541::1::::<><>::
+CourierPrime-BoldItalic.ttf::FontFile::977220797652290018::1740884687::1740885541::1::::<><>::
+CourierPrime-Italic.ttf::FontFile::846855295635301556::1740884688::1740885541::1::::<><>::
+CourierPrime-Regular.ttf::FontFile::3314864826498090510::1740884688::1740885541::1::::<><>::
+LobsterTwo-Bold.ttf::FontFile::5632861098580159618::1740884688::1740885541::1::::<><>::
+LobsterTwo-BoldItalic.ttf::FontFile::3182965850633207044::1740884688::1740885541::1::::<><>::
+LobsterTwo-Italic.ttf::FontFile::7759867820021968437::1740884688::1740885541::1::::<><>::
+LobsterTwo-Regular.ttf::FontFile::2115948870915788183::1740884688::1740885541::1::::<><>::
+OFL.txt::TextFile::-1::1740884688::0::1::::<><>::
+::res://addons/gut/gui/::1740885550
+arrow.png::CompressedTexture2D::2222304255268796957::1740884688::1740885550::1::::<><>::
+BottomPanelShortcuts.gd::GDScript::-1::1740884688::0::1::::<>Window<>::
+BottomPanelShortcuts.tscn::PackedScene::3672212108687301338::1740884688::0::1::::<><>::uid://sfb1fw8j6ufu::::res://addons/gut/gui/ShortcutButton.tscn<>res://addons/gut/gui/BottomPanelShortcuts.gd
+editor_globals.gd::GDScript::-1::1740884688::0::1::::<>RefCounted<>::
+GutBottomPanel.gd::GDScript::-1::1740884688::0::1::::<>Control<>::
+GutBottomPanel.tscn::PackedScene::4354655867367614688::1740884689::0::1::::<><>::res://addons/gut/gui/GutBottomPanel.gd<>uid://bsk32dh41b4gs::::res://addons/gut/gui/BottomPanelShortcuts.tscn<>uid://0yunjxtaa8iw::::res://addons/gut/gui/RunAtCursor.tscn<>uid://cr6tvdv0ve6cv::::res://addons/gut/gui/play.png<>uid://4gyyn12um08h::::res://addons/gut/gui/RunResults.tscn<>uid://bqmo4dj64c7yl::::res://addons/gut/gui/OutputText.tscn
+GutControl.gd::GDScript::-1::1740884689::0::1::::<>Control<>::
+GutControl.tscn::PackedScene::2054171664569605320::1740884689::0::1::::<><>::res://addons/gut/gui/GutControl.gd
+GutRunner.gd::GDScript::-1::1740884689::0::1::::<>Node2D<>::
+GutRunner.tscn::PackedScene::3560702166169920196::1740884689::0::1::::<><>::res://addons/gut/gui/GutRunner.gd<>uid://m28heqtswbuq::::res://addons/gut/GutScene.tscn
+GutSceneTheme.tres::Theme::6076084572326576944::1740884689::0::1::::<><>::uid://c6c7gnx36opr0::::res://addons/gut/fonts/AnonymousPro-Regular.ttf
+gut_config_gui.gd::GDScript::-1::1740884689::0::1::::<>RefCounted<>::
+gut_gui.gd::GDScript::-1::1740884689::0::1::::<>Control<>::
+gut_user_preferences.gd::GDScript::-1::1740884689::0::1::::<>RefCounted<>::
+MinGui.tscn::PackedScene::5719303499070539904::1740884689::0::1::::<><>::uid://cstkhwkpajvqu::::res://addons/gut/gui/GutSceneTheme.tres<>uid://bnh0lslf4yh87::::res://addons/gut/fonts/CourierPrime-Regular.ttf<>res://addons/gut/gui/gut_gui.gd<>uid://bvrqqgjpyouse::::res://addons/gut/gui/ResizeHandle.tscn
+NormalGui.tscn::PackedScene::8610600420658602210::1740884689::0::1::::<><>::uid://cstkhwkpajvqu::::res://addons/gut/gui/GutSceneTheme.tres<>res://addons/gut/gui/gut_gui.gd<>uid://bnh0lslf4yh87::::res://addons/gut/fonts/CourierPrime-Regular.ttf<>uid://bvrqqgjpyouse::::res://addons/gut/gui/ResizeHandle.tscn
+OutputText.gd::GDScript::-1::1740884690::0::1::::<>VBoxContainer<>::
+OutputText.tscn::PackedScene::3535116713792967483::1740884690::0::1::::<><>::res://addons/gut/gui/OutputText.gd
+panel_controls.gd::GDScript::-1::1740884690::0::1::::<>RefCounted<>::
+play.png::CompressedTexture2D::6031238735318256293::1740884690::1740885550::1::::<><>::
+ResizeHandle.gd::GDScript::-1::1740884690::0::1::::<>ColorRect<>::
+ResizeHandle.tscn::PackedScene::3896481196255057096::1740884690::0::1::::<><>::res://addons/gut/gui/ResizeHandle.gd
+ResultsTree.gd::GDScript::-1::1740884690::0::1::::<>Control<>::
+ResultsTree.tscn::PackedScene::7970351583819098362::1740884690::0::1::::<><>::res://addons/gut/gui/ResultsTree.gd
+RunAtCursor.gd::GDScript::-1::1740884690::0::1::::<>Control<>::
+RunAtCursor.tscn::PackedScene::1805504221328301514::1740884690::0::1::::<><>::res://addons/gut/gui/RunAtCursor.gd<>uid://cr6tvdv0ve6cv::::res://addons/gut/gui/play.png<>uid://6wra5rxmfsrl::::res://addons/gut/gui/arrow.png
+RunResults.gd::GDScript::-1::1740884691::0::1::::<>Control<>::
+RunResults.tscn::PackedScene::2049363523129861965::1740884691::0::1::::<><>::res://addons/gut/gui/RunResults.gd<>uid://dls5r5f6157nq::::res://addons/gut/gui/ResultsTree.tscn
+run_from_editor.gd::GDScript::-1::1740884691::0::1::::<>Node2D<>::
+run_from_editor.tscn::PackedScene::2827842826880526284::1740884691::0::1::::<><>::res://addons/gut/gui/run_from_editor.gd
+script_text_editor_controls.gd::GDScript::-1::1740884691::0::1::::<>RefCounted<>::
+Settings.tscn::PackedScene::6291468949329504810::1740884691::0::1::::<><>::
+ShortcutButton.gd::GDScript::-1::1740884691::0::1::::<>Control<>::
+ShortcutButton.tscn::PackedScene::1273828520004261174::1740884691::0::1::::<><>::res://addons/gut/gui/ShortcutButton.gd
+::res://addons/gut/images/::1740885550
+Folder.svg::CompressedTexture2D::7694651741458501535::1740884691::1740885550::1::::<><>::
+green.png::CompressedTexture2D::3896279560051998512::1740884691::1740885550::1::::<><>::
+red.png::CompressedTexture2D::2443263267725858415::1740884691::1740885550::1::::<><>::
+Script.svg::CompressedTexture2D::4817060143842260657::1740884691::1740885550::1::::<><>::
+yellow.png::CompressedTexture2D::1043265824178416429::1740884691::1740885550::1::::<><>::
+::res://Assets/::1740978935
+Cara.png::CompressedTexture2D::2586859612159669939::1740884691::1740885546::1::::<><>::
+indica.png::CompressedTexture2D::6727856501089738257::1740884692::1740885546::1::::<><>::
+inicio.png::CompressedTexture2D::4552495162845565733::1740884692::1740885546::1::::<><>::
+::res://Assets/Characters/::1740885554
+Comparison2x.png::CompressedTexture2D::7987452566411773314::1740884692::1740885553::1::::<><>::
+knight.png::CompressedTexture2D::8491630183619062385::1740884692::1740885553::1::::<><>::
+Necromancer_creativekind-Sheet.png::CompressedTexture2D::1622789835017421261::1740884692::1740885554::1::::<><>::
+NightBorne.png::CompressedTexture2D::1167845844348937623::1740884692::1740885553::1::::<><>::
+slime_green.png::CompressedTexture2D::6883883241280674642::1740884692::1740885553::1::::<><>::
+slime_purple.png::CompressedTexture2D::2219188959885025187::1740884692::1740885553::1::::<><>::
+::res://Assets/Characters/Bandits/::1740884693
+EULA.txt::TextFile::-1::1740884693::0::1::::<><>::
+Instructions.txt::TextFile::-1::1740884693::0::1::::<><>::
+::res://Assets/Characters/Bandits/Preview/::1740885550
+Preview_HeavyBandit.png::CompressedTexture2D::7092795055377318078::1740884693::1740885550::1::::<><>::
+Preview_LightBandit.png::CompressedTexture2D::8760469279864637094::1740884693::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/::1740884697
+::res://Assets/Characters/Bandits/Sprites/EnvironmentTiles/::1740885550
+EnvironmentTiles.png::CompressedTexture2D::9087443570512973235::1740884693::1740885550::1::::<><>::
+Tile_0.png::CompressedTexture2D::3347652113048145131::1740884693::1740885550::1::::<><>::
+Tile_1.png::CompressedTexture2D::7413569153653720114::1740884693::1740885550::1::::<><>::
+Tile_2.png::CompressedTexture2D::6290174892293651049::1740884693::1740885550::1::::<><>::
+Tile_3.png::CompressedTexture2D::6968840515569528765::1740884693::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/::1740885550
+HeavyBandit.png::CompressedTexture2D::8009118054962277590::1740884693::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Attack/::1740885551
+HeavyBandit_Attack_0.png::CompressedTexture2D::4455381092420724701::1740884694::1740885550::1::::<><>::
+HeavyBandit_Attack_1.png::CompressedTexture2D::3642816714645305396::1740884694::1740885550::1::::<><>::
+HeavyBandit_Attack_2.png::CompressedTexture2D::8242632300740738608::1740884694::1740885551::1::::<><>::
+HeavyBandit_Attack_3.png::CompressedTexture2D::6213582024591973325::1740884694::1740885551::1::::<><>::
+HeavyBandit_Attack_4.png::CompressedTexture2D::6637766660696864445::1740884694::1740885551::1::::<><>::
+HeavyBandit_Attack_5.png::CompressedTexture2D::2552894719066200774::1740884694::1740885551::1::::<><>::
+HeavyBandit_Attack_6.png::CompressedTexture2D::2745256630770427471::1740884694::1740885551::1::::<><>::
+HeavyBandit_Attack_7.png::CompressedTexture2D::3794410798019869983::1740884694::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Combat Idle/::1740885551
+HeavyBandit_CombatIdle_0.png::CompressedTexture2D::8196934101560430710::1740884694::1740885551::1::::<><>::
+HeavyBandit_CombatIdle_1.png::CompressedTexture2D::2091338987448133250::1740884695::1740885551::1::::<><>::
+HeavyBandit_CombatIdle_2.png::CompressedTexture2D::7475154853606431118::1740884695::1740885551::1::::<><>::
+HeavyBandit_CombatIdle_3.png::CompressedTexture2D::8463845860099002389::1740884695::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Death/::1740885551
+HeavyBandit_Death_0.png::CompressedTexture2D::230264595237779917::1740884695::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Hurt/::1740885551
+HeavyBandit_Hurt_0.png::CompressedTexture2D::6929587247046493123::1740884695::1740885551::1::::<><>::
+HeavyBandit_Hurt_1.png::CompressedTexture2D::1527500235207781679::1740884695::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Idle/::1740885551
+HeavyBandit_Idle_0.png::CompressedTexture2D::7418819602301350483::1740884695::1740885551::1::::<><>::
+HeavyBandit_Idle_1.png::CompressedTexture2D::8364056215628390875::1740884695::1740885551::1::::<><>::
+HeavyBandit_Idle_2.png::CompressedTexture2D::740875926827021092::1740884695::1740885551::1::::<><>::
+HeavyBandit_Idle_3.png::CompressedTexture2D::6469616209722977559::1740884695::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Jump/::1740885551
+HeavyBandit_Jump_0.png::CompressedTexture2D::7664156971492889527::1740884696::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Recover/::1740885550
+HeavyBandit_Recover_0.png::CompressedTexture2D::1355853215141861866::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_1.png::CompressedTexture2D::2268294997650137684::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_2.png::CompressedTexture2D::5498482083599060189::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_3.png::CompressedTexture2D::7909354211763277610::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_4.png::CompressedTexture2D::1905526802453196583::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_5.png::CompressedTexture2D::7453602971172758405::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_6.png::CompressedTexture2D::5835798701162422664::1740884696::1740885550::1::::<><>::
+HeavyBandit_Recover_7.png::CompressedTexture2D::8433057649471587016::1740884696::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Heavy Bandit/Run/::1740885550
+HeavyBandit_Run_0.png::CompressedTexture2D::5995475391126772750::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_1.png::CompressedTexture2D::6443913124521655450::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_2.png::CompressedTexture2D::6755284510615876072::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_3.png::CompressedTexture2D::2220278753697988987::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_4.png::CompressedTexture2D::660674119100383266::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_5.png::CompressedTexture2D::8395850115762031799::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_6.png::CompressedTexture2D::4222653393320864021::1740884697::1740885550::1::::<><>::
+HeavyBandit_Run_7.png::CompressedTexture2D::5094221903155333294::1740884697::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/::1740885551
+LightBandit.png::CompressedTexture2D::2965913685728505209::1740884697::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Attack/::1740885550
+LightBandit_Attack_0.png::CompressedTexture2D::1665680236238250631::1740884697::1740885550::1::::<><>::
+LightBandit_Attack_1.png::CompressedTexture2D::1497003485568073910::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_2.png::CompressedTexture2D::3881867849778211819::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_3.png::CompressedTexture2D::6632142508867126608::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_4.png::CompressedTexture2D::7062707603980857335::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_5.png::CompressedTexture2D::3332294239299987635::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_6.png::CompressedTexture2D::43093469397474728::1740884698::1740885550::1::::<><>::
+LightBandit_Attack_7.png::CompressedTexture2D::2609324435354380179::1740884698::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Combat Idle/::1740885550
+LightBandit_Combat Idle_0.png::CompressedTexture2D::8167543206368993093::1740884698::1740885550::1::::<><>::
+LightBandit_Combat Idle_1.png::CompressedTexture2D::5874608383897860300::1740884698::1740885550::1::::<><>::
+LightBandit_Combat Idle_2.png::CompressedTexture2D::7064130892663399987::1740884698::1740885550::1::::<><>::
+LightBandit_Combat Idle_3.png::CompressedTexture2D::1300011946211283376::1740884699::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Death/::1740885550
+LightBandit_Death_0.png::CompressedTexture2D::1791128600948813986::1740884699::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Hurt/::1740885550
+LightBandit_Hurt_0.png::CompressedTexture2D::6216549253655653915::1740884699::1740885550::1::::<><>::
+LightBandit_Hurt_1.png::CompressedTexture2D::569475245021261431::1740884699::1740885550::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Idle/::1740885551
+LightBandit_Idle_0.png::CompressedTexture2D::5161597312938815970::1740884699::1740885550::1::::<><>::
+LightBandit_Idle_1.png::CompressedTexture2D::4973316116831823443::1740884699::1740885550::1::::<><>::
+LightBandit_Idle_2.png::CompressedTexture2D::5000456922884804161::1740884699::1740885551::1::::<><>::
+LightBandit_Idle_3.png::CompressedTexture2D::5799590795281499185::1740884699::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Jump/::1740885551
+LightBandit_Jump_0.png::CompressedTexture2D::7885091049162719035::1740884699::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Recover/::1740885551
+LightBandit_Recover_0.png::CompressedTexture2D::8480125539053699624::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_1.png::CompressedTexture2D::276818131166293257::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_2.png::CompressedTexture2D::5789423459950324307::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_3.png::CompressedTexture2D::762809614090656157::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_4.png::CompressedTexture2D::2430618481619058205::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_5.png::CompressedTexture2D::1821045563515266233::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_6.png::CompressedTexture2D::1803414683487444151::1740884700::1740885551::1::::<><>::
+LightBandit_Recover_7.png::CompressedTexture2D::861098842463074563::1740884700::1740885551::1::::<><>::
+::res://Assets/Characters/Bandits/Sprites/Light Bandit/Run/::1740885551
+LightBandit_Run_0.png::CompressedTexture2D::6535614028236869404::1740884700::1740885551::1::::<><>::
+LightBandit_Run_1.png::CompressedTexture2D::127400481246106019::1740884700::1740885551::1::::<><>::
+LightBandit_Run_2.png::CompressedTexture2D::7459569110854844488::1740884701::1740885551::1::::<><>::
+LightBandit_Run_3.png::CompressedTexture2D::5607348391274288028::1740884701::1740885551::1::::<><>::
+LightBandit_Run_4.png::CompressedTexture2D::4102657528786294722::1740884701::1740885551::1::::<><>::
+LightBandit_Run_5.png::CompressedTexture2D::8420332518765624577::1740884701::1740885551::1::::<><>::
+LightBandit_Run_6.png::CompressedTexture2D::1894836664617948130::1740884701::1740885551::1::::<><>::
+LightBandit_Run_7.png::CompressedTexture2D::1256306133683559983::1740884701::1740885551::1::::<><>::
+::res://Assets/Characters/cofre/::1740885551
+chestsAll.png::CompressedTexture2D::5061052006183994395::1740884701::1740885551::1::::<><>::
+::res://Assets/Characters/Colour1/::1740884705
+::res://Assets/Characters/Colour1/NoOutline/::1740884702
+::res://Assets/Characters/Colour1/NoOutline/120x80_gifs/::1740884702
+::res://Assets/Characters/Colour1/NoOutline/120x80_PNGSheets/::1740885551
+_Attack2.png::CompressedTexture2D::6662238647397282481::1740884703::1740885551::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::7140404371218924::1740884703::1740885551::1::::<><>::
+_Attack.png::CompressedTexture2D::5668445080616640976::1740884702::1740885551::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::1810823345349043868::1740884703::1740885551::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::6518471559028250059::1740884703::1740885551::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::5216427931532908875::1740884703::1740885551::1::::<><>::
+_Crouch.png::CompressedTexture2D::7579052401402202499::1740884703::1740885551::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::8293708126372191166::1740884703::1740885551::1::::<><>::
+_CrouchFull.png::CompressedTexture2D::8075345457681554134::1740884703::1740885551::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::51314480428226203::1740884703::1740885551::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::6072416950280201977::1740884703::1740885551::1::::<><>::
+_Dash.png::CompressedTexture2D::431972064526673609::1740884703::1740885551::1::::<><>::
+_Death.png::CompressedTexture2D::7515901437532887134::1740884704::1740885551::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::6274639694585228491::1740884704::1740885551::1::::<><>::
+_Fall.png::CompressedTexture2D::7133699343485640555::1740884704::1740885551::1::::<><>::
+_Hit.png::CompressedTexture2D::799801023540114969::1740884704::1740885551::1::::<><>::
+_Idle.png::CompressedTexture2D::5922686863177408713::1740884704::1740885551::1::::<><>::
+_Jump.png::CompressedTexture2D::1148180737538542907::1740884704::1740885551::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::8958470952924864566::1740884704::1740885551::1::::<><>::
+_Roll.png::CompressedTexture2D::9058080432094293829::1740884704::1740885551::1::::<><>::
+_Run.png::CompressedTexture2D::2595802820468232519::1740884704::1740885551::1::::<><>::
+_Slide.png::CompressedTexture2D::5326419096061126113::1740884704::1740885551::1::::<><>::
+_SlideFull.png::CompressedTexture2D::4369488104064376499::1740884705::1740885551::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::8053487821616912872::1740884705::1740885551::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::4633682107857837515::1740884705::1740885551::1::::<><>::
+_TurnAround.png::CompressedTexture2D::6951409439240881425::1740884705::1740885551::1::::<><>::
+_WallClimb.png::CompressedTexture2D::3274439687118998280::1740884705::1740885551::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::7921998267683240848::1740884705::1740885551::1::::<><>::
+_WallHang.png::CompressedTexture2D::1034671006797964849::1740884705::1740885551::1::::<><>::
+_WallSlide.png::CompressedTexture2D::5571836489303668608::1740884705::1740885551::1::::<><>::
+::res://Assets/Characters/Colour1/Outline/::1740884707
+::res://Assets/Characters/Colour1/Outline/120x80_gifs/::1740884707
+::res://Assets/Characters/Colour1/Outline/120x80_PNGSheets/::1740885551
+_Attack2.png::CompressedTexture2D::8012358352742751266::1740884707::1740885551::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::8537494969386565258::1740884707::1740885551::1::::<><>::
+_Attack.png::CompressedTexture2D::6180988888351969291::1740884707::1740885551::1::::<><>::
+_AttackCombo2hit.png::CompressedTexture2D::9218500416120080219::1740884707::1740885551::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::1360224187803257000::1740884707::1740885551::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::5187551259493605836::1740884707::1740885551::1::::<><>::
+_Crouch.png::CompressedTexture2D::8542383857631707321::1740884707::1740885551::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::5608929767631609823::1740884708::1740885551::1::::<><>::
+_CrouchFull.png::CompressedTexture2D::6314941409459272019::1740884708::1740885551::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::1766431936150840171::1740884708::1740885551::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::8939471346950580588::1740884708::1740885551::1::::<><>::
+_Dash.png::CompressedTexture2D::6577771695977245057::1740884708::1740885551::1::::<><>::
+_Death.png::CompressedTexture2D::4759264340281213528::1740884708::1740885551::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::877859097084339493::1740884708::1740885551::1::::<><>::
+_Fall.png::CompressedTexture2D::763211047249414546::1740884708::1740885551::1::::<><>::
+_Hit.png::CompressedTexture2D::3737753044713243590::1740884708::1740885551::1::::<><>::
+_Idle.png::CompressedTexture2D::5243328235412230944::1740884709::1740885551::1::::<><>::
+_Jump.png::CompressedTexture2D::3503783477015891228::1740884709::1740885551::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::9099798497874332510::1740884709::1740885551::1::::<><>::
+_Roll.png::CompressedTexture2D::1359807299536438540::1740884709::1740885549::1::::<><>::
+_Run.png::CompressedTexture2D::5649634798885398968::1740884709::1740885549::1::::<><>::
+_Slide.png::CompressedTexture2D::4484565347366317645::1740884709::1740885549::1::::<><>::
+_SlideFull.png::CompressedTexture2D::7074852338266303456::1740884709::1740885549::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::724580586288707532::1740884709::1740885549::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::1909230367582744693::1740884709::1740885549::1::::<><>::
+_TurnAround.png::CompressedTexture2D::3712117170857065288::1740884710::1740885549::1::::<><>::
+_WallClimb.png::CompressedTexture2D::1464888883833636759::1740884710::1740885549::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::7471235906106467269::1740884710::1740885549::1::::<><>::
+_WallHang.png::CompressedTexture2D::3666652963687456863::1740884710::1740885549::1::::<><>::
+_WallSlide.png::CompressedTexture2D::3300367318712685180::1740884710::1740885549::1::::<><>::
+::res://Assets/Characters/Colour2/::1740884715
+::res://Assets/Characters/Colour2/NoOutline/::1740884712
+::res://Assets/Characters/Colour2/NoOutline/120x80_gifs/::1740884711
+::res://Assets/Characters/Colour2/NoOutline/120x80_PNGSheets/::1740885549
+_Attack2.png::CompressedTexture2D::8210810464966153413::1740884712::1740885549::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::263035286753256275::1740884712::1740885549::1::::<><>::
+_Attack.png::CompressedTexture2D::9029626361799903036::1740884712::1740885549::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::4235447598005170584::1740884712::1740885549::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::4012155973304433065::1740884712::1740885549::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::5516968170147223866::1740884712::1740885549::1::::<><>::
+_Crouch.png::CompressedTexture2D::7165644177978114051::1740884712::1740885549::1::::<><>::
+_CrouchAll.png::CompressedTexture2D::3894279868959769150::1740884712::1740885549::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::6232161719316140786::1740884712::1740885549::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::6196917253688764699::1740884713::1740885549::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::7292835685766474312::1740884713::1740885549::1::::<><>::
+_Dash.png::CompressedTexture2D::7341675142613024423::1740884713::1740885549::1::::<><>::
+_Death.png::CompressedTexture2D::8347786454341078643::1740884713::1740885549::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::8458880573651389686::1740884713::1740885549::1::::<><>::
+_Fall.png::CompressedTexture2D::1363763384339738743::1740884713::1740885549::1::::<><>::
+_Hit.png::CompressedTexture2D::5255884616284390237::1740884713::1740885549::1::::<><>::
+_Idle.png::CompressedTexture2D::6508949005519310956::1740884713::1740885549::1::::<><>::
+_Jump.png::CompressedTexture2D::722425514589505570::1740884713::1740885549::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::6074467992108338832::1740884714::1740885549::1::::<><>::
+_Roll.png::CompressedTexture2D::5758833667794308858::1740884714::1740885549::1::::<><>::
+_Run.png::CompressedTexture2D::7410326811221766852::1740884714::1740885549::1::::<><>::
+_Slide.png::CompressedTexture2D::9091162387175574237::1740884714::1740885549::1::::<><>::
+_SlideAll.png::CompressedTexture2D::7049654244731451041::1740884714::1740885549::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::1058850690332524977::1740884714::1740885549::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::5502623137693115630::1740884714::1740885549::1::::<><>::
+_TurnAround.png::CompressedTexture2D::8124713437788776922::1740884714::1740885549::1::::<><>::
+_WallClimb.png::CompressedTexture2D::996917108533598427::1740884714::1740885548::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::6211521267416672244::1740884714::1740885548::1::::<><>::
+_WallHang.png::CompressedTexture2D::7503848076739959911::1740884715::1740885548::1::::<><>::
+_WallSlide.png::CompressedTexture2D::5982035634079177214::1740884715::1740885548::1::::<><>::
+::res://Assets/Characters/Colour2/Outline/::1740884716
+::res://Assets/Characters/Colour2/Outline/120x80_gifs/::1740884716
+::res://Assets/Characters/Colour2/Outline/120x80_PNGSheets/::1740885550
+_Attack2.png::CompressedTexture2D::7025830469583768434::1740884716::1740885548::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::7204998296219963261::1740884716::1740885548::1::::<><>::
+_Attack.png::CompressedTexture2D::860770452912577337::1740884716::1740885548::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::4132796095962116382::1740884716::1740885548::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::6436210912075922701::1740884717::1740885548::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::8630740078485654192::1740884717::1740885548::1::::<><>::
+_Crouch.png::CompressedTexture2D::7751894718171305810::1740884717::1740885548::1::::<><>::
+_CrouchAll.png::CompressedTexture2D::9157265322839552872::1740884717::1740885548::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::4555752243607879804::1740884717::1740885548::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::3869727066614102682::1740884717::1740885548::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::2796976840597454015::1740884717::1740885548::1::::<><>::
+_Dash.png::CompressedTexture2D::9148019743266098396::1740884717::1740885549::1::::<><>::
+_Death.png::CompressedTexture2D::7210050924014659382::1740884717::1740885549::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::1109787218847539428::1740884717::1740885549::1::::<><>::
+_Fall.png::CompressedTexture2D::3534796997157631720::1740884718::1740885549::1::::<><>::
+_Hit.png::CompressedTexture2D::5923523959474194299::1740884718::1740885549::1::::<><>::
+_Idle.png::CompressedTexture2D::1437185281729061196::1740884718::1740885549::1::::<><>::
+_Jump.png::CompressedTexture2D::5268120164369856641::1740884718::1740885549::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::3784863098282959248::1740884718::1740885549::1::::<><>::
+_Roll.png::CompressedTexture2D::6052318965121577346::1740884718::1740885549::1::::<><>::
+_Run.png::CompressedTexture2D::6291290254530945685::1740884718::1740885549::1::::<><>::
+_Slide.png::CompressedTexture2D::2397460273721714865::1740884718::1740885549::1::::<><>::
+_SlideAll.png::CompressedTexture2D::5979486624600935831::1740884718::1740885549::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::2214135716289832492::1740884718::1740885549::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::681653884176045743::1740884719::1740885549::1::::<><>::
+_TurnAround.png::CompressedTexture2D::3512040288939882739::1740884719::1740885549::1::::<><>::
+_WallClimb.png::CompressedTexture2D::5836127752456357926::1740884719::1740885549::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::5975440869921499530::1740884719::1740885548::1::::<><>::
+_WallHang.png::CompressedTexture2D::3034123156112741829::1740884719::1740885550::1::::<><>::
+_WallSlide.png::CompressedTexture2D::6095765674922630027::1740884719::1740885550::1::::<><>::
+::res://Assets/Characters/Deco/::1740885550
+01.png::CompressedTexture2D::7351469025218481782::1740884719::1740885550::1::::<><>::
+02.png::CompressedTexture2D::2614906191252157694::1740884719::1740885550::1::::<><>::
+03.png::CompressedTexture2D::7906491579400916383::1740884719::1740885550::1::::<><>::
+04.png::CompressedTexture2D::194261352796166175::1740884719::1740885550::1::::<><>::
+05.png::CompressedTexture2D::574602665495641996::1740884719::1740885550::1::::<><>::
+06.png::CompressedTexture2D::3826576328950109712::1740884720::1740885550::1::::<><>::
+07.png::CompressedTexture2D::4286209072787914363::1740884720::1740885550::1::::<><>::
+08.png::CompressedTexture2D::3645885754045644096::1740884720::1740885550::1::::<><>::
+09.png::CompressedTexture2D::5439616026517796764::1740884720::1740885550::1::::<><>::
+10.png::CompressedTexture2D::8961093522495847917::1740884720::1740885550::1::::<><>::
+11.png::CompressedTexture2D::6827876851497150382::1740884720::1740885550::1::::<><>::
+12.png::CompressedTexture2D::3421879676925324689::1740884720::1740885550::1::::<><>::
+13.png::CompressedTexture2D::1468355219760640631::1740884720::1740885550::1::::<><>::
+14.png::CompressedTexture2D::310759053859580803::1740884720::1740885549::1::::<><>::
+15.png::CompressedTexture2D::4644256768119190868::1740884721::1740885549::1::::<><>::
+16.png::CompressedTexture2D::1325258503258628923::1740884721::1740885550::1::::<><>::
+17.png::CompressedTexture2D::4527073609927246038::1740884721::1740885550::1::::<><>::
+18.png::CompressedTexture2D::9209456882462295758::1740884721::1740885550::1::::<><>::
+::res://Assets/Characters/Evil Wizard/::1740884721
+License.txt::TextFile::-1::1740884721::0::1::::<><>::
+::res://Assets/Characters/Evil Wizard/Sprites/::1740885550
+Attack.png::CompressedTexture2D::8668181842259383154::1740884721::1740885550::1::::<><>::
+Death.png::CompressedTexture2D::7746490667886631849::1740884721::1740885550::1::::<><>::
+Idle.png::CompressedTexture2D::4799654471556218009::1740884721::1740885550::1::::<><>::
+Move.png::CompressedTexture2D::2463372255434949073::1740884721::1740885550::1::::<><>::
+Take Hit.png::CompressedTexture2D::1864589470411043954::1740884721::1740885550::1::::<><>::
+::res://Assets/Characters/EVil Wizard 2/::1740884721
+License.txt::TextFile::-1::1740884721::0::1::::<><>::
+::res://Assets/Characters/EVil Wizard 2/Sprites/::1740885550
+Attack1.png::CompressedTexture2D::5977206047251007262::1740884721::1740885550::1::::<><>::
+Attack2.png::CompressedTexture2D::3949524037252795699::1740884722::1740885550::1::::<><>::
+Death.png::CompressedTexture2D::5663517399885372143::1740884722::1740885550::1::::<><>::
+Fall.png::CompressedTexture2D::7248239071309235374::1740884722::1740885550::1::::<><>::
+Idle.png::CompressedTexture2D::1704253728085490807::1740884722::1740885550::1::::<><>::
+Jump.png::CompressedTexture2D::5811095734165377249::1740884722::1740885550::1::::<><>::
+Run.png::CompressedTexture2D::7880595319945799939::1740884722::1740885550::1::::<><>::
+Take hit.png::CompressedTexture2D::4967877448921284629::1740884722::1740885550::1::::<><>::
+::res://Assets/Characters/Fantasy Warrior/::1740884722
+License.txt::TextFile::-1::1740884722::0::1::::<><>::
+::res://Assets/Characters/Fantasy Warrior/Sprites/::1740885550
+Attack1.png::CompressedTexture2D::5799512862689345550::1740884722::1740885550::1::::<><>::
+Attack2.png::CompressedTexture2D::5707520181012570694::1740884722::1740885550::1::::<><>::
+Attack3.png::CompressedTexture2D::7492282793646444906::1740884722::1740885549::1::::<><>::
+Death.png::CompressedTexture2D::7799356490889311510::1740884723::1740885549::1::::<><>::
+Fall.png::CompressedTexture2D::3841055522445198348::1740884723::1740885549::1::::<><>::
+Idle.png::CompressedTexture2D::2800367958214340659::1740884723::1740885549::1::::<><>::
+Jump.png::CompressedTexture2D::7687252628689035226::1740884723::1740885549::1::::<><>::
+Run.png::CompressedTexture2D::6510380445909199624::1740884723::1740885549::1::::<><>::
+Take hit.png::CompressedTexture2D::8998475014952345381::1740884723::1740885549::1::::<><>::
+::res://Assets/Characters/Fire Worm/::1740885549
+License.txt::TextFile::-1::1740884723::0::1::::<><>::
+Preview.png::CompressedTexture2D::5042080510985398755::1740884723::1740885549::1::::<><>::
+::res://Assets/Characters/Fire Worm/Sprites/::1740884723
+::res://Assets/Characters/Fire Worm/Sprites/Fire Ball/::1740885549
+Explosion.png::CompressedTexture2D::867481853791013795::1740884723::1740885549::1::::<><>::
+Move.png::CompressedTexture2D::7204203458111729240::1740884723::1740885549::1::::<><>::
+::res://Assets/Characters/Fire Worm/Sprites/Worm/::1740885549
+Attack.png::CompressedTexture2D::7863181807890376916::1740884723::1740885549::1::::<><>::
+Death.png::CompressedTexture2D::6807277687006266531::1740884724::1740885549::1::::<><>::
+Get Hit.png::CompressedTexture2D::3194004120723739245::1740884724::1740885549::1::::<><>::
+Idle.png::CompressedTexture2D::5261333108462029194::1740884724::1740885549::1::::<><>::
+Walk.png::CompressedTexture2D::674703006425231441::1740884724::1740885549::1::::<><>::
+::res://Assets/Characters/Hero Knight 2/::1740884724
+License.txt::TextFile::-1::1740884724::0::1::::<><>::
+::res://Assets/Characters/Hero Knight 2/Sprites/::1740885550
+Attack.png::CompressedTexture2D::8073292578793196010::1740884724::1740885549::1::::<><>::
+Dash.png::CompressedTexture2D::1122438197585430943::1740884724::1740885549::1::::<><>::
+Death.png::CompressedTexture2D::7967117425708156729::1740884724::1740885550::1::::<><>::
+Fall.png::CompressedTexture2D::766260121570142298::1740884724::1740885549::1::::<><>::
+Idle.png::CompressedTexture2D::3724817085011032293::1740884724::1740885550::1::::<><>::
+Jump.png::CompressedTexture2D::1637646288240568191::1740884724::1740885549::1::::<><>::
+Run.png::CompressedTexture2D::1598236354667262378::1740884725::1740885549::1::::<><>::
+Take Hit.png::CompressedTexture2D::528931129042723039::1740884725::1740885549::1::::<><>::
+::res://Assets/Characters/Huntress/::1740884725
+License.txt::TextFile::-1::1740884725::0::1::::<><>::
+::res://Assets/Characters/Huntress/Sprites/::1740885549
+Attack1.png::CompressedTexture2D::9046092438521878231::1740884725::1740885549::1::::<><>::
+Attack2.png::CompressedTexture2D::3267338775211154000::1740884725::1740885549::1::::<><>::
+Attack3.png::CompressedTexture2D::3062515459248762351::1740884725::1740885549::1::::<><>::
+Death.png::CompressedTexture2D::4809431801391517950::1740884725::1740885549::1::::<><>::
+Fall.png::CompressedTexture2D::4342036615679077957::1740884725::1740885549::1::::<><>::
+Idle.png::CompressedTexture2D::4288784968473345186::1740884725::1740885549::1::::<><>::
+Jump.png::CompressedTexture2D::8258686974766017208::1740884726::1740885549::1::::<><>::
+Run.png::CompressedTexture2D::8669663301110650180::1740884726::1740885549::1::::<><>::
+Spear move.png::CompressedTexture2D::1644509765806600226::1740884726::1740885549::1::::<><>::
+Spear.png::CompressedTexture2D::6433672328399685327::1740884726::1740885549::1::::<><>::
+Take hit.png::CompressedTexture2D::8332936005415276374::1740884726::1740885549::1::::<><>::
+::res://Assets/Characters/Huntress 2/::1740885554
+License.txt::TextFile::-1::1740884726::0::1::::<><>::
+Preview.png::CompressedTexture2D::8550789257650387982::1740884726::1740885554::1::::<><>::
+::res://Assets/Characters/Huntress 2/Sprites/::1740884726
+::res://Assets/Characters/Huntress 2/Sprites/Arrow/::1740885554
+Move.png::CompressedTexture2D::5174241753044915204::1740884726::1740885554::1::::<><>::
+Static.png::CompressedTexture2D::2204685412945224685::1740884726::1740885554::1::::<><>::
+::res://Assets/Characters/Huntress 2/Sprites/Character/::1740885554
+Attack.png::CompressedTexture2D::4315616804032962413::1740884726::1740885554::1::::<><>::
+Death.png::CompressedTexture2D::6894069521441871924::1740884727::1740885554::1::::<><>::
+Fall.png::CompressedTexture2D::3687530656930314371::1740884727::1740885554::1::::<><>::
+Get Hit.png::CompressedTexture2D::2803977555994456575::1740884727::1740885554::1::::<><>::
+Idle.png::CompressedTexture2D::2975147126350390892::1740884727::1740885554::1::::<><>::
+Jump.png::CompressedTexture2D::4389961278874543037::1740884727::1740885554::1::::<><>::
+Run.png::CompressedTexture2D::8397867797381403506::1740884727::1740885554::1::::<><>::
+::res://Assets/Characters/Knight/::1740885554
+KnightAttack_strip.png::CompressedTexture2D::7964938665719054236::1740884727::1740885554::1::::<><>::
+KnightDeath_strip.png::CompressedTexture2D::7718988839342346356::1740884727::1740885554::1::::<><>::
+KnightIdle_strip.png::CompressedTexture2D::3788364616230932043::1740884727::1740885554::1::::<><>::
+KnightJumpAndFall_strip.png::CompressedTexture2D::5703852826657641607::1740884727::1740885554::1::::<><>::
+KnightRoll_strip.png::CompressedTexture2D::5671794982128288583::1740884728::1740885554::1::::<><>::
+KnightRun_strip.png::CompressedTexture2D::8435996804772024718::1740884728::1740885554::1::::<><>::
+KnightShield_strip.png::CompressedTexture2D::7915911204039885046::1740884728::1740885554::1::::<><>::
+noBKG_KnightAttack_strip.png::CompressedTexture2D::3601602742290752544::1740884728::1740885554::1::::<><>::
+noBKG_KnightDeath_strip.png::CompressedTexture2D::3775558844128003237::1740884728::1740885554::1::::<><>::
+noBKG_KnightIdle_strip.png::CompressedTexture2D::3727941187998362288::1740884728::1740885554::1::::<><>::
+noBKG_KnightJumpAndFall_strip.png::CompressedTexture2D::6941149434206709928::1740884728::1740885554::1::::<><>::
+noBKG_KnightRoll_strip.png::CompressedTexture2D::1866786331324249144::1740884728::1740885554::1::::<><>::
+noBKG_KnightRun_strip.png::CompressedTexture2D::1380455897650028127::1740884728::1740885554::1::::<><>::
+noBKG_KnightShield_strip.png::CompressedTexture2D::1075974664330899350::1740884728::1740885554::1::::<><>::
+::res://Assets/Characters/Knight/Death/::1740885554
+Death-Sheet.png::CompressedTexture2D::5742713706283668053::1740884728::1740885554::1::::<><>::
+::res://Assets/Characters/Knight/Idle/::1740885554
+Idle-Sheet.png::CompressedTexture2D::691315865830415478::1740884729::1740885554::1::::<><>::
+::res://Assets/Characters/Knight/Run/::1740885554
+Run-Sheet.png::CompressedTexture2D::4109894292467550059::1740884729::1740885554::1::::<><>::
+::res://Assets/Characters/Man/::1740884729
+::res://Assets/Characters/Man/Naked/::1740885554
+Death.png::CompressedTexture2D::7768182274033533125::1740884729::1740885554::1::::<><>::
+Hit.png::CompressedTexture2D::6237503216719952376::1740884729::1740885554::1::::<><>::
+Idle.png::CompressedTexture2D::5479326719107703877::1740884729::1740885554::1::::<><>::
+Run.png::CompressedTexture2D::7254468039030677176::1740884729::1740885554::1::::<><>::
+::res://Assets/Characters/Martial Hero/::1740884730
+License.txt::TextFile::-1::1740884729::0::1::::<><>::
+::res://Assets/Characters/Martial Hero/Sprites/::1740885554
+Attack1.png::CompressedTexture2D::6545277968746459485::1740884730::1740885554::1::::<><>::
+Attack2.png::CompressedTexture2D::5488317315782092284::1740884730::1740885554::1::::<><>::
+Death.png::CompressedTexture2D::2361979187283626188::1740884730::1740885554::1::::<><>::
+Fall.png::CompressedTexture2D::4557055811316726176::1740884730::1740885553::1::::<><>::
+Idle.png::CompressedTexture2D::4910319335196231605::1740884730::1740885554::1::::<><>::
+Jump.png::CompressedTexture2D::4432088690986387401::1740884730::1740885553::1::::<><>::
+Run.png::CompressedTexture2D::3811921647253711169::1740884730::1740885553::1::::<><>::
+Take Hit - white silhouette.png::CompressedTexture2D::7398217267587689416::1740884730::1740885553::1::::<><>::
+Take Hit.png::CompressedTexture2D::3936907055023231524::1740884730::1740885553::1::::<><>::
+::res://Assets/Characters/Martial Hero 2/::1740884730
+License.txt::TextFile::-1::1740884730::0::1::::<><>::
+::res://Assets/Characters/Martial Hero 2/Sprites/::1740885553
+Attack1.png::CompressedTexture2D::619838431230258186::1740884730::1740885553::1::::<><>::
+Attack2.png::CompressedTexture2D::2842972576785485592::1740884731::1740885553::1::::<><>::
+Death.png::CompressedTexture2D::2792090293327126382::1740884731::1740885553::1::::<><>::
+Fall.png::CompressedTexture2D::6349432256101894375::1740884731::1740885553::1::::<><>::
+Idle.png::CompressedTexture2D::6579016414027400600::1740884731::1740885553::1::::<><>::
+Jump.png::CompressedTexture2D::4283836399864556888::1740884731::1740885553::1::::<><>::
+Run.png::CompressedTexture2D::2639837526486832120::1740884731::1740885553::1::::<><>::
+Take hit.png::CompressedTexture2D::7240289799350803104::1740884731::1740885553::1::::<><>::
+::res://Assets/Characters/Medieval King Pack/::1740885554
+Attack_1.png::CompressedTexture2D::8513233098842508747::1740884731::1740885553::1::::<><>::
+Attack_2.png::CompressedTexture2D::3724938288357254014::1740884731::1740885553::1::::<><>::
+Death.png::CompressedTexture2D::6981778672546979777::1740884731::1740885553::1::::<><>::
+Fall.png::CompressedTexture2D::704187039587960278::1740884732::1740885554::1::::<><>::
+Hit.png::CompressedTexture2D::8715660039794267283::1740884732::1740885554::1::::<><>::
+Idle.png::CompressedTexture2D::6863966734313781679::1740884732::1740885554::1::::<><>::
+Jump.png::CompressedTexture2D::4976231738214345128::1740884732::1740885554::1::::<><>::
+Run.png::CompressedTexture2D::5846419278758620924::1740884732::1740885554::1::::<><>::
+::res://Assets/Characters/Medieval King Pack 2/::1740884732
+License.txt::TextFile::-1::1740884732::0::1::::<><>::
+::res://Assets/Characters/Medieval King Pack 2/Sprites/::1740885554
+Attack1.png::CompressedTexture2D::3125912952264735513::1740884732::1740885554::1::::<><>::
+Attack2.png::CompressedTexture2D::5540061899865136873::1740884732::1740885554::1::::<><>::
+Attack3.png::CompressedTexture2D::2658438116845825266::1740884732::1740885554::1::::<><>::
+Death.png::CompressedTexture2D::4443878631754203048::1740884732::1740885554::1::::<><>::
+Fall.png::CompressedTexture2D::3878588747655661369::1740884732::1740885554::1::::<><>::
+Idle.png::CompressedTexture2D::5974748141929883919::1740884733::1740885554::1::::<><>::
+Jump.png::CompressedTexture2D::5147910129547005635::1740884733::1740885554::1::::<><>::
+Run.png::CompressedTexture2D::5155784150765995697::1740884733::1740885554::1::::<><>::
+Take Hit - white silhouette.png::CompressedTexture2D::7782436380776166998::1740884733::1740885554::1::::<><>::
+Take Hit.png::CompressedTexture2D::3973946043164249017::1740884733::1740885553::1::::<><>::
+::res://Assets/Characters/Medieval Warrior Pack/::1740885555
+Attack1.png::CompressedTexture2D::6529401388526856480::1740884733::1740885553::1::::<><>::
+Attack2.png::CompressedTexture2D::539739859312477134::1740884733::1740885553::1::::<><>::
+Death.png::CompressedTexture2D::8353871100706353992::1740884733::1740885555::1::::<><>::
+Fall.png::CompressedTexture2D::3190112555366568628::1740884733::1740885555::1::::<><>::
+Hit.png::CompressedTexture2D::2564353628919626495::1740884733::1740885555::1::::<><>::
+Idle.png::CompressedTexture2D::2235642436688762720::1740884733::1740885555::1::::<><>::
+Jump.png::CompressedTexture2D::8923907112524377391::1740884734::1740885555::1::::<><>::
+Run.png::CompressedTexture2D::1699717216332679503::1740884734::1740885555::1::::<><>::
+::res://Assets/Characters/Medieval Warrior Pack 2/::1740884734
+License.txt::TextFile::-1::1740884734::0::1::::<><>::
+::res://Assets/Characters/Medieval Warrior Pack 2/Sprites/::1740885555
+Attack1.png::CompressedTexture2D::5944309025548372936::1740884734::1740885555::1::::<><>::
+Attack2.png::CompressedTexture2D::2300512801047795149::1740884734::1740885555::1::::<><>::
+Attack3.png::CompressedTexture2D::6403150499793143359::1740884734::1740885555::1::::<><>::
+Attack4.png::CompressedTexture2D::4945477989711441006::1740884734::1740885555::1::::<><>::
+Death.png::CompressedTexture2D::220179911118191848::1740884734::1740885555::1::::<><>::
+Fall.png::CompressedTexture2D::4315465261383387889::1740884734::1740885555::1::::<><>::
+Idle.png::CompressedTexture2D::8755029048219610501::1740884734::1740885555::1::::<><>::
+Jump.png::CompressedTexture2D::4756055564943044339::1740884734::1740885555::1::::<><>::
+Run.png::CompressedTexture2D::7863085819384919721::1740884735::1740885555::1::::<><>::
+Take Hit - white silhouette.png::CompressedTexture2D::645242049953187838::1740884735::1740885555::1::::<><>::
+Take Hit.png::CompressedTexture2D::2492125922687871815::1740884735::1740885555::1::::<><>::
+::res://Assets/Characters/Monsters_Creatures_Fantasy/::1740885554
+All Characters.png::CompressedTexture2D::1393335427862112028::1740884735::1740885554::1::::<><>::
+::res://Assets/Characters/Monsters_Creatures_Fantasy/Flying eye/::1740885555
+Attack.png::CompressedTexture2D::6897758660576308727::1740884735::1740885555::1::::<><>::
+Death.png::CompressedTexture2D::2622290262300045063::1740884735::1740885555::1::::<><>::
+Flight.png::CompressedTexture2D::8538323295802700904::1740884735::1740885555::1::::<><>::
+Take Hit.png::CompressedTexture2D::4262436120386343935::1740884735::1740885555::1::::<><>::
+::res://Assets/Characters/Monsters_Creatures_Fantasy/Goblin/::1740885555
+Attack.png::CompressedTexture2D::8341509061192069362::1740884735::1740885555::1::::<><>::
+Death.png::CompressedTexture2D::7308227845479802442::1740884735::1740885555::1::::<><>::
+Idle.png::CompressedTexture2D::3857793869521923148::1740884736::1740885555::1::::<><>::
+Run.png::CompressedTexture2D::8846156650048993359::1740884736::1740885555::1::::<><>::
+Take Hit.png::CompressedTexture2D::3702253053139027865::1740884736::1740885555::1::::<><>::
+::res://Assets/Characters/Monsters_Creatures_Fantasy/Mushroom/::1740885555
+Attack.png::CompressedTexture2D::8119749810262825552::1740884736::1740885555::1::::<><>::
+Death.png::CompressedTexture2D::3542267101702622156::1740884736::1740885555::1::::<><>::
+Idle.png::CompressedTexture2D::4501035136337397134::1740884736::1740885555::1::::<><>::
+Run.png::CompressedTexture2D::7232191855481919892::1740884736::1740885555::1::::<><>::
+Take Hit.png::CompressedTexture2D::7413740674297020731::1740884736::1740885555::1::::<><>::
+::res://Assets/Characters/Monsters_Creatures_Fantasy/Skeleton/::1740885554
+Attack.png::CompressedTexture2D::5910239304517967082::1740884736::1740885554::1::::<><>::
+Death.png::CompressedTexture2D::1585606724367319299::1740884736::1740885554::1::::<><>::
+Idle.png::CompressedTexture2D::2525162528120677445::1740884736::1740885554::1::::<><>::
+Shield.png::CompressedTexture2D::2433549058595967727::1740884737::1740885554::1::::<><>::
+Take Hit.png::CompressedTexture2D::4259628982180494464::1740884737::1740885554::1::::<><>::
+Walk.png::CompressedTexture2D::4162850414519173768::1740884737::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/::1740884738
+::res://Assets/Characters/Orc Crew/Orc/::1740884737
+::res://Assets/Characters/Orc Crew/Orc/Death/::1740885554
+Death-Sheet.png::CompressedTexture2D::1739117522484225213::1740884737::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc/Idle/::1740885554
+Idle-Sheet.png::CompressedTexture2D::7465078886968697066::1740884737::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc/Run/::1740885554
+Run-Sheet.png::CompressedTexture2D::77332534793501476::1740884737::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Rogue/::1740884738
+::res://Assets/Characters/Orc Crew/Orc - Rogue/Death/::1740885554
+Death-Sheet.png::CompressedTexture2D::1559311358476447415::1740884737::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Rogue/Idle/::1740885554
+Idle-Sheet.png::CompressedTexture2D::1311696325828699227::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Rogue/Run/::1740885554
+Run-Sheet.png::CompressedTexture2D::3806292867537224801::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Shaman/::1740884738
+::res://Assets/Characters/Orc Crew/Orc - Shaman/Death/::1740885554
+Death-Sheet.png::CompressedTexture2D::7088693660418606880::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Shaman/Idle/::1740885554
+Idle-Sheet.png::CompressedTexture2D::1924930020837149770::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Shaman/Run/::1740885554
+Run-Sheet.png::CompressedTexture2D::2418327052983265868::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Warrior/::1740884739
+::res://Assets/Characters/Orc Crew/Orc - Warrior/Death/::1740885554
+Death-Sheet.png::CompressedTexture2D::6687894795985542347::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Warrior/Idle/::1740885554
+Idle-Sheet.png::CompressedTexture2D::6979187733047103767::1740884738::1740885554::1::::<><>::
+::res://Assets/Characters/Orc Crew/Orc - Warrior/Run/::1740885554
+Run-Sheet.png::CompressedTexture2D::8244092475651602569::1740884739::1740885554::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/::1740884739
+::res://Assets/Characters/PersonajesMedievales/Arrow(Projectile)/::1740885554
+Arrow01(32x32).png::CompressedTexture2D::4906771789851994339::1740884739::1740885554::1::::<><>::
+Arrow01(100x100).png::CompressedTexture2D::4251216480622762208::1740884739::1740885554::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Aseprite file/::1740884739
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/::1740884741
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Orc/::1740884741
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Orc/Orc/::1740885555
+Orc-Attack01.png::CompressedTexture2D::4445950905885638022::1740884739::1740885554::1::::<><>::
+Orc-Attack02.png::CompressedTexture2D::1661375718421055165::1740884739::1740885554::1::::<><>::
+Orc-Death.png::CompressedTexture2D::7298962840527022128::1740884739::1740885554::1::::<><>::
+Orc-Hurt.png::CompressedTexture2D::3996230751649730035::1740884739::1740885554::1::::<><>::
+Orc-Idle.png::CompressedTexture2D::2329680045642306214::1740884739::1740885554::1::::<><>::
+Orc-Walk.png::CompressedTexture2D::1739922074692444680::1740884740::1740885554::1::::<><>::
+Orc.png::CompressedTexture2D::5764821162248765965::1740884740::1740885554::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Orc/Orc/Shadow sprites/::1740885554
+Orc-shadow.png::CompressedTexture2D::8951668191964287400::1740884740::1740885554::1::::<><>::
+Orc-shadow_attack02.png::CompressedTexture2D::8134870832256135080::1740884740::1740885554::1::::<><>::
+Orc-shadow_death.png::CompressedTexture2D::7690105203194566030::1740884740::1740885554::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Orc/Orc with shadows/::1740885554
+Orc-Attack01.png::CompressedTexture2D::8749926441223206860::1740884740::1740885554::1::::<><>::
+Orc-Attack02.png::CompressedTexture2D::4029321766142825909::1740884740::1740885554::1::::<><>::
+Orc-Death.png::CompressedTexture2D::2512966674884974887::1740884740::1740885554::1::::<><>::
+Orc-Hurt.png::CompressedTexture2D::8328071716100543451::1740884740::1740885554::1::::<><>::
+Orc-Idle.png::CompressedTexture2D::8328869430509870812::1740884740::1740885554::1::::<><>::
+Orc-Walk.png::CompressedTexture2D::8020652098451685346::1740884740::1740885554::1::::<><>::
+Orc.png::CompressedTexture2D::8089209661081679728::1740884740::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Orc/Orc(Split Effects)/::1740885552
+Orc-attack01_Effect.png::CompressedTexture2D::2582995942899778132::1740884741::1740885552::1::::<><>::
+Orc-attack02_Effect.png::CompressedTexture2D::1262949486895481513::1740884741::1740885552::1::::<><>::
+Orc.png::CompressedTexture2D::938217575361177734::1740884741::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/::1740884743
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/Arrow(projectile)/::1740885552
+Arrow01(32x32).png::CompressedTexture2D::3851734413783469595::1740884741::1740885552::1::::<><>::
+Arrow01(100x100).png::CompressedTexture2D::849222069833185377::1740884741::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/Soldier/::1740885552
+Soldier-Attack01.png::CompressedTexture2D::1389224113534864487::1740884741::1740885552::1::::<><>::
+Soldier-Attack02.png::CompressedTexture2D::3100126891477036949::1740884741::1740885552::1::::<><>::
+Soldier-Attack03.png::CompressedTexture2D::8736474304195285474::1740884741::1740885552::1::::<><>::
+Soldier-Death.png::CompressedTexture2D::8543512057570124895::1740884741::1740885552::1::::<><>::
+Soldier-Hurt.png::CompressedTexture2D::1644388101225951701::1740884741::1740885552::1::::<><>::
+Soldier-Idle.png::CompressedTexture2D::7778258617032120546::1740884742::1740885552::1::::<><>::
+Soldier-Shadow_attack2.png::CompressedTexture2D::2060250685974369002::1740884742::1740885552::1::::<><>::
+Soldier-Walk.png::CompressedTexture2D::3586128624470561391::1740884742::1740885552::1::::<><>::
+Soldier.png::CompressedTexture2D::445323494289226344::1740884742::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/Soldier/Shadow sprites/::1740885552
+Soldier-Shadow.png::CompressedTexture2D::3825388334435790852::1740884742::1740885552::1::::<><>::
+Soldier-Shadow_death.png::CompressedTexture2D::1699986838769400293::1740884742::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/Soldier with shadows/::1740885552
+Soldier-Attack01.png::CompressedTexture2D::7491301627821388325::1740884742::1740885552::1::::<><>::
+Soldier-Attack02.png::CompressedTexture2D::2236993600691644515::1740884742::1740885552::1::::<><>::
+Soldier-Attack03.png::CompressedTexture2D::1038241880698257099::1740884742::1740885552::1::::<><>::
+Soldier-Death.png::CompressedTexture2D::1634808379226088095::1740884742::1740885552::1::::<><>::
+Soldier-Hurt.png::CompressedTexture2D::6101725491793530680::1740884742::1740885552::1::::<><>::
+Soldier-Idle.png::CompressedTexture2D::7210375223386158133::1740884743::1740885552::1::::<><>::
+Soldier-Walk.png::CompressedTexture2D::4541494168341948374::1740884743::1740885552::1::::<><>::
+Soldier.png::CompressedTexture2D::7756513012103356386::1740884743::1740885552::1::::<><>::
+::res://Assets/Characters/PersonajesMedievales/Characters(100x100)/Soldier/Soldier(Split Effects)/::1740885552
+Soldier-Attack01_Effect.png::CompressedTexture2D::7457808138201405769::1740884743::1740885552::1::::<><>::
+Soldier-Attack02_Effect.png::CompressedTexture2D::2696299928951111111::1740884743::1740885552::1::::<><>::
+Soldier-Attack03_Effect.png::CompressedTexture2D::6085575855858490857::1740884743::1740885552::1::::<><>::
+Soldier.png::CompressedTexture2D::7226797198890014998::1740884743::1740885552::1::::<><>::
+::res://Assets/Characters/Resources/::1740885552
+G_Idle.png::CompressedTexture2D::8756149093106408587::1740884743::1740885552::1::::<><>::
+G_Idle_(NoShadow).png::CompressedTexture2D::791029095377243223::1740884743::1740885552::1::::<><>::
+G_Spawn.png::CompressedTexture2D::5571133870239557221::1740884743::1740885552::1::::<><>::
+M_Idle.png::CompressedTexture2D::2988285458537098611::1740884743::1740885552::1::::<><>::
+M_Idle_(NoShadow).png::CompressedTexture2D::2535807157696993324::1740884744::1740885552::1::::<><>::
+M_Spawn.png::CompressedTexture2D::4967743132174061427::1740884744::1740885551::1::::<><>::
+W_Idle.png::CompressedTexture2D::4011060254241161004::1740884744::1740885551::1::::<><>::
+W_Idle_(NoShadow).png::CompressedTexture2D::2631848526004172620::1740884744::1740885551::1::::<><>::
+W_Spawn.png::CompressedTexture2D::5363823171454566717::1740884744::1740885552::1::::<><>::
+::res://Assets/Characters/Rogue/::1740884744
+::res://Assets/Characters/Rogue/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::418088012743819212::1740884744::1740885552::1::::<><>::
+::res://Assets/Characters/Rogue/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::5179185386422556251::1740884744::1740885552::1::::<><>::
+::res://Assets/Characters/Rogue/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::2289959286147773692::1740884744::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/::1740884746
+::res://Assets/Characters/Skeleton Crew/Skeleton - Base/::1740884745
+::res://Assets/Characters/Skeleton Crew/Skeleton - Base/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::6837917883775626879::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Base/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::2876083300338086074::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Base/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::4414411306435997009::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Mage/::1740884745
+::res://Assets/Characters/Skeleton Crew/Skeleton - Mage/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::8586322538708091618::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Mage/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::7298094632807253833::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Mage/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::573724373061801202::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Rogue/::1740884746
+::res://Assets/Characters/Skeleton Crew/Skeleton - Rogue/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::6909114972010891523::1740884745::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Rogue/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::2966510251900694981::1740884746::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Rogue/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::2831195102226750364::1740884746::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Warrior/::1740884746
+::res://Assets/Characters/Skeleton Crew/Skeleton - Warrior/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::2101578775750871453::1740884746::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Warrior/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::8519359176682589405::1740884746::1740885552::1::::<><>::
+::res://Assets/Characters/Skeleton Crew/Skeleton - Warrior/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::7061964812798187847::1740884746::1740885552::1::::<><>::
+::res://Assets/Characters/Wizard Pack/::1740885552
+Attack1.png::CompressedTexture2D::5962989401464387731::1740884746::1740885552::1::::<><>::
+Attack2.png::CompressedTexture2D::6792209423143796664::1740884746::1740885552::1::::<><>::
+Death.png::CompressedTexture2D::3857393132005486487::1740884747::1740885552::1::::<><>::
+Fall.png::CompressedTexture2D::7365764525368295399::1740884747::1740885552::1::::<><>::
+Hit.png::CompressedTexture2D::2060774300238271739::1740884747::1740885552::1::::<><>::
+Idle.png::CompressedTexture2D::1793859086512075228::1740884747::1740885552::1::::<><>::
+Jump.png::CompressedTexture2D::8127579874681869337::1740884747::1740885552::1::::<><>::
+Run.png::CompressedTexture2D::8802254078614771121::1740884747::1740885552::1::::<><>::
+::res://Assets/Characters/Wizzard/::1740884747
+::res://Assets/Characters/Wizzard/Death/::1740885552
+Death-Sheet.png::CompressedTexture2D::959436313120353892::1740884747::1740885552::1::::<><>::
+::res://Assets/Characters/Wizzard/Idle/::1740885552
+Idle-Sheet.png::CompressedTexture2D::166512756426244376::1740884747::1740885552::1::::<><>::
+::res://Assets/Characters/Wizzard/Run/::1740885552
+Run-Sheet.png::CompressedTexture2D::8095187661067968887::1740884747::1740885552::1::::<><>::
+::res://Assets/Characters/Woman/::1740884747
+::res://Assets/Characters/Woman/Naked/::1740885553
+Death.png::CompressedTexture2D::3746222016163285103::1740884748::1740885552::1::::<><>::
+Hit.png::CompressedTexture2D::4439180714168913754::1740884748::1740885552::1::::<><>::
+Idle.png::CompressedTexture2D::4606981572764355508::1740884748::1740885552::1::::<><>::
+Run.png::CompressedTexture2D::3961835696132757075::1740884748::1740885553::1::::<><>::
+::res://Assets/Font/::1740985213
+::res://Assets/Font/alagard/::1740885541
+alagard.ttf::FontFile::5643896056269556961::1740884748::1740885541::1::::<><>::
+::res://Assets/Font/edit-undo/::1740894639
+editundo.ttf::FontFile::3212835116016316031::1740884748::1740885541::1::::<><>::
+editundo.txt::TextFile::-1::1740884748::0::1::::<><>::
+edundot.ttf::FontFile::6614700097147343313::1740884749::1740885541::1::::<><>::
+edunline.ttf::FontFile::3133733381621596635::1740884749::1740885541::1::::<><>::
+::res://Assets/Font/enchanted_land/::1740978941
+Enchanted Land II.png::CompressedTexture2D::1482823723862831508::1740978918::1740978941::1::::<><>::
+Enchanted Land.otf::FontFile::4696896802051010724::1740978918::1740978941::1::::<><>::
+readme.txt::TextFile::-1::1740978918::0::1::::<><>::
+::res://Assets/Music-Sounds/::1740884749
+::res://Assets/Music-Sounds/music/::1740885542
+time_for_adventure.mp3::AudioStreamMP3::4130354658423065907::1740884749::1740885542::1::::<><>::
+::res://Assets/Music-Sounds/sounds/::1740885555
+coin.wav::AudioStreamWAV::6061179110672778651::1740884749::1740885555::1::::<><>::
+explosion.wav::AudioStreamWAV::2610458032656110570::1740884749::1740885555::1::::<><>::
+hurt.wav::AudioStreamWAV::5492617834422832045::1740884749::1740885555::1::::<><>::
+jump.wav::AudioStreamWAV::3328715298733780769::1740884749::1740885555::1::::<><>::
+power_up.wav::AudioStreamWAV::3117912967145843114::1740884749::1740885555::1::::<><>::
+tap.wav::AudioStreamWAV::7130159227300184053::1740884749::1740885555::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/::1740888135
+read_me.txt::TextFile::-1::1740888135::0::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Characters/::1740888143
+Basic Charakter Actions.png::CompressedTexture2D::4042073471064806391::1740888135::1740888143::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::533705377435447466::1740888135::1740888143::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::5852392021768614239::1740888135::1740888143::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::3832477614889264259::1740888135::1740888143::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::2404962540304297244::1740888135::1740888143::1::::<><>::
+Tools.png::CompressedTexture2D::1063088476000692096::1740888135::1740888143::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/::1740888143
+Basic_Furniture.png::CompressedTexture2D::6201917870389696849::1740888135::1740888143::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::6533293383514050619::1740888135::1740888143::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::2728299950630840860::1740888135::1740888143::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::2665559478474017917::1740888135::1740888143::1::::<><>::
+Chest.png::CompressedTexture2D::8520355123257470824::1740888135::1740888143::1::::<><>::
+Egg_item.png::CompressedTexture2D::6077932161174540433::1740888135::1740888143::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::6120263261812624424::1740888135::1740888143::1::::<><>::
+Paths.png::CompressedTexture2D::8549383346903869541::1740888135::1740888143::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::5322245169501360429::1740888135::1740888143::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::7544983401028357733::1740888135::1740888143::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1740888143
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::755904704868641003::1740888135::1740888143::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::7592464812023968072::1740888135::1740888143::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/::1740888143
+Bitmask references 1.png::CompressedTexture2D::764758881383605570::1740888135::1740888143::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::6701834538461889903::1740888135::1740888143::1::::<><>::
+Doors.png::CompressedTexture2D::3148594007232550957::1740888135::1740888143::1::::<><>::
+Fences.png::CompressedTexture2D::6553482237589340222::1740888135::1740888143::1::::<><>::
+Grass.png::CompressedTexture2D::4299135503047087105::1740888135::1740888143::1::::<><>::
+Hills.png::CompressedTexture2D::9148947992801766193::1740888135::1740888143::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::5123671846398430744::1740888135::1740888143::1::::<><>::
+Tilled_Dirt_v2.png::CompressedTexture2D::6446103627732134810::1740888135::1740888143::1::::<><>::
+Tilled_Dirt_Wide.png::CompressedTexture2D::5953568878855691490::1740888135::1740888143::1::::<><>::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::9081584604805747500::1740888135::1740888143::1::::<><>::
+Water.png::CompressedTexture2D::8545429627891478464::1740888135::1740888143::1::::<><>::
+Wooden_House_Roof_Tilset.png::CompressedTexture2D::2201073581780116204::1740888135::1740888143::1::::<><>::
+Wooden_House_Walls_Tilset.png::CompressedTexture2D::1783357426746429241::1740888135::1740888143::1::::<><>::
+::res://Assets/TileSet-Items/::1740888129
+coin.png::CompressedTexture2D::3275037984829122477::1740884750::1740885546::1::::<><>::
+fruit.png::CompressedTexture2D::9145596139192915650::1740884750::1740885546::1::::<><>::
+hola.png::CompressedTexture2D::3576558188546651147::1740884750::1740885546::1::::<><>::
+platforms.png::CompressedTexture2D::6140717522381611438::1740884750::1740885546::1::::<><>::
+world_tileset.png::CompressedTexture2D::1371277412551067180::1740884750::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Deep Cave - WIP/::1740884750
+::res://Assets/TileSet-Items/Deep Cave - WIP/Assets/::1740885553
+Tiles.png::CompressedTexture2D::3987455236932245656::1740884750::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Dungeon Prison/::1740884750
+::res://Assets/TileSet-Items/Dungeon Prison/Assets/::1740885553
+Props.png::CompressedTexture2D::7148280413785060654::1740884750::1740885553::1::::<><>::
+Tiles.png::CompressedTexture2D::4485724767635896489::1740884750::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Green Woods/::1740884751
+::res://Assets/TileSet-Items/Green Woods/Assets/::1740884751
+::res://Assets/TileSet-Items/Green Woods/Assets/Props/::1740884751
+::res://Assets/TileSet-Items/Green Woods/Assets/Props/Trees/::1740884750
+::res://Assets/TileSet-Items/Green Woods/Assets/Props/Trees/Tree_Model_01/::1740885553
+Size_02.png::CompressedTexture2D::4800375672674086713::1740884750::1740885553::1::::<><>::
+Size_03.png::CompressedTexture2D::7444327734031026261::1740884751::1740885553::1::::<><>::
+Size_04.png::CompressedTexture2D::484261503766809856::1740884751::1740885553::1::::<><>::
+Size_05.png::CompressedTexture2D::2223589120583837252::1740884751::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Green Woods/Assets/Props/Vegetation/::1740885553
+Vegetation_01.png::CompressedTexture2D::8109452085375880743::1740884751::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Green Woods/Assets/Tiles/::1740885553
+Tiles.png::CompressedTexture2D::2739811734653358094::1740884751::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Green Woods/Social/::1740884751
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/::1740884752
+Changelog.txt::TextFile::-1::1740884751::0::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/::1740888084
+TX Plant.png::CompressedTexture2D::3285316992135250996::1740884752::1740885553::1::::<><>::
+TX Player.png::CompressedTexture2D::4746181521577357511::1740884752::1740885553::1::::<><>::
+TX Props.png::CompressedTexture2D::5155365026493092059::1740884752::1740885553::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::5724411786110366501::1740884752::1740885553::1::::<><>::
+TX Shadow.png::CompressedTexture2D::7649974799669634841::1740884752::1740885553::1::::<><>::
+TX Struct.png::CompressedTexture2D::7632347923067170995::1740884752::1740885553::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::3776118322758142861::1740884752::1740885553::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::5036740769308514441::1740884752::1740885553::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::3484492413444290580::1740884752::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/Sprout Lands - Sprites - Basic pack/::1740888084
+read_me.txt::TextFile::-1::1740888084::0::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/Sprout Lands - Sprites - Basic pack/Characters/::1740888090
+Basic Charakter Actions.png::CompressedTexture2D::3710830835076274726::1740888084::1740888090::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::4143150073896058043::1740888084::1740888090::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::4024148395364590698::1740888084::1740888090::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::5342304326076482951::1740888084::1740888090::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::4352102527409306793::1740888084::1740888090::1::::<><>::
+Tools.png::CompressedTexture2D::3223361416853557938::1740888084::1740888090::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/Sprout Lands - Sprites - Basic pack/Objects/::1740888090
+Basic_Furniture.png::CompressedTexture2D::6717889017373971310::1740888084::1740888090::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::4276664956420947161::1740888084::1740888090::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::4684038587371056995::1740888084::1740888090::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::5550540072805305028::1740888084::1740888090::1::::<><>::
+Chest.png::CompressedTexture2D::1759714652372385568::1740888084::1740888090::1::::<><>::
+Egg_item.png::CompressedTexture2D::4875732488496528236::1740888084::1740888090::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::3916035706073000507::1740888084::1740888090::1::::<><>::
+Paths.png::CompressedTexture2D::664535433028403629::1740888084::1740888090::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::628957543648515674::1740888084::1740888090::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::648755484706824890::1740888084::1740888090::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1740888090
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::1071753200721420667::1740888084::1740888090::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::8810812642566012410::1740888084::1740888090::1::::<><>::
+::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/Sprout Lands - Sprites - Basic pack/Tilesets/::1740888090
+Bitmask references 1.png::CompressedTexture2D::2884801119776863963::1740888084::1740888090::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::2309978941307502629::1740888084::1740888090::1::::<><>::
+Doors.png::CompressedTexture2D::7953215126003644322::1740888084::1740888090::1::::<><>::
+Fences.png::CompressedTexture2D::1104810579575789267::1740888084::1740888090::1::::<><>::
+Grass.png::CompressedTexture2D::8533688375634098870::1740888084::1740888090::1::::<><>::
+Hills.png::CompressedTexture2D::8709013513893876369::1740888084::1740888090::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::9157493656677046830::1740888084::1740888090::1::::<><>::
+Tilled_Dirt_v2.png::CompressedTexture2D::7228270430019367084::1740888084::1740888090::1::::<><>::
+Tilled_Dirt_Wide.png::CompressedTexture2D::8619660417195831580::1740888084::1740888089::1::::<><>::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::1898727250097522916::1740888084::1740888089::1::::<><>::
+Water.png::CompressedTexture2D::7179095656223348747::1740888084::1740888089::1::::<><>::
+Wooden_House_Roof_Tilset.png::CompressedTexture2D::8750835830895688241::1740888084::1740888089::1::::<><>::
+Wooden_House_Walls_Tilset.png::CompressedTexture2D::8153368648512968334::1740888084::1740888089::1::::<><>::
+::res://Assets/TileSet-Items/Props/::1740884753
+::res://Assets/TileSet-Items/Props/Animated/::1740885553
+Pan_01-Sheet.png::CompressedTexture2D::4357437241787715518::1740884752::1740885553::1::::<><>::
+Pan_02-Sheet.png::CompressedTexture2D::8999847415229745585::1740884753::1740885553::1::::<><>::
+Pan_03-Sheet.png::CompressedTexture2D::2665696898729236564::1740884753::1740885553::1::::<><>::
+Pan_04-Sheet.png::CompressedTexture2D::837084316973812269::1740884753::1740885553::1::::<><>::
+Pan_05-Sheet.png::CompressedTexture2D::5718694643454731769::1740884753::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Props/Static/::1740885553
+Meat.png::CompressedTexture2D::4038082725613054513::1740884753::1740885553::1::::<><>::
+Pan.png::CompressedTexture2D::4911434550774877935::1740884753::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Sprout Lands - Sprites - Basic pack/::1740888129
+read_me.txt::TextFile::-1::1740888129::0::1::::<><>::
+::res://Assets/TileSet-Items/Sprout Lands - Sprites - Basic pack/Characters/::1740888137
+Basic Charakter Actions.png::CompressedTexture2D::5448387320460618588::1740888129::1740888137::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::5273042495028015058::1740888129::1740888137::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::2240797862703332961::1740888129::1740888137::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::1502634184580465683::1740888129::1740888137::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::4686222082040953230::1740888129::1740888137::1::::<><>::
+Tools.png::CompressedTexture2D::2265319711197700773::1740888129::1740888137::1::::<><>::
+::res://Assets/TileSet-Items/Sprout Lands - Sprites - Basic pack/Objects/::1740888137
+Basic_Furniture.png::CompressedTexture2D::7737161806604120256::1740888129::1740888137::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::6182371428776615983::1740888129::1740888137::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::2796212062328510651::1740888129::1740888137::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::3544898422259303172::1740888129::1740888137::1::::<><>::
+Chest.png::CompressedTexture2D::569606271448964595::1740888129::1740888137::1::::<><>::
+Egg_item.png::CompressedTexture2D::3199467061445616571::1740888129::1740888137::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::1103325194665698327::1740888129::1740888137::1::::<><>::
+Paths.png::CompressedTexture2D::6251256662723853742::1740888129::1740888137::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::5402337265076767460::1740888129::1740888137::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::5908863359227128437::1740888129::1740888137::1::::<><>::
+::res://Assets/TileSet-Items/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1740888137
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::8020258220517079113::1740888129::1740888137::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::949279826474942157::1740888129::1740888137::1::::<><>::
+::res://Assets/TileSet-Items/Sprout Lands - Sprites - Basic pack/Tilesets/::1740888137
+Bitmask references 1.png::CompressedTexture2D::7889753723179520080::1740888129::1740888137::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::7626026799316129054::1740888129::1740888137::1::::<><>::
+Doors.png::CompressedTexture2D::7344852767836789033::1740888129::1740888137::1::::<><>::
+Fences.png::CompressedTexture2D::5211007076240641986::1740888129::1740888137::1::::<><>::
+Grass.png::CompressedTexture2D::6246605357324317600::1740888129::1740888137::1::::<><>::
+Hills.png::CompressedTexture2D::2506018201621433028::1740888129::1740888137::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::7642537220438588725::1740888129::1740888137::1::::<><>::
+Tilled_Dirt_v2.png::CompressedTexture2D::5135245696975487404::1740888129::1740888137::1::::<><>::
+Tilled_Dirt_Wide.png::CompressedTexture2D::3569953599867307559::1740888129::1740888137::1::::<><>::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::6643344958604655843::1740888129::1740888137::1::::<><>::
+Water.png::CompressedTexture2D::1048064662038988489::1740888129::1740888137::1::::<><>::
+Wooden_House_Roof_Tilset.png::CompressedTexture2D::6831798752629178156::1740888129::1740888137::1::::<><>::
+Wooden_House_Walls_Tilset.png::CompressedTexture2D::8796479553354779131::1740888129::1740888137::1::::<><>::
+::res://Assets/TileSet-Items/Structures/::1740884836
+::res://Assets/TileSet-Items/Structures/Alchemy/::1740885553
+Alchemy_Table_01-Sheet.png::CompressedTexture2D::4879825247903391656::1740884753::1740885553::1::::<><>::
+Alchemy_Table_02-Sheet.png::CompressedTexture2D::7231374263555338574::1740884754::1740885553::1::::<><>::
+Alchemy_Table_03-Sheet.png::CompressedTexture2D::1764475363303099611::1740884754::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/::1740885547
+Anvil.png::CompressedTexture2D::8007873725898184976::1740884754::1740885545::1::::<><>::
+Anvil_01-Sheet.png::CompressedTexture2D::1849561981474620567::1740884754::1740885545::1::::<><>::
+Anvil_02-Sheet.png::CompressedTexture2D::1430222406550350906::1740884754::1740885545::1::::<><>::
+Anvil_03-Sheet.png::CompressedTexture2D::2977276542295254374::1740884754::1740885545::1::::<><>::
+sangre.png::CompressedTexture2D::1888363025814936122::1740884754::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/::1740884806
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/::1740884806
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Pixel Map/::1740884755
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Pixel Map/Aseprite/::1740884783
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Pixel Map/Aseprite/Inventory Map Spritesheet/::1740866034
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Pixel Map/Aseprite/Map Animated/::1740884783
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/::1740884793
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/::1740884784
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/::1740884784
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/::1740885552
+0.png::CompressedTexture2D::5048814348659865766::1740884783::1740885552::1::::<><>::
+1.png::CompressedTexture2D::2264075175802735729::1740884783::1740885552::1::::<><>::
+2.png::CompressedTexture2D::5366083759645330232::1740884783::1740885552::1::::<><>::
+3.png::CompressedTexture2D::1505640171452443018::1740884783::1740885552::1::::<><>::
+4.png::CompressedTexture2D::3301797665841994550::1740884783::1740885552::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/idle/::1740885552
+0.png::CompressedTexture2D::3067249973112204558::1740884783::1740885552::1::::<><>::
+1.png::CompressedTexture2D::607634408531690239::1740884784::1740885552::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/open/::1740885552
+0.png::CompressedTexture2D::7873424021150137118::1740884784::1740885552::1::::<><>::
+1.png::CompressedTexture2D::5488155252050036149::1740884784::1740885552::1::::<><>::
+2.png::CompressedTexture2D::6075970303768407544::1740884784::1740885552::1::::<><>::
+3.png::CompressedTexture2D::5102488754650395466::1740884784::1740885552::1::::<><>::
+4.png::CompressedTexture2D::2881924626787587631::1740884784::1740885552::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/::1740884786
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Close/::1740885553
+0.png::CompressedTexture2D::2797428898326444512::1740884784::1740885552::1::::<><>::
+1.png::CompressedTexture2D::4755894055640148546::1740884784::1740885552::1::::<><>::
+2.png::CompressedTexture2D::1049343991029196784::1740884784::1740885552::1::::<><>::
+3.png::CompressedTexture2D::6527831559891951862::1740884784::1740885552::1::::<><>::
+4.png::CompressedTexture2D::7715038986137595622::1740884784::1740885553::1::::<><>::
+5.png::CompressedTexture2D::8694344770436920678::1740884785::1740885553::1::::<><>::
+6.png::CompressedTexture2D::1992109443754614551::1740884785::1740885553::1::::<><>::
+7.png::CompressedTexture2D::4739878156709306141::1740884785::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Open/::1740885553
+0.png::CompressedTexture2D::8983055918976896894::1740884785::1740885553::1::::<><>::
+1.png::CompressedTexture2D::8457762470957732505::1740884785::1740885553::1::::<><>::
+2.png::CompressedTexture2D::4884230369864853334::1740884785::1740885553::1::::<><>::
+3.png::CompressedTexture2D::5475317686891463484::1740884785::1740885553::1::::<><>::
+4.png::CompressedTexture2D::1978131107509812826::1740884785::1740885553::1::::<><>::
+5.png::CompressedTexture2D::763657778602751358::1740884785::1740885553::1::::<><>::
+6.png::CompressedTexture2D::6408854998390623721::1740884785::1740885553::1::::<><>::
+7.png::CompressedTexture2D::6690363273582918290::1740884785::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Static/::1740885553
+0.png::CompressedTexture2D::7651376359719903295::1740884786::1740885553::1::::<><>::
+1.png::CompressedTexture2D::651590590117829993::1740884786::1740885553::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/::1740884789
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/With icons/::1740884788
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/With icons/change/::1740885553
+0.png::CompressedTexture2D::8917130655365956170::1740884786::1740885553::1::::<><>::
+1.png::CompressedTexture2D::4398817293044888134::1740884786::1740885553::1::::<><>::
+2.png::CompressedTexture2D::7245709636540432719::1740884786::1740885553::1::::<><>::
+3.png::CompressedTexture2D::5866320232508101673::1740884786::1740885544::1::::<><>::
+4.png::CompressedTexture2D::5262123583244725092::1740884786::1740885544::1::::<><>::
+5.png::CompressedTexture2D::8678896761546025456::1740884786::1740885544::1::::<><>::
+6.png::CompressedTexture2D::2159580287227074176::1740884786::1740885544::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/With icons/close/::1740885544
+0.png::CompressedTexture2D::4576271119283670477::1740884786::1740885544::1::::<><>::
+1.png::CompressedTexture2D::1166266242583592287::1740884787::1740885544::1::::<><>::
+2.png::CompressedTexture2D::2525225344718510913::1740884787::1740885544::1::::<><>::
+3.png::CompressedTexture2D::1878822542592260180::1740884787::1740885544::1::::<><>::
+4.png::CompressedTexture2D::6750035048076783153::1740884787::1740885544::1::::<><>::
+5.png::CompressedTexture2D::1215014278528940530::1740884787::1740885544::1::::<><>::
+6.png::CompressedTexture2D::8232443287479427159::1740884787::1740885544::1::::<><>::
+7.png::CompressedTexture2D::3466626970871617924::1740884788::1740885544::1::::<><>::
+8.png::CompressedTexture2D::4602212176170575971::1740884788::1740885544::1::::<><>::
+9.png::CompressedTexture2D::1632836397066465839::1740884788::1740885544::1::::<><>::
+10.png::CompressedTexture2D::2900447751141362910::1740884787::1740885544::1::::<><>::
+11.png::CompressedTexture2D::4720512049322148003::1740884787::1740885544::1::::<><>::
+12.png::CompressedTexture2D::3989164666550685292::1740884787::1740885544::1::::<><>::
+13.png::CompressedTexture2D::8369614707412234233::1740884787::1740885544::1::::<><>::
+14.png::CompressedTexture2D::3129008954539624188::1740884787::1740885544::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/With icons/open/::1740885544
+0.png::CompressedTexture2D::226037082013173085::1740884788::1740885544::1::::<><>::
+1.png::CompressedTexture2D::4944122990802035485::1740884788::1740885544::1::::<><>::
+2.png::CompressedTexture2D::1430551451443837994::1740884789::1740885544::1::::<><>::
+3.png::CompressedTexture2D::6191727523303201711::1740884789::1740885544::1::::<><>::
+4.png::CompressedTexture2D::5309763964783997133::1740884789::1740885544::1::::<><>::
+5.png::CompressedTexture2D::1105375271403196351::1740884789::1740885544::1::::<><>::
+6.png::CompressedTexture2D::7887677196032935110::1740884789::1740885544::1::::<><>::
+7.png::CompressedTexture2D::8651372150688399698::1740884789::1740885544::1::::<><>::
+8.png::CompressedTexture2D::8884130088672644335::1740884789::1740885544::1::::<><>::
+9.png::CompressedTexture2D::5411864643911641980::1740884789::1740885544::1::::<><>::
+10.png::CompressedTexture2D::4475580079439213262::1740884788::1740885544::1::::<><>::
+11.png::CompressedTexture2D::5321514386429466841::1740884788::1740885544::1::::<><>::
+12.png::CompressedTexture2D::7055722587490726631::1740884788::1740885544::1::::<><>::
+13.png::CompressedTexture2D::4592317473499632322::1740884788::1740885544::1::::<><>::
+14.png::CompressedTexture2D::646729504172355731::1740884788::1740885544::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/::1740884792
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/change/::1740884790
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/change/1/::1740885543
+0.png::CompressedTexture2D::5513862044203228772::1740884789::1740885543::1::::<><>::
+1.png::CompressedTexture2D::2118179480639845186::1740884789::1740885543::1::::<><>::
+2.png::CompressedTexture2D::1002135799109745009::1740884790::1740885543::1::::<><>::
+3.png::CompressedTexture2D::7928699405084090087::1740884790::1740885543::1::::<><>::
+4.png::CompressedTexture2D::7670286126111332751::1740884790::1740885543::1::::<><>::
+5.png::CompressedTexture2D::1098201555248091551::1740884790::1740885543::1::::<><>::
+6.png::CompressedTexture2D::239517573578398751::1740884790::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/change/2/::1740885543
+0.png::CompressedTexture2D::8332712661982670901::1740884790::1740885543::1::::<><>::
+1.png::CompressedTexture2D::6364812127160749330::1740884790::1740885543::1::::<><>::
+2.png::CompressedTexture2D::3131714739855799720::1740884790::1740885543::1::::<><>::
+3.png::CompressedTexture2D::4008961472480261710::1740884790::1740885543::1::::<><>::
+4.png::CompressedTexture2D::8872984311204183678::1740884790::1740885543::1::::<><>::
+5.png::CompressedTexture2D::1239469763228016736::1740884791::1740885543::1::::<><>::
+6.png::CompressedTexture2D::7736239098410463235::1740884791::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/close/::1740885544
+0.png::CompressedTexture2D::8202846393265728104::1740884791::1740885543::1::::<><>::
+1.png::CompressedTexture2D::4306918766042800101::1740884791::1740885543::1::::<><>::
+2.png::CompressedTexture2D::3501006632995604543::1740884791::1740885544::1::::<><>::
+3.png::CompressedTexture2D::4558872636536387282::1740884791::1740885544::1::::<><>::
+4.png::CompressedTexture2D::2412578558512081495::1740884792::1740885544::1::::<><>::
+5.png::CompressedTexture2D::4503075234045626585::1740884792::1740885544::1::::<><>::
+6.png::CompressedTexture2D::1926200718847048361::1740884792::1740885544::1::::<><>::
+7.png::CompressedTexture2D::8998025145648240060::1740884792::1740885544::1::::<><>::
+8.png::CompressedTexture2D::6138600938608486066::1740884792::1740885543::1::::<><>::
+9.png::CompressedTexture2D::2583974126996167475::1740884792::1740885543::1::::<><>::
+10.png::CompressedTexture2D::5844328221472262496::1740884791::1740885543::1::::<><>::
+11.png::CompressedTexture2D::5864293821676063421::1740884791::1740885543::1::::<><>::
+12.png::CompressedTexture2D::5665623156251239398::1740884791::1740885543::1::::<><>::
+13.png::CompressedTexture2D::3891721405038317003::1740884791::1740885543::1::::<><>::
+14.png::CompressedTexture2D::9113401507090461162::1740884791::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Map/Map Tabs/Without icons/open/::1740885545
+0.png::CompressedTexture2D::1143650558112168968::1740884792::1740885543::1::::<><>::
+1.png::CompressedTexture2D::919196057186009577::1740884792::1740885543::1::::<><>::
+2.png::CompressedTexture2D::7345140061511171429::1740884793::1740885543::1::::<><>::
+3.png::CompressedTexture2D::1300896687049921434::1740884793::1740885543::1::::<><>::
+4.png::CompressedTexture2D::6207759862103454329::1740884793::1740885545::1::::<><>::
+5.png::CompressedTexture2D::6762857978849178986::1740884793::1740885545::1::::<><>::
+6.png::CompressedTexture2D::4334921385884237212::1740884793::1740885545::1::::<><>::
+7.png::CompressedTexture2D::8982765282616356401::1740884793::1740885545::1::::<><>::
+8.png::CompressedTexture2D::5359055841482205710::1740884793::1740885545::1::::<><>::
+9.png::CompressedTexture2D::8969447525367503142::1740884793::1740885545::1::::<><>::
+10.png::CompressedTexture2D::1185123088623834239::1740884792::1740885545::1::::<><>::
+11.png::CompressedTexture2D::2957138315670953234::1740884792::1740885545::1::::<><>::
+12.png::CompressedTexture2D::5836422010449603185::1740884792::1740885545::1::::<><>::
+13.png::CompressedTexture2D::5859118931726568268::1740884793::1740885545::1::::<><>::
+14.png::CompressedTexture2D::2772676630823103624::1740884793::1740885545::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/::1740884793
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/::1740884806
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/::1740885545
+0.png::CompressedTexture2D::4201063244720880333::1740884793::1740885545::1::::<><>::
+1.png::CompressedTexture2D::6020382231325699968::1740884794::1740885545::1::::<><>::
+2.png::CompressedTexture2D::9091015700088302968::1740884795::1740885545::1::::<><>::
+3.png::CompressedTexture2D::5987586722270167166::1740884796::1740885545::1::::<><>::
+4.png::CompressedTexture2D::3732529354567418793::1740884797::1740885545::1::::<><>::
+5.png::CompressedTexture2D::2415083020656541010::1740884798::1740885545::1::::<><>::
+6.png::CompressedTexture2D::6527900790474756495::1740884799::1740885545::1::::<><>::
+7.png::CompressedTexture2D::2335455319218894353::1740884799::1740885545::1::::<><>::
+8.png::CompressedTexture2D::7249752235424492290::1740884799::1740885545::1::::<><>::
+9.png::CompressedTexture2D::5715035320508223452::1740884799::1740885545::1::::<><>::
+10.png::CompressedTexture2D::8068009162246525984::1740884794::1740885545::1::::<><>::
+11.png::CompressedTexture2D::2055430093600417468::1740884794::1740885545::1::::<><>::
+12.png::CompressedTexture2D::5528666053158528907::1740884794::1740885545::1::::<><>::
+13.png::CompressedTexture2D::2021902824439554534::1740884794::1740885545::1::::<><>::
+14.png::CompressedTexture2D::4302447467432047475::1740884794::1740885545::1::::<><>::
+15.png::CompressedTexture2D::2642508667988579834::1740884794::1740885545::1::::<><>::
+16.png::CompressedTexture2D::6571338664189666340::1740884794::1740885545::1::::<><>::
+17.png::CompressedTexture2D::1755247313094393662::1740884794::1740885545::1::::<><>::
+18.png::CompressedTexture2D::4610149756759082201::1740884794::1740885545::1::::<><>::
+19.png::CompressedTexture2D::3664635885556615923::1740884794::1740885545::1::::<><>::
+20.png::CompressedTexture2D::2763563332593111608::1740884795::1740885545::1::::<><>::
+21.png::CompressedTexture2D::8334931869583131513::1740884795::1740885545::1::::<><>::
+22.png::CompressedTexture2D::495202892466529031::1740884795::1740885545::1::::<><>::
+23.png::CompressedTexture2D::3811499465318443557::1740884795::1740885544::1::::<><>::
+24.png::CompressedTexture2D::8890152580863731275::1740884795::1740885544::1::::<><>::
+25.png::CompressedTexture2D::7477849950921184052::1740884795::1740885544::1::::<><>::
+26.png::CompressedTexture2D::3652121475878272194::1740884795::1740885544::1::::<><>::
+27.png::CompressedTexture2D::9162132934587470252::1740884795::1740885544::1::::<><>::
+28.png::CompressedTexture2D::7242014498411789857::1740884795::1740885544::1::::<><>::
+29.png::CompressedTexture2D::6357746878192256259::1740884795::1740885544::1::::<><>::
+30.png::CompressedTexture2D::1218877786684215157::1740884796::1740885544::1::::<><>::
+31.png::CompressedTexture2D::5327045209424965510::1740884796::1740885544::1::::<><>::
+32.png::CompressedTexture2D::8152151157110620551::1740884796::1740885544::1::::<><>::
+33.png::CompressedTexture2D::8880330319529953309::1740884796::1740885544::1::::<><>::
+34.png::CompressedTexture2D::4393622959081538804::1740884796::1740885544::1::::<><>::
+35.png::CompressedTexture2D::913034195844182331::1740884796::1740885544::1::::<><>::
+36.png::CompressedTexture2D::857836806261229117::1740884796::1740885544::1::::<><>::
+37.png::CompressedTexture2D::1460351741560779372::1740884796::1740885544::1::::<><>::
+38.png::CompressedTexture2D::5142415206437038442::1740884796::1740885544::1::::<><>::
+39.png::CompressedTexture2D::5654425344690836434::1740884796::1740885545::1::::<><>::
+40.png::CompressedTexture2D::8398392103692972761::1740884797::1740885545::1::::<><>::
+41.png::CompressedTexture2D::9145807982671577645::1740884797::1740885545::1::::<><>::
+42.png::CompressedTexture2D::3047605061685359962::1740884797::1740885545::1::::<><>::
+43.png::CompressedTexture2D::3297603061813659119::1740884797::1740885545::1::::<><>::
+44.png::CompressedTexture2D::8779945335282088234::1740884797::1740885545::1::::<><>::
+45.png::CompressedTexture2D::1604746162210857569::1740884797::1740885545::1::::<><>::
+46.png::CompressedTexture2D::3817703094352709088::1740884797::1740885544::1::::<><>::
+47.png::CompressedTexture2D::2939262088570729134::1740884797::1740885544::1::::<><>::
+48.png::CompressedTexture2D::8900884727315115775::1740884797::1740885544::1::::<><>::
+49.png::CompressedTexture2D::7312272974365164928::1740884797::1740885544::1::::<><>::
+50.png::CompressedTexture2D::4009911702188273655::1740884798::1740885544::1::::<><>::
+51.png::CompressedTexture2D::3908414551306588555::1740884798::1740885544::1::::<><>::
+52.png::CompressedTexture2D::3666091442758618870::1740884798::1740885544::1::::<><>::
+53.png::CompressedTexture2D::4133931676529159994::1740884798::1740885544::1::::<><>::
+54.png::CompressedTexture2D::337688300524256544::1740884798::1740885544::1::::<><>::
+55.png::CompressedTexture2D::5952626018022013514::1740884798::1740885544::1::::<><>::
+56.png::CompressedTexture2D::2583415907296297762::1740884798::1740885542::1::::<><>::
+57.png::CompressedTexture2D::5125310165498862337::1740884798::1740885542::1::::<><>::
+58.png::CompressedTexture2D::688143495129295182::1740884798::1740885542::1::::<><>::
+59.png::CompressedTexture2D::4930674054844492593::1740884798::1740885542::1::::<><>::
+60.png::CompressedTexture2D::6690216545314429626::1740884799::1740885542::1::::<><>::
+61.png::CompressedTexture2D::2885967205700182350::1740884799::1740885542::1::::<><>::
+62.png::CompressedTexture2D::6839890049721443272::1740884799::1740885542::1::::<><>::
+63.png::CompressedTexture2D::7927652287772969271::1740884799::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/compass/::1740885542
+0.png::CompressedTexture2D::504981747322510564::1740884799::1740885542::1::::<><>::
+1.png::CompressedTexture2D::2515179281877169684::1740884799::1740885542::1::::<><>::
+2.png::CompressedTexture2D::7975708352307680169::1740884799::1740885542::1::::<><>::
+3.png::CompressedTexture2D::8669154470988843306::1740884800::1740885542::1::::<><>::
+4.png::CompressedTexture2D::133757296749149652::1740884800::1740885542::1::::<><>::
+5.png::CompressedTexture2D::7498739607910994297::1740884800::1740885542::1::::<><>::
+6.png::CompressedTexture2D::8839955975075550032::1740884800::1740885542::1::::<><>::
+7.png::CompressedTexture2D::5480570068590481266::1740884800::1740885542::1::::<><>::
+8.png::CompressedTexture2D::6791389038629511622::1740884800::1740885542::1::::<><>::
+9.png::CompressedTexture2D::1003222011741035042::1740884800::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Decoration/::1740885542
+0.png::CompressedTexture2D::8818669813752735075::1740884800::1740885542::1::::<><>::
+1.png::CompressedTexture2D::2976686377688889557::1740884800::1740885542::1::::<><>::
+2.png::CompressedTexture2D::2540168620839961829::1740884800::1740885542::1::::<><>::
+3.png::CompressedTexture2D::1586321519804047848::1740884800::1740885542::1::::<><>::
+4.png::CompressedTexture2D::3499872403436750349::1740884801::1740885542::1::::<><>::
+5.png::CompressedTexture2D::7943800265709099616::1740884801::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Emoji Pack/::1740885542
+0.png::CompressedTexture2D::8737566746835619305::1740884801::1740885542::1::::<><>::
+1.png::CompressedTexture2D::1359763722775614623::1740884801::1740885542::1::::<><>::
+2.png::CompressedTexture2D::711227864163008771::1740884801::1740885542::1::::<><>::
+3.png::CompressedTexture2D::5340445053125517973::1740884801::1740885542::1::::<><>::
+4.png::CompressedTexture2D::77719640953234953::1740884801::1740885542::1::::<><>::
+5.png::CompressedTexture2D::3240545847989879369::1740884802::1740885542::1::::<><>::
+6.png::CompressedTexture2D::6422399719826107367::1740884802::1740885542::1::::<><>::
+7.png::CompressedTexture2D::5050033345917400351::1740884802::1740885542::1::::<><>::
+8.png::CompressedTexture2D::5122838121086186400::1740884802::1740885542::1::::<><>::
+9.png::CompressedTexture2D::4116308117371917190::1740884802::1740885542::1::::<><>::
+10.png::CompressedTexture2D::4344662652865227719::1740884801::1740885542::1::::<><>::
+11.png::CompressedTexture2D::4224089770743833215::1740884801::1740885542::1::::<><>::
+12.png::CompressedTexture2D::7455409410547649236::1740884801::1740885542::1::::<><>::
+13.png::CompressedTexture2D::4321975682736712085::1740884801::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/icons/::1740885542
+0.png::CompressedTexture2D::7411329586281728613::1740884802::1740885542::1::::<><>::
+1.png::CompressedTexture2D::6192760170749409457::1740884802::1740885542::1::::<><>::
+2.png::CompressedTexture2D::3200031943516628182::1740884802::1740885542::1::::<><>::
+3.png::CompressedTexture2D::4114653341930415570::1740884802::1740885542::1::::<><>::
+4.png::CompressedTexture2D::2338874409747905061::1740884802::1740885542::1::::<><>::
+5.png::CompressedTexture2D::2854091532804433586::1740884802::1740885542::1::::<><>::
+6.png::CompressedTexture2D::2495629284221579297::1740884803::1740885542::1::::<><>::
+7.png::CompressedTexture2D::4791110593049378340::1740884803::1740885542::1::::<><>::
+8.png::CompressedTexture2D::1021858546072651609::1740884803::1740885542::1::::<><>::
+9.png::CompressedTexture2D::2661368493043618655::1740884803::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Progress Bars/::1740885543
+0.png::CompressedTexture2D::3402330588616977568::1740884803::1740885542::1::::<><>::
+1.png::CompressedTexture2D::5003860676240983156::1740884803::1740885542::1::::<><>::
+2.png::CompressedTexture2D::5397514066944484867::1740884804::1740885542::1::::<><>::
+3.png::CompressedTexture2D::4998838389235410370::1740884805::1740885542::1::::<><>::
+4.png::CompressedTexture2D::1436633030667072730::1740884805::1740885542::1::::<><>::
+5.png::CompressedTexture2D::4104717719856494673::1740884805::1740885542::1::::<><>::
+6.png::CompressedTexture2D::3459398655812401068::1740884805::1740885542::1::::<><>::
+7.png::CompressedTexture2D::7851872049335149655::1740884805::1740885542::1::::<><>::
+8.png::CompressedTexture2D::1576423327500217665::1740884805::1740885542::1::::<><>::
+9.png::CompressedTexture2D::2663715690684379009::1740884806::1740885542::1::::<><>::
+10.png::CompressedTexture2D::3426275291044438023::1740884803::1740885542::1::::<><>::
+11.png::CompressedTexture2D::5556673583573078367::1740884803::1740885542::1::::<><>::
+12.png::CompressedTexture2D::1359260156401408218::1740884803::1740885542::1::::<><>::
+13.png::CompressedTexture2D::2462604729431727562::1740884803::1740885542::1::::<><>::
+14.png::CompressedTexture2D::4921912022013085074::1740884803::1740885542::1::::<><>::
+15.png::CompressedTexture2D::4954340341227882131::1740884804::1740885542::1::::<><>::
+16.png::CompressedTexture2D::5840017004239647605::1740884804::1740885542::1::::<><>::
+17.png::CompressedTexture2D::8432030245232440282::1740884804::1740885542::1::::<><>::
+18.png::CompressedTexture2D::9126408080599823506::1740884804::1740885543::1::::<><>::
+19.png::CompressedTexture2D::1677141676660726346::1740884804::1740885543::1::::<><>::
+20.png::CompressedTexture2D::6851125728149920570::1740884804::1740885543::1::::<><>::
+21.png::CompressedTexture2D::2044491805014221023::1740884804::1740885543::1::::<><>::
+22.png::CompressedTexture2D::1419935563829147506::1740884804::1740885543::1::::<><>::
+23.png::CompressedTexture2D::738303888927983821::1740884804::1740885543::1::::<><>::
+24.png::CompressedTexture2D::6518617718774350924::1740884804::1740885543::1::::<><>::
+25.png::CompressedTexture2D::5527710385827369720::1740884805::1740885543::1::::<><>::
+26.png::CompressedTexture2D::156231978410445638::1740884805::1740885543::1::::<><>::
+27.png::CompressedTexture2D::6530763748556067419::1740884805::1740885543::1::::<><>::
+28.png::CompressedTexture2D::7456558859102415776::1740884805::1740885543::1::::<><>::
+29.png::CompressedTexture2D::3241588677429326244::1740884805::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Tabs Animation/::1740885543
+0.png::CompressedTexture2D::8899167243537868333::1740884806::1740885543::1::::<><>::
+1.png::CompressedTexture2D::1861509985776245108::1740884806::1740885543::1::::<><>::
+2.png::CompressedTexture2D::819361461000671118::1740884806::1740885543::1::::<><>::
+3.png::CompressedTexture2D::2226265308933937632::1740884806::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Spritesheet/::1740885545
+Map SpriteSheet.png::CompressedTexture2D::8611284148289440892::1740884806::1740885545::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/::1740884806
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Aseprite/::1740884806
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/PNG SpriteSheet/::1740885547
+SpriteSheet.png::CompressedTexture2D::1300506697234139009::1740884806::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/::1740884829
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/::1740884825
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Background/::1740885543
+0.png::CompressedTexture2D::5649661095381415060::1740884807::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Bulb/::1740885543
+0.png::CompressedTexture2D::136543757543659686::1740884807::1740885543::1::::<><>::
+1.png::CompressedTexture2D::3011126079717826283::1740884807::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Buttons/::1740885543
+0.png::CompressedTexture2D::6625322399207780377::1740884807::1740885543::1::::<><>::
+1.png::CompressedTexture2D::6656582488740594243::1740884807::1740885543::1::::<><>::
+2.png::CompressedTexture2D::8777716443982610600::1740884807::1740885543::1::::<><>::
+3.png::CompressedTexture2D::7990512874425292394::1740884808::1740885543::1::::<><>::
+4.png::CompressedTexture2D::184124476287611129::1740884808::1740885543::1::::<><>::
+5.png::CompressedTexture2D::3240484983009147711::1740884808::1740885543::1::::<><>::
+6.png::CompressedTexture2D::8530410188642783108::1740884808::1740885543::1::::<><>::
+7.png::CompressedTexture2D::1351495475480046966::1740884808::1740885543::1::::<><>::
+8.png::CompressedTexture2D::756193360951479519::1740884808::1740885543::1::::<><>::
+9.png::CompressedTexture2D::5835977014627041407::1740884808::1740885543::1::::<><>::
+10.png::CompressedTexture2D::1144335648294518024::1740884807::1740885543::1::::<><>::
+11.png::CompressedTexture2D::7272473336728086606::1740884807::1740885543::1::::<><>::
+12.png::CompressedTexture2D::6466670882337595092::1740884807::1740885543::1::::<><>::
+13.png::CompressedTexture2D::1189715056424814367::1740884807::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/::1740885548
+0.png::CompressedTexture2D::8744364988620218216::1740884808::1740885548::1::::<><>::
+1.png::CompressedTexture2D::6830153397454026979::1740884808::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/::1740884817
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/0/::1740885542
+0.png::CompressedTexture2D::1058401260054511531::1740884808::1740885542::1::::<><>::
+1.png::CompressedTexture2D::7688998029542060261::1740884808::1740885542::1::::<><>::
+2.png::CompressedTexture2D::1786937714009809872::1740884809::1740885542::1::::<><>::
+3.png::CompressedTexture2D::8042590763949985461::1740884809::1740885542::1::::<><>::
+4.png::CompressedTexture2D::1311226255675664050::1740884809::1740885542::1::::<><>::
+5.png::CompressedTexture2D::1496752556202187504::1740884809::1740885542::1::::<><>::
+6.png::CompressedTexture2D::2227865977253565785::1740884809::1740885542::1::::<><>::
+7.png::CompressedTexture2D::7862116205951186021::1740884809::1740885542::1::::<><>::
+8.png::CompressedTexture2D::6609022667520747613::1740884809::1740885542::1::::<><>::
+9.png::CompressedTexture2D::8920418897294498446::1740884809::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/1/::1740885543
+0.png::CompressedTexture2D::1726458996920907628::1740884809::1740885542::1::::<><>::
+1.png::CompressedTexture2D::4568520098640085744::1740884809::1740885542::1::::<><>::
+2.png::CompressedTexture2D::4568665061552689672::1740884810::1740885542::1::::<><>::
+3.png::CompressedTexture2D::6443047556532770459::1740884810::1740885542::1::::<><>::
+4.png::CompressedTexture2D::2471465838086881999::1740884810::1740885542::1::::<><>::
+5.png::CompressedTexture2D::5746630383280189249::1740884810::1740885543::1::::<><>::
+6.png::CompressedTexture2D::2959125814024942411::1740884810::1740885543::1::::<><>::
+7.png::CompressedTexture2D::8504598109408042061::1740884810::1740885543::1::::<><>::
+8.png::CompressedTexture2D::2217900367733354110::1740884810::1740885543::1::::<><>::
+9.png::CompressedTexture2D::8984624177701639046::1740884810::1740885543::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/2/::1740885543
+0.png::CompressedTexture2D::9176371183842299852::1740884810::1740885543::1::::<><>::
+1.png::CompressedTexture2D::6913434615467633033::1740884810::1740885543::1::::<><>::
+2.png::CompressedTexture2D::2259149539894384415::1740884810::1740885543::1::::<><>::
+3.png::CompressedTexture2D::5547305130037314534::1740884811::1740885543::1::::<><>::
+4.png::CompressedTexture2D::7887131957283043900::1740884811::1740885543::1::::<><>::
+5.png::CompressedTexture2D::7590074008278070432::1740884811::1740885543::1::::<><>::
+6.png::CompressedTexture2D::8311311542861099732::1740884811::1740885543::1::::<><>::
+7.png::CompressedTexture2D::8616273384121508573::1740884811::1740885542::1::::<><>::
+8.png::CompressedTexture2D::3690958670127303678::1740884811::1740885542::1::::<><>::
+9.png::CompressedTexture2D::7323401202946782476::1740884811::1740885542::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/3/::1740885547
+0.png::CompressedTexture2D::7982645141578382949::1740884811::1740885542::1::::<><>::
+1.png::CompressedTexture2D::7850799153911324089::1740884811::1740885542::1::::<><>::
+2.png::CompressedTexture2D::795480035856748051::1740884811::1740885547::1::::<><>::
+3.png::CompressedTexture2D::5082365850801343253::1740884812::1740885547::1::::<><>::
+4.png::CompressedTexture2D::308661504406928342::1740884812::1740885547::1::::<><>::
+5.png::CompressedTexture2D::470105895747286754::1740884812::1740885547::1::::<><>::
+6.png::CompressedTexture2D::8268636322854615565::1740884812::1740885547::1::::<><>::
+7.png::CompressedTexture2D::4092938008419086579::1740884812::1740885547::1::::<><>::
+8.png::CompressedTexture2D::5693485136850376381::1740884812::1740885547::1::::<><>::
+9.png::CompressedTexture2D::7020465786795099448::1740884812::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/4/::1740885548
+0.png::CompressedTexture2D::4516311992498303856::1740884812::1740885547::1::::<><>::
+1.png::CompressedTexture2D::8847588002101924936::1740884812::1740885547::1::::<><>::
+2.png::CompressedTexture2D::4774286738109470206::1740884812::1740885547::1::::<><>::
+3.png::CompressedTexture2D::846351002483464942::1740884812::1740885547::1::::<><>::
+4.png::CompressedTexture2D::3303124102822778044::1740884813::1740885547::1::::<><>::
+5.png::CompressedTexture2D::7511917268490864450::1740884813::1740885547::1::::<><>::
+6.png::CompressedTexture2D::9091472932413581190::1740884813::1740885547::1::::<><>::
+7.png::CompressedTexture2D::8176837380852163540::1740884813::1740885547::1::::<><>::
+8.png::CompressedTexture2D::3750030807614331162::1740884813::1740885547::1::::<><>::
+9.png::CompressedTexture2D::2706443107462092120::1740884813::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/5/::1740885548
+0.png::CompressedTexture2D::4274500927128827677::1740884813::1740885548::1::::<><>::
+1.png::CompressedTexture2D::4050997205337223616::1740884813::1740885548::1::::<><>::
+2.png::CompressedTexture2D::1724920061936923145::1740884813::1740885548::1::::<><>::
+3.png::CompressedTexture2D::3270542316279641546::1740884813::1740885548::1::::<><>::
+4.png::CompressedTexture2D::6747002857181264316::1740884813::1740885548::1::::<><>::
+5.png::CompressedTexture2D::3375885267731902948::1740884814::1740885547::1::::<><>::
+6.png::CompressedTexture2D::610732667676809659::1740884814::1740885547::1::::<><>::
+7.png::CompressedTexture2D::3079946105623725013::1740884814::1740885547::1::::<><>::
+8.png::CompressedTexture2D::2178988214661175053::1740884814::1740885547::1::::<><>::
+9.png::CompressedTexture2D::1401493221310407504::1740884814::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/6/::1740885547
+0.png::CompressedTexture2D::2391856255639466056::1740884814::1740885547::1::::<><>::
+1.png::CompressedTexture2D::9062916593682761808::1740884814::1740885547::1::::<><>::
+2.png::CompressedTexture2D::187552841374760933::1740884814::1740885547::1::::<><>::
+3.png::CompressedTexture2D::6408782383524462921::1740884814::1740885547::1::::<><>::
+4.png::CompressedTexture2D::3615487284432608312::1740884814::1740885547::1::::<><>::
+5.png::CompressedTexture2D::2512866875578030804::1740884814::1740885547::1::::<><>::
+6.png::CompressedTexture2D::8019405834004775660::1740884815::1740885547::1::::<><>::
+7.png::CompressedTexture2D::4576952645568162291::1740884815::1740885547::1::::<><>::
+8.png::CompressedTexture2D::383782615313874023::1740884815::1740885547::1::::<><>::
+9.png::CompressedTexture2D::350405325813075557::1740884815::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/7/::1740885547
+0.png::CompressedTexture2D::5753789394161321382::1740884815::1740885547::1::::<><>::
+1.png::CompressedTexture2D::7021416102253018672::1740884815::1740885547::1::::<><>::
+2.png::CompressedTexture2D::3563166425224618650::1740884815::1740885547::1::::<><>::
+3.png::CompressedTexture2D::7780343218704069967::1740884815::1740885547::1::::<><>::
+4.png::CompressedTexture2D::6809612768592469995::1740884815::1740885547::1::::<><>::
+5.png::CompressedTexture2D::5839378929977064425::1740884815::1740885547::1::::<><>::
+6.png::CompressedTexture2D::6604689987729552516::1740884815::1740885547::1::::<><>::
+7.png::CompressedTexture2D::1696900616489465059::1740884816::1740885547::1::::<><>::
+8.png::CompressedTexture2D::4786978979080714407::1740884816::1740885547::1::::<><>::
+9.png::CompressedTexture2D::4787358207100061734::1740884816::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/8/::1740885547
+0.png::CompressedTexture2D::8038726399705401745::1740884816::1740885547::1::::<><>::
+1.png::CompressedTexture2D::6372221642853912453::1740884816::1740885547::1::::<><>::
+2.png::CompressedTexture2D::5331914716084541363::1740884816::1740885547::1::::<><>::
+3.png::CompressedTexture2D::5887164543925244610::1740884816::1740885547::1::::<><>::
+4.png::CompressedTexture2D::2330237078456988084::1740884816::1740885547::1::::<><>::
+5.png::CompressedTexture2D::4213087363654232358::1740884816::1740885547::1::::<><>::
+6.png::CompressedTexture2D::6870766978805008469::1740884816::1740885547::1::::<><>::
+7.png::CompressedTexture2D::4524862529051609050::1740884816::1740885547::1::::<><>::
+8.png::CompressedTexture2D::4041204787782613530::1740884817::1740885547::1::::<><>::
+9.png::CompressedTexture2D::3730718483917967825::1740884817::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Clock/Clock Digits/9/::1740885547
+0.png::CompressedTexture2D::1778436565379359740::1740884817::1740885547::1::::<><>::
+1.png::CompressedTexture2D::8773797420365253566::1740884817::1740885547::1::::<><>::
+2.png::CompressedTexture2D::6683238533832889972::1740884817::1740885547::1::::<><>::
+3.png::CompressedTexture2D::2275972405746926865::1740884817::1740885547::1::::<><>::
+4.png::CompressedTexture2D::3950047532400250500::1740884817::1740885547::1::::<><>::
+5.png::CompressedTexture2D::2798432413144514494::1740884817::1740885547::1::::<><>::
+6.png::CompressedTexture2D::2848171087251480875::1740884817::1740885547::1::::<><>::
+7.png::CompressedTexture2D::3976368204401550858::1740884817::1740885547::1::::<><>::
+8.png::CompressedTexture2D::718252826460952243::1740884817::1740885547::1::::<><>::
+9.png::CompressedTexture2D::2617673552402426133::1740884818::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Compass/::1740885548
+0.png::CompressedTexture2D::4278822879347371444::1740884818::1740885548::1::::<><>::
+1.png::CompressedTexture2D::6566410960621762582::1740884818::1740885548::1::::<><>::
+2.png::CompressedTexture2D::8172368537316806238::1740884818::1740885548::1::::<><>::
+3.png::CompressedTexture2D::710615470458555086::1740884818::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Holders/::1740885548
+0.png::CompressedTexture2D::4059001775752474590::1740884818::1740885548::1::::<><>::
+1.png::CompressedTexture2D::158939445102011317::1740884818::1740885548::1::::<><>::
+2.png::CompressedTexture2D::5807187761164741299::1740884819::1740885548::1::::<><>::
+3.png::CompressedTexture2D::442769157160532620::1740884819::1740885548::1::::<><>::
+4.png::CompressedTexture2D::893609478761343381::1740884819::1740885548::1::::<><>::
+5.png::CompressedTexture2D::4227922349519404024::1740884819::1740885548::1::::<><>::
+6.png::CompressedTexture2D::73583571614252267::1740884819::1740885548::1::::<><>::
+7.png::CompressedTexture2D::5395363662523825598::1740884819::1740885548::1::::<><>::
+8.png::CompressedTexture2D::2033396979547287021::1740884819::1740885548::1::::<><>::
+9.png::CompressedTexture2D::8807333926749219011::1740884819::1740885548::1::::<><>::
+10.png::CompressedTexture2D::7835598729839655437::1740884818::1740885548::1::::<><>::
+11.png::CompressedTexture2D::5696822320806298582::1740884818::1740885548::1::::<><>::
+12.png::CompressedTexture2D::8883664036944326253::1740884818::1740885548::1::::<><>::
+13.png::CompressedTexture2D::1193131360337502893::1740884818::1740885548::1::::<><>::
+14.png::CompressedTexture2D::5491254794318717912::1740884819::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Icons/::1740885548
+0.png::CompressedTexture2D::3362029266422817624::1740884819::1740885548::1::::<><>::
+1.png::CompressedTexture2D::8799681322733588857::1740884819::1740885548::1::::<><>::
+2.png::CompressedTexture2D::633675954233028626::1740884820::1740885548::1::::<><>::
+3.png::CompressedTexture2D::3571252767425558230::1740884820::1740885548::1::::<><>::
+4.png::CompressedTexture2D::3125702086696722373::1740884820::1740885548::1::::<><>::
+5.png::CompressedTexture2D::7186860132385728728::1740884820::1740885548::1::::<><>::
+6.png::CompressedTexture2D::1946381549007383240::1740884820::1740885548::1::::<><>::
+7.png::CompressedTexture2D::7029412977818772268::1740884820::1740885548::1::::<><>::
+8.png::CompressedTexture2D::3073305405581302307::1740884821::1740885548::1::::<><>::
+9.png::CompressedTexture2D::1609939135395070340::1740884821::1740885548::1::::<><>::
+10.png::CompressedTexture2D::1873211365277309249::1740884820::1740885548::1::::<><>::
+11.png::CompressedTexture2D::594048474530891738::1740884820::1740885548::1::::<><>::
+12.png::CompressedTexture2D::7331731865036170394::1740884820::1740885548::1::::<><>::
+13.png::CompressedTexture2D::2757648525502470573::1740884820::1740885548::1::::<><>::
+14.png::CompressedTexture2D::8446924743399814469::1740884820::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Items/::1740885548
+0.png::CompressedTexture2D::1417907147945075994::1740884821::1740885548::1::::<><>::
+1.png::CompressedTexture2D::6332112970711183556::1740884821::1740885548::1::::<><>::
+2.png::CompressedTexture2D::8985646886333286525::1740884821::1740885548::1::::<><>::
+3.png::CompressedTexture2D::5401262982060614045::1740884821::1740885548::1::::<><>::
+4.png::CompressedTexture2D::1936150336864978505::1740884821::1740885548::1::::<><>::
+5.png::CompressedTexture2D::1599468824587970893::1740884821::1740885548::1::::<><>::
+6.png::CompressedTexture2D::8826136436987699818::1740884821::1740885548::1::::<><>::
+7.png::CompressedTexture2D::6524621017226504596::1740884821::1740885548::1::::<><>::
+8.png::CompressedTexture2D::8167857630359967990::1740884822::1740885548::1::::<><>::
+9.png::CompressedTexture2D::2656056433968938309::1740884822::1740885548::1::::<><>::
+10.png::CompressedTexture2D::4783830188337112069::1740884821::1740885548::1::::<><>::
+11.png::CompressedTexture2D::1517094423625191093::1740884821::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Pixel Map Base/::1740885548
+0.png::CompressedTexture2D::8051842582559750955::1740884822::1740885548::1::::<><>::
+1.png::CompressedTexture2D::5925280561921934515::1740884822::1740885548::1::::<><>::
+2.png::CompressedTexture2D::8629415632218267190::1740884822::1740885548::1::::<><>::
+3.png::CompressedTexture2D::1083653085714379117::1740884822::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Power Hub/::1740885548
+1.png::CompressedTexture2D::3707447549625890548::1740884822::1740885548::1::::<><>::
+2.png::CompressedTexture2D::7082829692838021809::1740884822::1740885548::1::::<><>::
+3.png::CompressedTexture2D::8068209554055443261::1740884822::1740885548::1::::<><>::
+4.png::CompressedTexture2D::5973375165519814271::1740884822::1740885548::1::::<><>::
+5.png::CompressedTexture2D::6877128936077813849::1740884823::1740885548::1::::<><>::
+6.png::CompressedTexture2D::9027230694634961059::1740884823::1740885548::1::::<><>::
+7.png::CompressedTexture2D::8905726914180708877::1740884823::1740885548::1::::<><>::
+8.png::CompressedTexture2D::8002830729534056038::1740884823::1740885548::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Progress Bars/::1740885548
+0.png::CompressedTexture2D::4820803929972351804::1740884823::1740885548::1::::<><>::
+1.png::CompressedTexture2D::2177582047054733875::1740884823::1740885548::1::::<><>::
+2.png::CompressedTexture2D::7241303619401146596::1740884823::1740885548::1::::<><>::
+3.png::CompressedTexture2D::2715569487081021816::1740884823::1740885548::1::::<><>::
+4.png::CompressedTexture2D::2618378350001779388::1740884823::1740885548::1::::<><>::
+5.png::CompressedTexture2D::2167865566267502505::1740884824::1740885548::1::::<><>::
+6.png::CompressedTexture2D::3944877682205656820::1740884824::1740885548::1::::<><>::
+7.png::CompressedTexture2D::6749970951177316292::1740884824::1740885548::1::::<><>::
+8.png::CompressedTexture2D::8354336386696789761::1740884824::1740885548::1::::<><>::
+9.png::CompressedTexture2D::1012390282450122475::1740884824::1740885546::1::::<><>::
+10.png::CompressedTexture2D::2300492135875665456::1740884823::1740885546::1::::<><>::
+11.png::CompressedTexture2D::1473035590070897134::1740884823::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/Side Tabs/::1740885546
+0.png::CompressedTexture2D::3332365266945666132::1740884824::1740885546::1::::<><>::
+1.png::CompressedTexture2D::1154762309409934376::1740884824::1740885546::1::::<><>::
+2.png::CompressedTexture2D::4873091512723426322::1740884824::1740885546::1::::<><>::
+3.png::CompressedTexture2D::4747145769476537891::1740884824::1740885546::1::::<><>::
+4.png::CompressedTexture2D::2419868191318154682::1740884824::1740885546::1::::<><>::
+5.png::CompressedTexture2D::6841665023681763956::1740884824::1740885546::1::::<><>::
+6.png::CompressedTexture2D::6894721097552479444::1740884825::1740885546::1::::<><>::
+7.png::CompressedTexture2D::5207956919701753941::1740884825::1740885546::1::::<><>::
+8.png::CompressedTexture2D::3521004987347261620::1740884825::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Content/UI Buttons/::1740885546
+0.png::CompressedTexture2D::6187859812208478164::1740884825::1740885546::1::::<><>::
+1.png::CompressedTexture2D::289435396901102439::1740884825::1740885546::1::::<><>::
+2.png::CompressedTexture2D::8745896083843564743::1740884825::1740885546::1::::<><>::
+3.png::CompressedTexture2D::5225560703746737111::1740884825::1740885546::1::::<><>::
+4.png::CompressedTexture2D::7612498975570960262::1740884825::1740885546::1::::<><>::
+5.png::CompressedTexture2D::6051920660789741579::1740884825::1740885546::1::::<><>::
+6.png::CompressedTexture2D::5713489615397874496::1740884825::1740885546::1::::<><>::
+7.png::CompressedTexture2D::2852196129056695197::1740884826::1740885546::1::::<><>::
+8.png::CompressedTexture2D::2913535051026885147::1740884826::1740885546::1::::<><>::
+9.png::CompressedTexture2D::4263816518340848053::1740884826::1740885546::1::::<><>::
+10.png::CompressedTexture2D::4990051293504983609::1740884825::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Light Flicker/::1740885546
+0.png::CompressedTexture2D::628044870171126557::1740884826::1740885546::1::::<><>::
+1.png::CompressedTexture2D::6669772870510073872::1740884826::1740885546::1::::<><>::
+2.png::CompressedTexture2D::8248931406133281206::1740884827::1740885546::1::::<><>::
+3.png::CompressedTexture2D::3653295773990333491::1740884827::1740885546::1::::<><>::
+4.png::CompressedTexture2D::3244614988473888820::1740884827::1740885546::1::::<><>::
+5.png::CompressedTexture2D::8346243992771162997::1740884827::1740885546::1::::<><>::
+6.png::CompressedTexture2D::7335054018622514093::1740884827::1740885546::1::::<><>::
+7.png::CompressedTexture2D::7496343587152368896::1740884827::1740885546::1::::<><>::
+8.png::CompressedTexture2D::2574396364773144092::1740884827::1740885546::1::::<><>::
+9.png::CompressedTexture2D::2911732185044818871::1740884827::1740885546::1::::<><>::
+10.png::CompressedTexture2D::7718944043921461350::1740884826::1740885546::1::::<><>::
+11.png::CompressedTexture2D::8084029592537144522::1740884826::1740885545::1::::<><>::
+12.png::CompressedTexture2D::3559398648476798069::1740884826::1740885545::1::::<><>::
+13.png::CompressedTexture2D::3325831840623791634::1740884826::1740885545::1::::<><>::
+14.png::CompressedTexture2D::2957663358056584817::1740884826::1740885545::1::::<><>::
+15.png::CompressedTexture2D::5203063960453205699::1740884826::1740885545::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Page Flip/::1740884828
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Page Flip/Next Page/::1740885545
+0.png::CompressedTexture2D::6428312011015321267::1740884827::1740885545::1::::<><>::
+1.png::CompressedTexture2D::2794280059967807952::1740884827::1740885545::1::::<><>::
+2.png::CompressedTexture2D::5937102622135834458::1740884828::1740885545::1::::<><>::
+3.png::CompressedTexture2D::5557342719235109337::1740884828::1740885545::1::::<><>::
+4.png::CompressedTexture2D::7409640753021131701::1740884828::1740885545::1::::<><>::
+5.png::CompressedTexture2D::1064919848557560176::1740884828::1740885545::1::::<><>::
+6.png::CompressedTexture2D::6789365194929911662::1740884828::1740885545::1::::<><>::
+7.png::CompressedTexture2D::8061696974362802146::1740884828::1740885545::1::::<><>::
+8.png::CompressedTexture2D::4065236018520908410::1740884828::1740885545::1::::<><>::
+9.png::CompressedTexture2D::5221961101658316769::1740884828::1740885545::1::::<><>::
+10.png::CompressedTexture2D::8832068224593490038::1740884827::1740885545::1::::<><>::
+11.png::CompressedTexture2D::552083662833014915::1740884828::1740885545::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Page Flip/Previous Page/::1740885546
+0.png::CompressedTexture2D::3382100481488965973::1740884828::1740885546::1::::<><>::
+1.png::CompressedTexture2D::6170223579853970710::1740884828::1740885546::1::::<><>::
+2.png::CompressedTexture2D::4250832118728252849::1740884829::1740885546::1::::<><>::
+3.png::CompressedTexture2D::5222709680010824405::1740884829::1740885546::1::::<><>::
+4.png::CompressedTexture2D::1102345305997142833::1740884829::1740885546::1::::<><>::
+5.png::CompressedTexture2D::1907751698797538795::1740884829::1740885546::1::::<><>::
+6.png::CompressedTexture2D::7924499578712608662::1740884829::1740885546::1::::<><>::
+7.png::CompressedTexture2D::2557370824004763231::1740884829::1740885546::1::::<><>::
+8.png::CompressedTexture2D::4468819289133228863::1740884829::1740885546::1::::<><>::
+9.png::CompressedTexture2D::8479381370138819938::1740884829::1740885546::1::::<><>::
+10.png::CompressedTexture2D::7651365031577924940::1740884829::1740885546::1::::<><>::
+11.png::CompressedTexture2D::596761738364998565::1740884829::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket Inventory Series #2 Pixel Map v1.2/Sprites/Pixel Map/::1740885545
+0.png::CompressedTexture2D::5624256863023247598::1740884829::1740885545::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Bonfire/::1740885547
+Bonfire.png::CompressedTexture2D::1546885016105680134::1740884830::1740885547::1::::<><>::
+Bonfire_01-Sheet.png::CompressedTexture2D::2760814952068624739::1740884830::1740885547::1::::<><>::
+Bonfire_02-Sheet.png::CompressedTexture2D::2389453898242566655::1740884830::1740885547::1::::<><>::
+Bonfire_03-Sheet.png::CompressedTexture2D::8169770497838780056::1740884830::1740885547::1::::<><>::
+Bonfire_04-Sheet.png::CompressedTexture2D::4168937846711369370::1740884830::1740885546::1::::<><>::
+Bonfire_05-Sheet.png::CompressedTexture2D::7025097504523225043::1740884830::1740885546::1::::<><>::
+Bonfire_06-Sheet.png::CompressedTexture2D::723585193276684008::1740884830::1740885546::1::::<><>::
+Bonfire_07-Sheet.png::CompressedTexture2D::6144697613902312377::1740884831::1740885546::1::::<><>::
+Bonfire_08-Sheet.png::CompressedTexture2D::5844043911030846519::1740884831::1740885546::1::::<><>::
+Bonfire_09-Sheet.png::CompressedTexture2D::4645466050294775266::1740884831::1740885546::1::::<><>::
+Bonfire_10-Sheet.png::CompressedTexture2D::2858426413590690815::1740884831::1740885546::1::::<><>::
+Fire_01-Sheet.png::CompressedTexture2D::7538863999492190766::1740884831::1740885546::1::::<><>::
+Fire_02-Sheet.png::CompressedTexture2D::8846969277092385041::1740884831::1740885546::1::::<><>::
+Smoke-Sheet.png::CompressedTexture2D::2561882317747774329::1740884831::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Cooking Station/::1740885547
+Cooking Station.png::CompressedTexture2D::3982435444622497217::1740884832::1740885547::1::::<><>::
+Estructure.png::CompressedTexture2D::3609082318727467977::1740884832::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Cooking Station/Butchery/::1740885547
+Butchery_01-Sheet.png::CompressedTexture2D::8574886629890891612::1740884832::1740885546::1::::<><>::
+Butchery_02.png::CompressedTexture2D::8846800543325349574::1740884832::1740885546::1::::<><>::
+Butchery_03.png::CompressedTexture2D::7631674812839791425::1740884832::1740885547::1::::<><>::
+Butchery_04.png::CompressedTexture2D::8381111744598502495::1740884832::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Cooking Station/Cooker/::1740885547
+Cooker_01.png::CompressedTexture2D::8445936963769808084::1740884832::1740885547::1::::<><>::
+Cooker_02.png::CompressedTexture2D::312942061203151387::1740884833::1740885547::1::::<><>::
+Cooker_03-Sheet.png::CompressedTexture2D::8296762419768110216::1740884833::1740885547::1::::<><>::
+Cooker_04-Sheet.png::CompressedTexture2D::373496404663571041::1740884833::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Cooking Station/Grill/::1740885547
+Grill_01-Sheet.png::CompressedTexture2D::7360025558015327337::1740884833::1740885547::1::::<><>::
+Grill_02-Sheet.png::CompressedTexture2D::5360185027081790447::1740884833::1740885547::1::::<><>::
+Grill_03-Sheet.png::CompressedTexture2D::5472864835454896872::1740884833::1740885547::1::::<><>::
+Grill_04-Sheet.png::CompressedTexture2D::1468532161379264253::1740884833::1740885547::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Furnace/::1740885547
+Bricks_01-Sheet.png::CompressedTexture2D::6062369534221421015::1740884833::1740885547::1::::<><>::
+Bricks_02-Sheet.png::CompressedTexture2D::8775882054339785258::1740884834::1740885547::1::::<><>::
+Bricks_03-Sheet.png::CompressedTexture2D::11496692829223147::1740884834::1740885547::1::::<><>::
+Furnace.png::CompressedTexture2D::6094423997431882850::1740884834::1740885547::1::::<><>::
+Iron_01-Sheet.png::CompressedTexture2D::8991358310681194980::1740884834::1740885547::1::::<><>::
+Iron_02-Sheet.png::CompressedTexture2D::2560696125347581529::1740884834::1740885546::1::::<><>::
+Iron_03-Sheet.png::CompressedTexture2D::8412264680490692311::1740884834::1740885546::1::::<><>::
+Stone_01-Sheet.png::CompressedTexture2D::5482736097066032631::1740884834::1740885546::1::::<><>::
+Stone_02-Sheet.png::CompressedTexture2D::8711146110987008178::1740884835::1740885546::1::::<><>::
+Stone_03-Sheet.png::CompressedTexture2D::5862008401928767438::1740884835::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Sawmill/::1740885546
+Base.png::CompressedTexture2D::1310580740164899452::1740884835::1740885546::1::::<><>::
+Level_1.png::CompressedTexture2D::6425885358334402437::1740884835::1740885546::1::::<><>::
+Level_2_Sheet.png::CompressedTexture2D::891766730432756043::1740884835::1740885546::1::::<><>::
+Level_3_Sheet.png::CompressedTexture2D::2272421389326172660::1740884835::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Tools/::1740885546
+WorkTable - Tools.png::CompressedTexture2D::1486477422791076127::1740884836::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Structures/Workbench/::1740885546
+Workbench.png::CompressedTexture2D::4801991850409968250::1740884836::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Weapons/::1740884836
+::res://Assets/TileSet-Items/Weapons/Bone/::1740885546
+Bone.png::CompressedTexture2D::3874656162107094157::1740884836::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Weapons/Hands/::1740885546
+Hands.png::CompressedTexture2D::8348101842628673490::1740884836::1740885546::1::::<><>::
+::res://Assets/TileSet-Items/Weapons/Wood/::1740885546
+Wood.png::CompressedTexture2D::7143893668271089307::1740884836::1740885546::1::::<><>::
+::res://Assets/UI/::1740988742
+0.png::CompressedTexture2D::8410221813641150131::1740898293::1740898299::1::::<><>::
+10.png::CompressedTexture2D::5957262480901979768::1740987231::1740987241::1::::<><>::
+boton12.png::CompressedTexture2D::2249504986732124324::1740899005::1740899011::1::::<><>::
+circleUI.png::CompressedTexture2D::8801272457224880557::1740988198::1740988204::1::::<><>::
+header1.png::CompressedTexture2D::619814995174167706::1740988636::1740988638::1::::<><>::
+header2UI.png::CompressedTexture2D::245972222621101932::1740988736::1740988742::1::::<><>::
+libroUI.png::CompressedTexture2D::5126544194492228223::1740988198::1740988204::1::::<><>::
+Logo_nombre.png::CompressedTexture2D::1190966416516011010::1740897935::1740897938::1::::<><>::
+muñequitoUI.png::CompressedTexture2D::8871566733594861267::1740988198::1740988204::1::::<><>::
+PixelMap.png::CompressedTexture2D::3785473278346268906::1740985190::1740985219::1::::<><>::
+spritesheet1menu.png::CompressedTexture2D::2094487539197654568::1740894889::1740896769::1::::<><>::
+SpriteSheet2menu.png::CompressedTexture2D::536574081051575285::1740896796::1740896819::1::::<><>::
+::res://Assets/UI/fonts/::1740885541
+PixelOperator8-Bold.ttf::FontFile::4408617226702028079::1740884836::1740885541::1::::<><>::
+PixelOperator8.ttf::FontFile::6662872456590961755::1740884836::1740885541::1::::<><>::
+::res://Assets/UI/Interfaz de usuario/::1740884837
+::res://Assets/UI/Interfaz de usuario/__MACOSX/::1740884837
+::res://Assets/UI/Interfaz de usuario/__MACOSX/FreeUi/::1740885541
+._ArrowDirections.png::CompressedTexture2D::376982656203581068::1740884837::1740885541::0::::<><>::
+._BarBlue.png::CompressedTexture2D::4020268023896051830::1740884838::1740885541::0::::<><>::
+._BarGreen.png::CompressedTexture2D::5836798867113051734::1740884838::1740885541::0::::<><>::
+._BarOrange.png::CompressedTexture2D::6997434082410161133::1740884838::1740885541::0::::<><>::
+._BarRed.png::CompressedTexture2D::7453622455480319916::1740884838::1740885541::0::::<><>::
+._BarYellow.png::CompressedTexture2D::7312217120413453926::1740884838::1740885541::0::::<><>::
+._ClassicalButtons.png::CompressedTexture2D::6741435592909656704::1740884838::1740885541::0::::<><>::
+._Version1.png::CompressedTexture2D::6105911913126909362::1740884838::1740885541::0::::<><>::
+._Version2.png::CompressedTexture2D::3205117347255322134::1740884838::1740885541::0::::<><>::
+._Version3.png::CompressedTexture2D::2924233014570735873::1740884838::1740885541::0::::<><>::
+._Version4.png::CompressedTexture2D::8566836290305311020::1740884838::1740885541::0::::<><>::
+::res://Assets/UI/Interfaz de usuario/FreeUi/::1740885546
+ArrowDirections.png::CompressedTexture2D::6521384903281290662::1740884836::1740885546::1::::<><>::
+BarBlue.png::CompressedTexture2D::8209713480951683347::1740884837::1740885546::1::::<><>::
+BarGreen.png::CompressedTexture2D::8698287942769968294::1740884837::1740885546::1::::<><>::
+BarOrange.png::CompressedTexture2D::5665100612794213170::1740884837::1740885546::1::::<><>::
+BarRed.png::CompressedTexture2D::5146125554158879004::1740884837::1740885546::1::::<><>::
+BarYellow.png::CompressedTexture2D::6569319256978416401::1740884837::1740885546::1::::<><>::
+ClassicalButtons.png::CompressedTexture2D::557651142625130823::1740884837::1740885546::1::::<><>::
+Version1.png::CompressedTexture2D::2882359081197435606::1740884837::1740885546::1::::<><>::
+Version2.png::CompressedTexture2D::5610487828077721734::1740884837::1740885546::1::::<><>::
+Version3.png::CompressedTexture2D::4957404225653509534::1740884837::1740885546::1::::<><>::
+Version4.png::CompressedTexture2D::5767054167327217559::1740884837::1740885546::1::::<><>::
+::res://Scenes/::1740989724
+canvas_layer.gd::GDScript::-1::1740884838::0::1::::<>CanvasLayer<>::
+cofre.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+Cofre.tscn::PackedScene::8017038978954009701::1740989682::0::1::::<><>::uid://cedu105xkjhyh::::res://Assets/Characters/cofre/chestsAll.png<>res://Scenes/cofre.gd<>res://Scenes/canvas_layer.gd<>uid://bl1k6piu7k6qt::::res://Assets/Font/edit-undo/editundo.ttf<>uid://cd6xh8j6h3cug::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/0.png
+control.gd::GDScript::-1::1740884839::0::1::::<>Control<>::
+Control.tscn::PackedScene::246248650616774255::1740989682::0::1::::<><>::res://Scenes/control.gd<>uid://bl1k6piu7k6qt::::res://Assets/Font/edit-undo/editundo.ttf<>uid://cd6xh8j6h3cug::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/0.png
+game.gd::GDScript::-1::1740884839::0::1::::<>Node2D<>::
+game.tscn::PackedScene::1898880742248673612::1740989682::0::1::::<><>::uid://cd03ncucdvb8l::::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Stone Ground.png<>res://Scenes/game.gd<>uid://bh7203l753sd6::::res://Scenes/player.tscn<>uid://bpv6c0uabr2tk::::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Wall.png<>uid://b456h4w4dmh4d::::res://Assets/TileSet-Items/Dungeon Prison/Assets/Tiles.png<>uid://dmdcrl5383tgi::::res://Assets/TileSet-Items/Structures/Anvil/Anvil.png<>uid://bw2s2m1ybrp7e::::res://Assets/TileSet-Items/Deep Cave - WIP/Assets/Tiles.png<>uid://cx3sndarslnck::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png<>uid://1l7asbs4w16r::::res://Assets/TileSet-Items/Structures/Anvil/Anvil_01-Sheet.png<>uid://dt0p8h7ok14a3::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bfbgkfvbm7m67::::res://Assets/TileSet-Items/Green Woods/Assets/Tiles/Tiles.png<>uid://um2s3rqcwrks::::res://Assets/TileSet-Items/Structures/Anvil/Anvil_02-Sheet.png<>uid://cfpkdx0ocnhup::::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png<>uid://dmhrpwssmgdqj::::res://Scenes/Cofre.tscn<>uid://biohkr8d5tbva::::res://Assets/TileSet-Items/Structures/Anvil/Anvil_03-Sheet.png<>uid://cbr3akjc1ihue::::res://Assets/TileSet-Items/Structures/Alchemy/Alchemy_Table_01-Sheet.png<>uid://dybprol7ng65o::::res://Assets/TileSet-Items/Structures/Cooking Station/Butchery/Butchery_02.png<>uid://dgy3tl7q1w6k8::::res://Assets/TileSet-Items/Structures/Cooking Station/Butchery/Butchery_03.png<>uid://dba6xbksj42bi::::res://Assets/TileSet-Items/Structures/Alchemy/Alchemy_Table_02-Sheet.png<>uid://drn4xk7dmgjkx::::res://Assets/TileSet-Items/Structures/Cooking Station/Butchery/Butchery_04.png<>uid://0eywfchoqctn::::res://Assets/TileSet-Items/Structures/Alchemy/Alchemy_Table_03-Sheet.png<>uid://caoedsplqpqxu::::res://Assets/TileSet-Items/Structures/Workbench/Workbench.png<>uid://cs3gjjnmf4wpu::::res://Assets/TileSet-Items/Structures/Furnace/Furnace.png<>uid://dsljl3c8aqbqq::::res://Assets/TileSet-Items/Structures/Cooking Station/Cooker/Cooker_01.png<>uid://bvg6ayfjql6cv::::res://Assets/TileSet-Items/Weapons/Bone/Bone.png<>uid://150ce8y1e131::::res://Assets/TileSet-Items/Structures/Anvil/sangre.png<>uid://c0c1nf7kxqorr::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_Grass_Biom_things.png<>uid://b2isesp7cgf0l::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d3l23pkfcslyf::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://cq27n6rhgl8w1::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png<>uid://be4ux4a18ec6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_Plants.png
+inicio.gd::GDScript::-1::1740983723::0::1::::<>Control<>::
+INICIO.tscn::PackedScene::4410166052968883211::1740989724::0::1::::<><>::res://Scenes/inicio.gd<>uid://cmn7e43xcribx::::res://Assets/Font/alagard/alagard.ttf<>uid://duxmueea6typw::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Spritesheet/Map SpriteSheet.png<>uid://b04a5r6nlvmoj::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/0.png<>uid://cnon2dbr6rnro::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/9.png<>uid://dm7g6xtjl8pvc::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/10.png<>uid://4jwvse1m5qlw::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/11.png<>uid://ck1ek7nxbiftb::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/12.png<>uid://32opdnqve5jm::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/13.png<>uid://b2kexfpu7h3ed::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/14.png<>uid://bdwby43g55t6a::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/15.png<>uid://c0vg8t2eucrj5::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/16.png<>uid://0aiww28jsqhq::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/17.png<>uid://b6xgq03u3ddwj::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/18.png<>uid://cr1k20aw5whpw::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/1.png<>uid://bshgaum0cr3b0::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/19.png<>uid://bfmxqp47qdjym::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/20.png<>uid://dq0rd0lcnf0mf::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/21.png<>uid://hb46ixy23y7x::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/22.png<>uid://bukk3si5s6tht::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/23.png<>uid://dywprqly3dqwh::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/24.png<>uid://desldjfvtu6ai::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/25.png<>uid://bsbd53vxirkhe::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/26.png<>uid://d3sg8xnrrcm1i::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/27.png<>uid://dbgc6kl4wdoej::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/28.png<>uid://d2r0x2vg5cghc::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/2.png<>uid://cwt0frrk5lntr::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/29.png<>uid://rmo0emjb7yg0::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/30.png<>uid://ch5pwkxsiusp7::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/31.png<>uid://doe70dyscpq04::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/32.png<>uid://dyrx0i3ek46er::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/33.png<>uid://b3uklfol3mwim::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/34.png<>uid://najsmaw8rxd8::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/35.png<>uid://bq7rnj160i8kd::::res://Assets/TileSet-Items/hola.png<>uid://crkoxcmquf1i5::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/3.png<>uid://btgchinjeyje4::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/4.png<>uid://ban5cgtgtl83o::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/5.png<>uid://c0aftps6slc20::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/6.png<>uid://8jkuwyvvh4k8::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/7.png<>uid://dbj3mij8ffjpi::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Sprites/Design/Buttons & Holders/8.png<>uid://43t5y0p4ntd5::::res://Assets/UI/spritesheet1menu.png<>uid://q76bpti7dmwo::::res://Assets/UI/Logo_nombre.png<>uid://dr28eh7hcv2a6::::res://Assets/UI/0.png
+interactable.gd::GDScript::-1::1740884839::0::1::::<>StaticBody2D<>::
+interactable.tscn::PackedScene::2389460118700602719::1740893179::0::1::::<><>::res://Scenes/interactable.gd<>uid://cfpkdx0ocnhup::::res://Assets/TileSet-Items/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png<>uid://brd4rixscr08u::::res://interactable.tscn
+interacting_component.gd::GDScript::-1::1740884839::0::1::::<>Node2D<>::
+interacting_component.tscn::PackedScene::113792223664437378::1740884839::0::1::::<><>::res://Scenes/interacting_component.gd<>uid://cmn7e43xcribx::::res://Assets/Font/alagard/alagard.ttf
+item_1.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+item_2.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+item_3.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+item_4.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+item_5.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+item_6.gd::GDScript::-1::1740884839::0::1::::<>Area2D<>::
+menu_tareas_bloq.tscn::PackedScene::2300634539224663428::1740989682::0::1::::<><>::uid://bl1k6piu7k6qt::::res://Assets/Font/edit-undo/editundo.ttf<>uid://bhca43pf72xmd::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/open/4.png
+player1.tscn::PackedScene::3405190736090623029::1740893178::0::1::::<><>::res://Scripts/player.gd<>uid://b2drwrcvfwbdy::::res://Assets/Characters/Huntress/Sprites/Idle.png<>uid://dvrwc8vo3aprg::::res://Assets/Characters/Huntress/Sprites/Run.png
+player.tscn::PackedScene::2945488170083355213::1740979001::0::1::::<><>::res://Scripts/player.gd<>uid://caryvy2jgvor3::::res://Assets/Characters/Huntress/Sprites/Death.png<>uid://xedd15almntd::::res://Assets/Characters/Necromancer_creativekind-Sheet.png<>uid://bvee2lujk307::::res://Scenes/interacting_component.tscn<>uid://b2drwrcvfwbdy::::res://Assets/Characters/Huntress/Sprites/Idle.png<>uid://dvrwc8vo3aprg::::res://Assets/Characters/Huntress/Sprites/Run.png
+tarea_actual.gd::GDScript::-1::1740884840::0::1::::<>Control<>::
+tarea_actual.tscn::PackedScene::5856575412956676037::1740989682::0::1::::<><>::res://Scenes/tarea_actual.gd<>uid://bl1k6piu7k6qt::::res://Assets/Font/edit-undo/editundo.ttf<>uid://bhca43pf72xmd::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/open/4.png
+tarea_limpiar.gd::GDScript::-1::1740884840::0::1::::<>Node2D<>::
+Tarea_limpiar.tscn::PackedScene::2804087709010635277::1740989682::0::1::::<><>::res://Scenes/tarea_limpiar.gd<>res://Scenes/item_1.gd<>uid://bl1k6piu7k6qt::::res://Assets/Font/edit-undo/editundo.ttf<>uid://bmwpnrcphpr2l::::res://Assets/TileSet-Items/coin.png<>uid://bw2s2m1ybrp7e::::res://Assets/TileSet-Items/Deep Cave - WIP/Assets/Tiles.png<>uid://cd6xh8j6h3cug::::res://Assets/TileSet-Items/Structures/Anvil/Pocket inventory series #2 Pixel Map/Pocket inventory series #2 Pixel Map v1.1/Png/Map inventory/Header/close/0.png<>res://Scenes/item_2.gd<>uid://dnsjqxv36ds52::::res://Assets/TileSet-Items/Green Woods/Assets/Props/Vegetation/Vegetation_01.png<>res://Scenes/item_3.gd<>res://Scenes/item_4.gd<>res://Scenes/item_5.gd<>res://Scenes/item_6.gd
+::res://Scripts/::1740884840
+Datos.gd::GDScript::-1::1740884840::0::1::::<>Node<>::
+new_script.gd::GDScript::-1::1740884840::0::1::::<>Node<>::
+Objetos_recogidos.gd::GDScript::-1::1740884840::0::1::::<>Node<>::
+player.gd::GDScript::-1::1740884840::0::1::::<>CharacterBody2D<>::
+TimerData.gd::GDScript::-1::1740884840::0::1::::<>Node<>::
+::res://Test/::1740884840
+test_player.gd::GDScript::-1::1740884840::0::1::::<>GutTest<>::
+::res://Test/addons/::1740884840
+::res://Test/addons/gut/::1740884840
+::res://Test/addons/gut/cli/::1740709984
+::res://Test/addons/gut/double_templates/::1740709984
+::res://Test/addons/gut/fonts/::1740709984
+::res://Test/addons/gut/gui/::1740709984
+::res://Test/addons/gut/images/::1740709984
+::res://unit_testing/::1740586854
