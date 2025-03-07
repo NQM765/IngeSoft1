@@ -25,13 +25,13 @@ process_mode = 3
 position = Vector2(-30, -12)
 
 [node name="Blancos" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(1437, -60)
+position = Vector2(1174, -37)
 
 [node name="Blancos2" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(1238, -18)
+position = Vector2(975, 5)
 
 [node name="Blancos3" parent="." instance=ExtResource("4_wdm2o")]
-position = Vector2(1043, 40)
+position = Vector2(780, 63)
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
 

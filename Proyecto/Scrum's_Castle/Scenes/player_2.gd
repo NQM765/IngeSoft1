@@ -12,32 +12,52 @@ func _physics_process(_delta):
 		Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left"),
 		Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	)
-
+	
+	
+	
 	# Flip the sprite
 	if direction.x > 0:
 		animated_sprite.flip_h = false
 	elif direction.x < 0:
 		animated_sprite.flip_h = true 
-
+	
+	var anim_name = ""
 	# Play animations
-	if PersonajeSeleccionado.personaje == "Cazadora":
-		if  Datos.estado_tarea == "Fallido":
-			animated_sprite.play("DeathC")
-		elif direction.x == 0 and direction.y == 0:
-			animated_sprite.play("IdleC")
-		elif Input.is_action_pressed("sprint"):
-			animated_sprite.play("SprintC")
+	if Datos.estados_tareas[2] == "Fallido":
+		print("Estado tarea es Fallido")
+		if Datos.personajes_seleccionados[2] == "Cazadora":
+			anim_name = "DeathC"
+		elif Datos.personajes_seleccionados[2] == "Mago":
+			anim_name = "DeathM"
+		elif Datos.personajes_seleccionados[2] == "Granjero":
+			anim_name = "DeathG"
+		elif Datos.personajes_seleccionados[2] == "Caballero":
+			anim_name = "DeathK"
+	else:
+		print(Datos.personajes_seleccionados, "hola")
+		# Si la velocidad es muy baja, se considera que está en Idle
+		if velocity.length() < 1:
+			if Datos.personajes_seleccionados[2] == "Cazadora":
+				anim_name = "IdleC"
+			elif Datos.personajes_seleccionados[2] == "Mago":
+				anim_name = "IdleM"
+			elif Datos.personajes_seleccionados[2] == "Granjero":
+				anim_name = "IdleG"
+			elif Datos.personajes_seleccionados[2] == "Caballero":
+				anim_name = "IdleK"
 		else:
-			animated_sprite.play("WalkC")
-	elif PersonajeSeleccionado.personaje == "Mago":
-		if  Datos.estado_tarea == "Fallido":
-			animated_sprite.play("DeathM")
-		elif direction.x == 0 and direction.y == 0:
-			animated_sprite.play("IdleM")
-		elif Input.is_action_pressed("sprint"):
-			animated_sprite.play("SprintM")
-		else:
-			animated_sprite.play("WalkM")
+			# En movimiento, se reproduce la animación de caminar (Walk)
+			if Datos.personajes_seleccionados[2] == "Cazadora":
+				anim_name = "WalkC"
+			elif Datos.personajes_seleccionados[2] == "Mago":
+				anim_name = "WalkM"
+			elif Datos.personajes_seleccionados[2] == "Granjero":
+				anim_name = "WalkG"
+			elif Datos.personajes_seleccionados[2] == "Caballero":
+				anim_name = "WalkK"
+		
+	
+	animated_sprite.play(anim_name)
 	
 	# Check for sprint input
 	if Input.is_action_pressed("sprint"):

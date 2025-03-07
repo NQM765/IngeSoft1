@@ -67,7 +67,7 @@ func _on_tarea_completada() -> void:
 	Datos.tiempo_final_tarea1 = TimerData.tiempo_restante
 	
 	# Condición para mostrar panel diferente según personaje
-	if Datos.personajes_seleccionados[0] != "mago":  # Ajusta el valor según tu sistema
+	if Datos.personajes_seleccionados[0] != "Mago":  # Ajusta el valor según tu sistema
 		panel_consejo.show()
 		panel_felicidad.show()
 	else:
